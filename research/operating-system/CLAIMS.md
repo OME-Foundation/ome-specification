@@ -12,7 +12,7 @@ strength of its evidence within a stated scope.
 | ID | Claim | Class | Lifecycle | Confidence | Evidence | Research |
 | --- | --- | --- | --- | --- | --- | --- |
 | C-001 | Organisational information is retained in multiple media, including people, culture, transformations, structures and external archives. | Established | Assessed | Moderate | E-001 | — |
-| C-002 | Organisations incur consequential reconstruction work because relevant reasoning cannot be retrieved when needed. | Hypothesis | Open | Unassessed | E-001, E-004–E-015 (contextual) | R-001 |
+| C-002 | Organisations incur consequential reconstruction work because relevant reasoning cannot be retrieved when needed. | Hypothesis | Assessed | Very low | E-001, E-004–E-015 (contextual) | R-001 |
 | C-003 | Existing organisational-memory, knowledge-management, traceability, decision-rationale and provenance practices leave a material cross-lifecycle integration gap. | Hypothesis | Open | Unassessed | E-002, E-003 (contextual) | R-002 |
 | C-004 | An integrated objective-to-outcome-to-learning practice improves retrieval, explanation, challenge or adaptation beyond its constituent practices. | Hypothesis | Open | Unassessed | — | R-003, R-004 |
 | C-005 | OME is currently best described as an engineering synthesis and research programme, not a proven new discipline. | Synthesis | Assessed | Low | E-002, E-003 (contextual) | R-002 |
@@ -38,11 +38,23 @@ to retrieve reasoning rarely causes material reconstruction, delay, error or
 decision degradation in the studied contexts, or that a better-supported cause
 accounts for the observed effects.
 
-**Current assessment:** initial external evidence is registered but remains
-unreviewed and indirect or incomplete. None yet measures all three required elements:
-prior organisational availability, later inability to retrieve or apply the
-reasoning, and consequential reconstruction work. The claim must not be used as
+**Disposition:** `Defer`.
+
+**Current assessment:** `Very low` confidence. Reviewed evidence establishes
+adjacent mechanisms, observations and boundary conditions, but no source
+measures all three required elements: prior organisational availability, later
+inability to retrieve or apply the reasoning, and consequential reconstruction
+work. E-006 through E-008 remain explicit incomplete evidence gaps. The
+[approved construct assessment](../programmes/R-001/C-002_CONSTRUCT_ASSESSMENT.md)
+records why `Retain`, `Narrow`, `Revise` and `Reject` are not justified on the
+current record. The claim remains a research hypothesis and must not be used as
 an established premise.
+
+**Reopening conditions:** reopen the assessment when evidence meets the
+conditions recorded in the approved construct assessment, including direct
+measurement of the three-part sequence, construct subsumption, proxy
+reclassification, failure of operationalisability, material alternative
+explanations or relevant evidence-lifecycle changes.
 
 ### C-003
 
