@@ -1,6 +1,6 @@
 # Proposed C-002 Construct Assessment
 
-Status: proposed; independent CTO review and accountable approval pending.
+Status: proposed; independent CTO review complete; accountable approval pending.
 
 Assessment date: 2026-07-18
 
@@ -186,7 +186,9 @@ because:
 - no established construct in the current review has yet been shown to subsume
   the entire sequence.
 
-This is a methodological conclusion about researchability, not a novelty claim.
+**Researchability is a property of the construct specification, not evidence
+for the construct.** This is a methodological conclusion about whether the
+question can be investigated, not a probability judgement or novelty claim.
 Failure to find a unified established term in an exploratory review does not
 demonstrate that the construct or label is new.
 
@@ -251,16 +253,31 @@ only whether the proposed `Defer` decision is cautious.
 
 ## CTO Independent Construct Review
 
-Status: pending.
+Status: complete.
 
-- **Evidence fidelity:** pending
-- **Construct distinguishability:** pending
-- **Operationalisability:** pending
-- **Alternative explanations:** pending
-- **Proposed confidence:** pending
-- **Proposed disposition:** pending
-- **Required corrections:** pending
+- **Evidence fidelity:** accurate. The assessment does not overstate the
+  recovery, rework or boundary evidence and preserves E-006 through E-008 as
+  explicit uncertainty.
+- **Construct distinguishability:** sufficient for assessment. The three-part
+  decomposition is coherent and distinguishable enough to remain researchable,
+  but is not empirically established.
+- **Operationalisability:** sufficient for continued hypothesis development.
+  Population, materiality threshold, unit of reasoning, outcome measures and
+  time horizon remain unresolved.
+- **Alternative explanations:** adequately represented. Changed context,
+  staffing, absorptive capacity, coordination, causal ambiguity, discovery,
+  implementation failure and beneficial re-evaluation remain viable.
+- **Proposed confidence:** `Very low` - supported because direct evidence is
+  absent, the sequence is incomplete, alternatives remain viable and three
+  records remain incompletely appraised.
+- **Proposed disposition:** `Defer` - supported. `Retain` and `Reject` would
+  overstate the record; `Narrow` and `Revise` would require selecting an
+  unsupported direction.
+- **Independent decision:** approve.
+- **Required corrections:** none. A non-blocking clarification that
+  researchability is not evidence for the construct was recommended and
+  incorporated.
 
 ## Accountable decision
 
-Status: pending independent CTO review and founder approval.
+Status: pending founder approval.
