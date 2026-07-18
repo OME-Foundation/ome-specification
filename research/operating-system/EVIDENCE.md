@@ -14,7 +14,7 @@ alone is not an evidence assessment.
 | E-003 | Synthesis and gap analysis (2026) | Internal interpretive synthesis | Registered | C-003 contextual; C-005 contextual | Makes inheritance and uncertainty explicit; its gap conclusion remains an interpretation produced by this project. |
 | E-004 | Martin de Holan and Phillips (2004), “Remembrance of Things Past?” | Exploratory multiple-case study | Registered | C-002 contextual | Develops mechanisms and types of organisational forgetting from international-alliance cases; does not directly measure reconstruction work. |
 | E-005 | Easterby-Smith and Lyles (2011), “In Praise of Organizational Forgetting” | Critical conceptual review | Registered | C-002 contextual | Establishes beneficial forgetting as a required boundary and counterposition; not direct empirical conflict with reconstruction. |
-| E-006 | Kleiner, Nickelsburg and Pilarski (2012), “Organizational and Individual Learning and Forgetting” | Inside-firm empirical analysis | Registered | C-002 conflicting | Reports that large forgetting effects can be overstated and simpler explanations fit at least as well; relevance to reasoning reconstruction is indirect. |
+| E-006 | Kleiner, Nickelsburg and Pilarski (2012), “Organizational and Individual Learning and Forgetting” | Inside-firm empirical analysis | Registered | C-002 contextual | Reports that large forgetting effects can be overstated and simpler explanations fit at least as well; warns against using performance decay as a proxy for reasoning reconstruction. |
 | E-007 | Eckardt, Skaggs and Youndt (2014), “Turnover and Knowledge Loss” | Comparative empirical study | Registered | C-002 contextual | Examines differentiated turnover/knowledge-loss effects across service and manufacturing firms; turnover is a mechanism proxy, not direct reconstruction evidence. |
 | E-008 | Hong (2025), “When Does Employee Turnover Matter?” | Longitudinal panel analysis | Registered | C-002 contextual | Finds organisational structures buffer turnover-associated IT project delays; supports contingency and an adoption/structure alternative. |
 | E-009 | Lewis (2004), “Knowledge and Performance in Knowledge-Worker Teams” | Longitudinal team study | Registered | C-002 contextual | Links transactive-memory development with team performance and viability; does not directly observe lost reasoning or reconstruction. |
@@ -152,10 +152,12 @@ continue contributing to confidence.
   large forgetting rates.
 - **Limitations:** production-performance context is indirect for unavailable
   reasoning and reconstruction work; appraisal awaits full text.
-- **Claims:** conflicting with broad interpretations of C-002; direction may be
-  revised after full review.
-- **Lifecycle history:** 2026-07-18 — Registered as explicit counterevidence;
-  full-text and independent review pending.
+- **Claims:** contextual for C-002. The study establishes an alternative
+  explanation and warns against an invalid proxy, but does not currently test
+  unavailable reasoning or reconstruction work. Direction may be revised after
+  full review.
+- **Lifecycle history:** 2026-07-18 — Registered as contextual
+  alternative-explanation evidence; full-text and independent review pending.
 
 ### E-007
 

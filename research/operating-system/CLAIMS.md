@@ -12,7 +12,7 @@ strength of its evidence within a stated scope.
 | ID | Claim | Class | Lifecycle | Confidence | Evidence | Research |
 | --- | --- | --- | --- | --- | --- | --- |
 | C-001 | Organisational information is retained in multiple media, including people, culture, transformations, structures and external archives. | Established | Assessed | Moderate | E-001 | — |
-| C-002 | Organisations incur consequential reconstruction work because relevant reasoning cannot be retrieved when needed. | Hypothesis | Open | Unassessed | E-001, E-004, E-005, E-007, E-008, E-009 (contextual); E-006 (conflicting) | R-001 |
+| C-002 | Organisations incur consequential reconstruction work because relevant reasoning cannot be retrieved when needed. | Hypothesis | Open | Unassessed | E-001, E-004, E-005, E-006, E-007, E-008, E-009 (contextual) | R-001 |
 | C-003 | Existing organisational-memory, knowledge-management, traceability, decision-rationale and provenance practices leave a material cross-lifecycle integration gap. | Hypothesis | Open | Unassessed | E-002, E-003 (contextual) | R-002 |
 | C-004 | An integrated objective-to-outcome-to-learning practice improves retrieval, explanation, challenge or adaptation beyond its constituent practices. | Hypothesis | Open | Unassessed | — | R-003, R-004 |
 | C-005 | OME is currently best described as an engineering synthesis and research programme, not a proven new discipline. | Synthesis | Assessed | Low | E-002, E-003 (contextual) | R-002 |

@@ -4,9 +4,16 @@ Status: Stage A exploratory search; not the frozen Stage B search.
 
 Search date: 2026-07-18
 
-Interface: web search available to the repository execution agent. These
-exploratory searches identify vocabulary and candidate source families; they do
-not constitute a systematic or exhaustive database search.
+Interface: OpenAI web-search tool exposed to the Codex desktop research agent as
+`web.run` using its `search_query` operation. Each round submitted four queries
+in one invocation with `response_length: long`. No recency parameter or explicit
+locale was supplied. Domain restrictions were used only where written into a
+query with `site:`. The underlying search provider, ranking configuration and
+complete result set were not exposed.
+
+These records provide documented exploratory queries and source-selection
+provenance. They do not provide exact or reproducible result-set provenance and
+do not constitute a systematic or exhaustive database search.
 
 ## Search round A-001
 
@@ -27,6 +34,11 @@ Candidate families identified:
 - empirical forgetting/unlearning research;
 - turnover-performance meta-analysis; and
 - knowledge-management implementation barriers.
+
+Selected results registered from this round:
+
+- E-007: https://doi.org/10.1111/joms.12096
+- E-009: https://doi.org/10.1287/mnsc.1040.0257
 
 ## Search round A-002
 
@@ -49,10 +61,19 @@ Candidate sources registered from these rounds:
 - E-008: structural buffering of turnover effects in federal IT projects; and
 - E-009: longitudinal transactive-memory study in knowledge-worker teams.
 
+Selected results registered from this round:
+
+- E-004: https://doi.org/10.1287/mnsc.1040.0273
+- E-005: https://doi.org/10.1177/1056492611408508
+- E-006: https://doi.org/10.1177/001979391206500104
+- E-008: https://doi.org/10.1093/jopart/muaf019
+
 ## Limitations and next searches
 
 - Search-engine retrieval is not reproducible enough for Stage B and may omit
   paywalled, non-indexed, non-English and null-result studies.
+- The full ranked result sets were not captured; only selected durable source
+  identifiers are recorded.
 - Search snippets and abstracts support triage, not full methodological review.
 - “Reconstruction” produced few direct organisational results and may not be the
   established term.
