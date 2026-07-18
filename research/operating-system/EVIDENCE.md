@@ -22,8 +22,8 @@ alone is not an evidence assessment.
 | E-011 | Roeller, Lago and van Vliet (2006), “Recovering Architectural Assumptions” | Method development with industrial case | Reviewed | C-002 contextual | Recovers implicit assumptions from one commercial product and uses them to assess change scenarios; recovery effort and consequence are not measured. |
 | E-012 | Werner et al. (2020), “The Lack of Shared Understanding of Non-Functional Requirements” | Mixed-method multiple-case study | Reviewed | C-002 contextual | Observes NFR-related rework and a beneficial-learning boundary, but does not establish prior reasoning availability followed by retrieval failure. |
 | E-013 | Szulanski (1996), “Exploring Internal Stickiness” | Multi-firm empirical study | Registered | C-002 contextual | Shows that knowledge may exist but remain difficult to transfer because of absorptive capacity, causal ambiguity and relationship factors; this is non-use or transfer difficulty, not demonstrated reconstruction. |
-| E-014 | Huang et al. (2018), “Organizational Forgetting, Absorptive Capacity, and Innovation Performance” | Cross-sectional firm survey | Registered | C-002 contextual | Reports a conditional positive association between organisational forgetting and innovation performance, establishing a beneficial-forgetting boundary rather than reconstruction. |
-| E-015 | Shore, Bernstein and Lazer (2015), “Facts and Figuring” | Laboratory network experiment | Registered | C-002 contextual | Shows that coordination reducing duplicated work can also reduce independent solution exploration; apparent redundancy or rediscovery may therefore have informational value. |
+| E-014 | Huang et al. (2018), “Organizational Forgetting, Absorptive Capacity, and Innovation Performance” | Cross-sectional firm survey | Registered | C-002 contextual | Reports an association between an adaptive-change measure labelled organisational forgetting and innovation; it does not establish beneficial memory loss or reconstruction. |
+| E-015 | Shore, Bernstein and Lazer (2015), “Facts and Figuring” | Laboratory network experiment | Registered | C-002 contextual | Shows that coordination can reduce redundant fact search while also reducing independent solution exploration; it does not study rediscovery. |
 
 ## Evidence lifecycle
 
@@ -370,10 +370,11 @@ continue contributing to confidence.
   Impediments to the Transfer of Best Practice Within the Firm,” *Strategic
   Management Journal* 17, special issue (1996): 27–43.
   https://doi.org/10.1002/smj.4250171105
-- **Source provenance:** publisher article record and abstract selected during
-  Stage A search round A-005.
-- **Review status:** registered 2026-07-18; full-text and independent review
-  pending.
+- **Source provenance:** publisher article record and complete free-access
+  article selected during Stage A search round A-005; Research Lead appraisal
+  recorded in [E-013-E-015 source appraisals](../programmes/R-001/evidence-reviews/E-013-E-015.md).
+- **Review status:** registered 2026-07-18; Research Lead full-text appraisal
+  complete; independent review pending.
 - **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
 - **Population or domain:** 122 best-practice transfers across eight companies;
   271 observations.
@@ -381,13 +382,15 @@ continue contributing to confidence.
 - **Relevant finding:** lack of recipient absorptive capacity, causal ambiguity
   and an arduous source-recipient relationship were stronger transfer barriers
   than the commonly assumed motivational explanation.
-- **Limitations:** the outcome is transfer difficulty where a source practice
-  exists, not loss of prior reasoning or observed reconstruction. Transfer and
-  adoption may fail despite successful retrieval.
+- **Limitations:** retrospective perceptual reports and canonical associations
+  do not identify causal effects. The recipient may be encountering the practice
+  for the first time; transfer difficulty where a source practice exists is not
+  loss of prior reasoning or observed reconstruction.
 - **Claims:** contextual for C-002 as a competing mechanism and construct
   boundary.
 - **Lifecycle history:** 2026-07-18 — Registered from Stage A transfer-
-  stickiness search; full-text and independent review pending.
+  stickiness search; Research Lead full-text appraisal completed; independent
+  Evidence Review pending.
 
 ### E-014
 
@@ -395,24 +398,28 @@ continue contributing to confidence.
   “Organizational Forgetting, Absorptive Capacity, and Innovation Performance:
   A Moderated Mediation Analysis,” *Management Decision* 56, no. 1 (2018):
   87–104. https://doi.org/10.1108/MD-03-2017-0200
-- **Source provenance:** publisher article record and abstract selected during
-  Stage A search round A-006.
-- **Review status:** registered 2026-07-18; full-text and independent review
-  pending.
+- **Source provenance:** publisher record and complete author-uploaded article
+  selected during Stage A search round A-006; Research Lead appraisal recorded
+  in [E-013-E-015 source appraisals](../programmes/R-001/evidence-reviews/E-013-E-015.md).
+- **Review status:** registered 2026-07-18; Research Lead full-text appraisal
+  complete; independent review pending.
 - **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
 - **Population or domain:** survey sample of 320 Chinese companies.
-- **Method:** exploratory factor analysis and hierarchical regression testing a
-  moderated mediation model.
-- **Relevant finding:** organisational forgetting was positively associated
-  with innovation performance through absorptive capacity, with a stronger
-  relationship under greater environmental turbulence.
-- **Limitations:** cross-sectional self-report measures and model-dependent
-  associations limit causal inference; the forgetting construct and measurement
-  require full-text appraisal. The study does not observe rediscovery.
-- **Claims:** contextual for C-002 as empirical evidence that forgetting may be
-  beneficial under stated conditions.
+- **Method:** seven-point single-respondent survey, exploratory factor analysis,
+  hierarchical regression and bootstrapped moderated-mediation analysis.
+- **Relevant finding:** a measure covering conflicting new knowledge, process
+  change, information-sharing change and technology acquisition was positively
+  associated with innovation performance through absorptive capacity, with a
+  stronger conditional association under greater environmental turbulence.
+- **Limitations:** cross-sectional single-respondent self-report and common-
+  method risks preclude causal inference. The scale principally captures
+  adaptive reconfiguration and acquisition rather than demonstrated memory
+  loss. The study does not observe rediscovery or reconstruction.
+- **Claims:** contextual for C-002 as a beneficial-change counterposition, not
+  evidence that organisational forgetting or memory loss causes innovation.
 - **Lifecycle history:** 2026-07-18 — Registered from Stage A beneficial-
-  forgetting search; full-text and independent review pending.
+  forgetting search; Research Lead full-text appraisal completed; independent
+  Evidence Review pending.
 
 ### E-015
 
@@ -420,26 +427,28 @@ continue contributing to confidence.
   Experimental Investigation of Network Structure and Performance in
   Information and Solution Spaces,” *Organization Science* 26, no. 5 (2015):
   1432–1446. https://doi.org/10.1287/orsc.2015.0980
-- **Source provenance:** publisher full article record selected during Stage A
-  search round A-006.
-- **Review status:** registered 2026-07-18; full-text and independent review
-  pending.
+- **Source provenance:** publisher record and complete publisher PDF selected
+  during Stage A search round A-006; Research Lead appraisal recorded in
+  [E-013-E-015 source appraisals](../programmes/R-001/evidence-reviews/E-013-E-015.md).
+- **Review status:** registered 2026-07-18; Research Lead full-text appraisal
+  complete; independent review pending.
 - **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
-- **Population or domain:** 16-person laboratory networks performing a complex
-  collective problem-solving task.
+- **Population or domain:** repeated runs of 16-person laboratory networks
+  performing a complex collective problem-solving task.
 - **Method:** experiment varying network structure and separately measuring
   exploration of information and solution spaces.
-- **Relevant finding:** clustering improved diversity of information search but
-  reduced diversity of solution theories as participants converged on shared
-  interpretations. Coordination and independent exploration therefore trade
-  off rather than duplicate effort being uniformly wasteful.
+- **Relevant finding:** clustering coordinated fact search and reduced redundant
+  information search, but also reduced solution-theory diversity as participants
+  converged on neighbours' interpretations. Information coordination and
+  independent solution exploration therefore have different value.
 - **Limitations:** laboratory task and network structure do not study prior
   organisational reasoning, memory loss or literal rediscovery. The result is a
   boundary on interpreting parallel work as waste.
 - **Claims:** contextual for C-002 as a beneficial-redundancy and independent-
   exploration counterposition.
 - **Lifecycle history:** 2026-07-18 — Registered from Stage A productive-
-  redundancy search; full-text and independent review pending.
+  redundancy search; Research Lead full-text appraisal completed; independent
+  Evidence Review pending.
 
 ## Minimum evidence fields
 
