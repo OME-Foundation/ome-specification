@@ -28,6 +28,7 @@ that question. It is not claimed as a proven new discipline.
 
 ## Current research
 
+- [Phase 1 research operating system](research/operating-system/README.md)
 - [Adjacent-disciplines review](research/adjacent-disciplines/README.md)
 - [Synthesis and gap analysis](research/adjacent-disciplines/synthesis-and-gap-analysis.md)
 
