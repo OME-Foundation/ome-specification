@@ -18,6 +18,12 @@ alone is not an evidence assessment.
 | E-007 | Eckardt, Skaggs and Youndt (2014), “Turnover and Knowledge Loss” | Comparative empirical study | Registered | C-002 contextual | Examines differentiated turnover/knowledge-loss effects across service and manufacturing firms; turnover is a mechanism proxy, not direct reconstruction evidence. |
 | E-008 | Hong (2025), “When Does Employee Turnover Matter?” | Longitudinal panel analysis | Registered | C-002 contextual | Finds organisational structures buffer turnover-associated IT project delays; supports contingency and an adoption/structure alternative. |
 | E-009 | Lewis (2004), “Knowledge and Performance in Knowledge-Worker Teams” | Longitudinal team study | Registered | C-002 contextual | Links transactive-memory development with team performance and viability; does not directly observe lost reasoning or reconstruction. |
+| E-010 | van Heesch et al. (2012), “The Supportive Effect of Patterns in Architecture Decision Recovery” | Controlled experiment | Registered | C-002 contextual | Directly studies recovery of prior architectural decisions and rationale, but measures recovery quality and quantity rather than consequential organisational cost. |
+| E-011 | Roeller, Lago and van Vliet (2006), “Recovering Architectural Assumptions” | Method paper with worked applications | Registered | C-002 contextual | Describes undocumented assumptions becoming hidden and later rediscovered; it does not estimate prevalence, effort or consequence. |
+| E-012 | Werner et al. (2020), “The Lack of Shared Understanding of Non-Functional Requirements” | Mixed-method multiple-case study | Registered | C-002 contextual | Traces requirements-related rework to gaps in shared understanding, while distinguishing avoidable gaps from learning-cycle rework; prior reasoning availability and retrieval failure are not established. |
+| E-013 | Szulanski (1996), “Exploring Internal Stickiness” | Multi-firm empirical study | Registered | C-002 contextual | Shows that knowledge may exist but remain difficult to transfer because of absorptive capacity, causal ambiguity and relationship factors; this is non-use or transfer difficulty, not demonstrated reconstruction. |
+| E-014 | Huang et al. (2018), “Organizational Forgetting, Absorptive Capacity, and Innovation Performance” | Cross-sectional firm survey | Registered | C-002 contextual | Reports a conditional positive association between organisational forgetting and innovation performance, establishing a beneficial-forgetting boundary rather than reconstruction. |
+| E-015 | Shore, Bernstein and Lazer (2015), “Facts and Figuring” | Laboratory network experiment | Registered | C-002 contextual | Shows that coordination reducing duplicated work can also reduce independent solution exploration; apparent redundancy or rediscovery may therefore have informational value. |
 
 ## Evidence lifecycle
 
@@ -227,6 +233,160 @@ continue contributing to confidence.
 - **Claims:** contextual for C-002 and expertise-location mechanisms.
 - **Lifecycle history:** 2026-07-18 — Registered from Stage A search; full-text
   and independent review pending.
+
+### E-010
+
+- **Full citation:** Uwe van Heesch, Paris Avgeriou, Uwe Zdun and Neil Harrison,
+  “The Supportive Effect of Patterns in Architecture Decision Recovery—A
+  Controlled Experiment,” *Science of Computer Programming* 77, no. 5 (2012):
+  551–576. https://doi.org/10.1016/j.scico.2011.11.008
+- **Source provenance:** publisher article record and abstract selected during
+  Stage A search round A-003.
+- **Review status:** registered 2026-07-18; full-text and independent review
+  pending.
+- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Population or domain:** industry and academic participants recovering
+  software architecture decisions after the fact.
+- **Method:** controlled experiment testing whether architecture-pattern focus
+  changes the quality and quantity of recovered decisions.
+- **Relevant finding:** pattern focus significantly increased recovery quality;
+  the authors report no conclusive quantity effect. The study treats original
+  architects’ absence or incomplete recall as obstacles to recovery.
+- **Limitations:** the abstract describes recovery as expensive but the reported
+  outcomes do not measure organisational cost, delay or rework. The task is
+  bounded to software architecture and does not establish prevalence.
+- **Claims:** contextual for C-002. It directly observes reconstruction of prior
+  decisions but does not establish the consequential outcome component.
+- **Lifecycle history:** 2026-07-18 — Registered from Stage A rationale-recovery
+  search; full-text and independent review pending.
+
+### E-011
+
+- **Full citation:** Ronny Roeller, Patricia Lago and Hans van Vliet,
+  “Recovering Architectural
+  Assumptions,” *Journal of Systems and Software* 79, no. 4 (2006): 552–573.
+  https://doi.org/10.1016/j.jss.2005.10.017
+- **Source provenance:** publisher article record and abstract selected during
+  Stage A search round A-003.
+- **Review status:** registered 2026-07-18; full-text and independent review
+  pending.
+- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Population or domain:** software architecture assumptions and their
+  relationship to requirements and design decisions.
+- **Method:** recovery-method proposal illustrated through applications.
+- **Relevant finding:** reasons and assumptions may remain implicit and their
+  architectural relationships may become hidden; they can be rediscovered when
+  evolution invalidates or contradicts them.
+- **Limitations:** method and motivating account rather than a comparative
+  prevalence or consequence study; “rediscovered” does not itself demonstrate
+  consequential reconstruction work.
+- **Claims:** contextual for C-002 and the rationale-loss mechanism.
+- **Lifecycle history:** 2026-07-18 — Registered from Stage A rationale-loss
+  search; full-text and independent review pending.
+
+### E-012
+
+- **Full citation:** Colin Werner, Ze Shi Li, Neil Ernst and Daniela Damian,
+  “The Lack of Shared Understanding of Non-Functional Requirements in
+  Continuous Software Engineering: Accidental or Essential?” in *2020 IEEE 28th
+  International Requirements Engineering Conference* (2020): 90–101.
+  https://doi.org/10.1109/RE48521.2020.00021
+- **Source provenance:** IEEE conference paper, author preprint and associated
+  dataset record selected during Stage A search round A-004.
+- **Review status:** registered 2026-07-18; full-text and independent review
+  pending.
+- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Population or domain:** three small organisations scaling continuous
+  software engineering; 41 non-functional-requirements-related rework tasks.
+- **Method:** mixed-method multiple-case study using qualitative and immersive
+  techniques and task tracing.
+- **Relevant finding:** 78% of the 41 identified rework tasks were attributed to
+  avoidable gaps in shared understanding; the study also treats some lack of
+  shared understanding and rework as essential to rapid feedback and learning.
+- **Limitations:** shared understanding is not equivalent to retrievable prior
+  reasoning. The record does not establish that the missing intent had
+  previously been available and later became inaccessible.
+- **Claims:** contextual for C-002; supplies a rework outcome and a beneficial
+  learning-cycle boundary, but not the full causal chain.
+- **Lifecycle history:** 2026-07-18 — Registered from Stage A requirements and
+  rework search; full-text and independent review pending.
+
+### E-013
+
+- **Full citation:** Gabriel Szulanski, “Exploring Internal Stickiness:
+  Impediments to the Transfer of Best Practice Within the Firm,” *Strategic
+  Management Journal* 17, special issue (1996): 27–43.
+  https://doi.org/10.1002/smj.4250171105
+- **Source provenance:** publisher article record and abstract selected during
+  Stage A search round A-005.
+- **Review status:** registered 2026-07-18; full-text and independent review
+  pending.
+- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Population or domain:** 122 best-practice transfers across eight companies;
+  271 observations.
+- **Method:** empirical model tested with canonical correlation analysis.
+- **Relevant finding:** lack of recipient absorptive capacity, causal ambiguity
+  and an arduous source-recipient relationship were stronger transfer barriers
+  than the commonly assumed motivational explanation.
+- **Limitations:** the outcome is transfer difficulty where a source practice
+  exists, not loss of prior reasoning or observed reconstruction. Transfer and
+  adoption may fail despite successful retrieval.
+- **Claims:** contextual for C-002 as a competing mechanism and construct
+  boundary.
+- **Lifecycle history:** 2026-07-18 — Registered from Stage A transfer-
+  stickiness search; full-text and independent review pending.
+
+### E-014
+
+- **Full citation:** Dujuan Huang, Song Chen, Gupeng Zhang and Jiangfeng Ye,
+  “Organizational Forgetting, Absorptive Capacity, and Innovation Performance:
+  A Moderated Mediation Analysis,” *Management Decision* 56, no. 1 (2018):
+  87–104. https://doi.org/10.1108/MD-03-2017-0200
+- **Source provenance:** publisher article record and abstract selected during
+  Stage A search round A-006.
+- **Review status:** registered 2026-07-18; full-text and independent review
+  pending.
+- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Population or domain:** survey sample of 320 Chinese companies.
+- **Method:** exploratory factor analysis and hierarchical regression testing a
+  moderated mediation model.
+- **Relevant finding:** organisational forgetting was positively associated
+  with innovation performance through absorptive capacity, with a stronger
+  relationship under greater environmental turbulence.
+- **Limitations:** cross-sectional self-report measures and model-dependent
+  associations limit causal inference; the forgetting construct and measurement
+  require full-text appraisal. The study does not observe rediscovery.
+- **Claims:** contextual for C-002 as empirical evidence that forgetting may be
+  beneficial under stated conditions.
+- **Lifecycle history:** 2026-07-18 — Registered from Stage A beneficial-
+  forgetting search; full-text and independent review pending.
+
+### E-015
+
+- **Full citation:** Jesse Shore, Ethan Bernstein and David Lazer, “Facts and Figuring: An
+  Experimental Investigation of Network Structure and Performance in
+  Information and Solution Spaces,” *Organization Science* 26, no. 5 (2015):
+  1432–1446. https://doi.org/10.1287/orsc.2015.0980
+- **Source provenance:** publisher full article record selected during Stage A
+  search round A-006.
+- **Review status:** registered 2026-07-18; full-text and independent review
+  pending.
+- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Population or domain:** 16-person laboratory networks performing a complex
+  collective problem-solving task.
+- **Method:** experiment varying network structure and separately measuring
+  exploration of information and solution spaces.
+- **Relevant finding:** clustering improved diversity of information search but
+  reduced diversity of solution theories as participants converged on shared
+  interpretations. Coordination and independent exploration therefore trade
+  off rather than duplicate effort being uniformly wasteful.
+- **Limitations:** laboratory task and network structure do not study prior
+  organisational reasoning, memory loss or literal rediscovery. The result is a
+  boundary on interpreting parallel work as waste.
+- **Claims:** contextual for C-002 as a beneficial-redundancy and independent-
+  exploration counterposition.
+- **Lifecycle history:** 2026-07-18 — Registered from Stage A productive-
+  redundancy search; full-text and independent review pending.
 
 ## Minimum evidence fields
 

@@ -81,3 +81,105 @@ Selected results registered from this round:
   stickiness and beneficial rediscovery require dedicated searches.
 - Each registered record remains `Registered`; full-text appraisal and
   independent Evidence Review are pending.
+
+## Search round A-003
+
+Queries:
+
+1. `site:dl.acm.org design rationale loss recovery controlled experiment architecture decision DOI`
+2. `site:sciencedirect.com architecture decision recovery controlled experiment rationale DOI`
+3. `site:link.springer.com requirements knowledge loss rework case study DOI`
+4. `site:ieeexplore.ieee.org requirements rationale loss rework empirical DOI`
+
+Purpose: locate empirical work on lost decision rationale, recovery of prior
+decisions and consequences of missing requirements or intent.
+
+Selected results registered from this round:
+
+- E-010: https://doi.org/10.1016/j.scico.2011.11.008
+- E-011: https://doi.org/10.1016/j.jss.2005.10.017
+
+Selection note: E-010 was selected as the closest direct observation of
+decision reconstruction. E-011 was selected for its explicit account of hidden
+assumptions being rediscovered. Neither was classified as direct evidence of
+all three C-002 components because neither measures consequential
+organisational cost.
+
+## Search round A-004
+
+Queries:
+
+1. `"The Lack of Shared Understanding of Non-Functional Requirements" DOI`
+2. `"requirements" "rediscovery" software engineering empirical DOI`
+3. `"intent loss" requirements engineering empirical study DOI`
+4. `"rework" "shared understanding" requirements empirical case study DOI`
+
+Purpose: distinguish requirements or intent rediscovery from ordinary
+requirements change, communication failure and learning-cycle rework.
+
+Selected result registered from this round:
+
+- E-012: https://doi.org/10.1109/RE48521.2020.00021
+
+Selection note: E-012 traces rework to gaps in shared understanding and also
+reports that some rework is essential to rapid feedback. It does not establish
+that unavailable intent had previously been retained and later lost.
+
+## Search round A-005
+
+Queries:
+
+1. `decision rationale loss design rationale recovery empirical study software engineering DOI`
+2. `requirements intent loss rediscovery rework empirical study software engineering DOI`
+3. `unavailable prior reasoning rework rediscovery empirical study organization DOI`
+4. `knowledge transfer internal stickiness nonuse empirical study Szulanski DOI`
+
+Purpose: locate knowledge-transfer and non-use explanations that could account
+for apparent retrieval or reconstruction problems without organisational
+forgetting.
+
+Selected result registered from this round:
+
+- E-013: https://doi.org/10.1002/smj.4250171105
+
+Selection note: E-013 was selected because it empirically distinguishes
+transfer difficulty from simple motivation failure. Knowledge remains available
+at a source, so the study is a competing mechanism rather than direct evidence
+of memory loss or reconstruction.
+
+## Search round A-006
+
+Queries:
+
+1. `site:pubsonline.informs.org redundant teams independent problem solving organizational performance empirical`
+2. `site:sciencedirect.com "productive redundancy" organization knowledge empirical`
+3. `site:academic.oup.com organizational redundancy independent verification decision making empirical`
+4. `site:journals.sagepub.com rediscovery beneficial organizational learning empirical`
+
+Purpose: actively seek contexts in which forgetting, parallel search,
+independent interpretation or apparent duplication improves outcomes.
+
+Selected results registered from this round:
+
+- E-014: https://doi.org/10.1108/MD-03-2017-0200
+- E-015: https://doi.org/10.1287/orsc.2015.0980
+
+Selection note: E-014 provides a conditional beneficial-forgetting result.
+E-015 demonstrates a coordination-versus-independent-exploration trade-off; it
+does not study literal rediscovery, so it is retained only as a boundary on
+classifying parallel work as waste.
+
+## Round A-003 to A-006 limitations
+
+- Searches used the same `web.run` / `search_query` interface and invocation
+  constraints recorded above. Each listed round was one four-query invocation
+  with `response_length: long`, no recency parameter and no explicit locale.
+- The full ranked result sets were not exposed or captured. The query strings,
+  selected durable identifiers and selection reasons are documented, but the
+  result sets are not reproducible.
+- Publisher records, abstracts and openly available papers support registration
+  and triage only. All six new records require full-text appraisal and
+  independent Evidence Review before any direction or claim assessment.
+- No selected source directly measures prior organisational availability,
+  later retrieval or application failure, and consequential reconstruction
+  work in one design.

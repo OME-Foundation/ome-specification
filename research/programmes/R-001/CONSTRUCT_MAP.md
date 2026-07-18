@@ -56,3 +56,23 @@ deferred. The Stage B protocol must be capable of finding them.
 - requirements rediscovery, rework and intent loss;
 - absorptive capacity, internal stickiness and knowledge non-use; and
 - beneficial forgetting, unlearning and productive redundancy.
+
+## Stage A source-family findings
+
+Status: provisional observations from registered evidence; independent review
+pending.
+
+| Source family | Closest observation | What remains missing |
+| --- | --- | --- |
+| Decision-rationale loss | Architecture-decision recovery directly reconstructs decisions and rationale after original architects become unavailable or forget. | Reported experiments test recovery quality or quantity, not consequential organisational cost or prevalence. |
+| Requirements and intent rediscovery | Requirements-related rework is empirically associated with gaps in shared understanding. | The studies do not show that the relevant intent was previously retained and later became inaccessible. |
+| Consequential rework | Rework tasks and expensive recovery are observable outcomes in adjacent software studies. | No registered design links measured rework to unavailable prior reasoning across all three C-002 components. |
+| Knowledge-transfer stickiness or non-use | Existing practices can remain difficult to transfer because of absorptive capacity, causal ambiguity and source-recipient relationships. | Transfer failure can occur without forgetting or reconstruction and must remain a competing explanation. |
+| Beneficial redundancy or rediscovery | Forgetting can correlate with innovation under stated conditions, while independent solution exploration can preserve interpretive diversity. | Neither result demonstrates beneficial reconstruction of lost reasoning; they bound any assumption that forgetting or parallel work is uniformly harmful. |
+
+The searches found no source that directly establishes all three components of
+C-002. The closest sources divide the chain: rationale-recovery studies observe
+reconstruction without measuring consequence; requirements studies observe
+rework without establishing prior availability and retrieval loss; transfer
+studies explain non-use without loss; and beneficial-outcome studies challenge
+the assumption that forgetting or duplicated exploration is necessarily waste.
