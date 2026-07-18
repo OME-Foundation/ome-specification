@@ -2,207 +2,92 @@
 
 Last reviewed: 2026-07-18
 
-This page is the orientation point for the public Organisational Memory
-Engineering project. Read it first when joining or resuming the work.
+This is a reviewed, derived orientation view for the public Organisational
+Memory Engineering project. It is not canonical and does not replace the
+authoritative records linked below.
 
-It is a concise, source-linked view of current state—not a substitute for the
-research records, Git history or pull-request decisions from which that state is
-derived.
+## Authority and scope
 
-## Scope and authority
+Use this precedence when recovering project context:
 
-This file covers the public OME research and specification project only.
-Product architecture, commercial strategy, customer information, security,
-implementation roadmaps and private delivery work belong in the private company
-repository, which should maintain its own project-state record.
+1. **Merged authoritative records and Git history** — canonical research,
+   governance, decisions and specifications.
+2. **Open pull requests** — proposed changes and unresolved review discussion.
+3. **`PROJECT_STATE.md`** — a reviewed summary derived from those sources.
+4. **Project chat** — working discussion and uncommitted ideas.
+5. **Human or assistant memory** — non-authoritative behavioural and orientation
+   hints only.
 
-AI agents and individual contributors are deliberately replaceable. A new human
-or agent should become productive from the repositories and open review state
-without access to hidden assistant memory or prior private conversation.
+Humans and AI agents are deliberately replaceable. Nothing architectural or
+governance-critical should live exclusively in memory.
 
-When sources disagree, use this precedence:
+This file covers public OME research and specification work. Private product,
+customer, security, commercial and implementation state belongs in the private
+company repository.
 
-1. **Merged repository content and Git history (canonical):** research, accepted
-   decisions, governance, specifications and this project-state summary.
-2. **Open pull requests (proposed):** changes, review discussion and unresolved
-   objections; never current policy until merged.
-3. **Project chat (working context):** active discussion, brainstorming, debate
-   and uncommitted ideas.
-4. **Human or assistant memory (non-authoritative):** behavioural preferences
-   and orientation hints only.
+## Current phase and objective
 
-Nothing architectural or governance-critical should live exclusively in memory.
-
-## Current position
-
-- **Phase:** Phase 1 — demonstrate the problem and test the integration gap.
-- **Phase 0:** complete; the adjacent-disciplines review established the first
-  reproducible research checkpoint.
-- **Public canon:** none accepted.
-- **RFC-0000:** not drafted. Its intended subject is *The Problem OME
-  Addresses*, but the problem must first be supported by evidence.
+- **Phase:** Phase 1 — problem and integration-gap validation.
+- **Objective:** determine whether organisations experience a consequential
+  problem that existing disciplines address only partially, and whether an
+  integrated engineering approach could measurably improve it.
 - **Current framing:** OME is an engineering synthesis and research programme,
   not a proven new discipline.
-- **Default quality rule:** no concept enters canon until its relationship to
-  adjacent disciplines and its material evidence are reviewable.
+- **Canon:** none accepted; no RFC is open.
 
-## Current work cycle
+Authoritative sources:
 
-The project is not currently operating a time-boxed sprint. The active review
-cycle contains two independent draft proposals:
+- [Research operating system](research/operating-system/README.md)
+- [Claim Register](research/operating-system/CLAIMS.md)
+- [Evidence Register](research/operating-system/EVIDENCE.md)
+- [Research Backlog](research/operating-system/BACKLOG.md)
+- [Architecture and governance decision index](ARCHITECTURE_DECISIONS.md)
 
-- [PR #1](https://github.com/OME-Foundation/ome-specification/pull/1): Phase 1
-  research operating system;
-- [PR #2](https://github.com/OME-Foundation/ome-specification/pull/2): public
-  project orientation and decision index.
+## Active work
 
-Neither proposal is accepted until reviewed and merged.
+No research investigation is currently in progress. The first ready items are:
 
-## Complete
+- `R-001` — characterise consequential organisational reconstruction;
+- `R-002` — test the claimed cross-lifecycle coverage gap.
 
-- Published the initial public research milestone on `main` at commit
-  [`1f8febb`](https://github.com/OME-Foundation/ome-specification/commit/1f8febb97e1b2d404818edc7dfb0fb794e4429f1).
-- Reviewed ten adjacent disciplines and separated source findings from OME
-  interpretation.
-- Classified founding concepts as Established, Synthesis, Hypothesis,
-  Principle, Novel proposal or Open question.
-- Retained no unsupported claim of novelty and deferred premature scalar
-  metrics.
-- Established the public discipline/private product boundary.
+See the [Research Backlog](research/operating-system/BACKLOG.md) for scope,
+methods, dependencies and completion evidence.
 
-Primary sources:
+## Blockers
 
-- [Adjacent-disciplines review](research/adjacent-disciplines/README.md)
-- [Synthesis and gap analysis](research/adjacent-disciplines/synthesis-and-gap-analysis.md)
-- [Claim-classification governance](research/CLAIM_CLASSIFICATION.md)
+- `R-003`, the minimal integrated intervention, is blocked until `R-001` and
+  `R-002` establish a material, bounded gap.
+- `R-004`, comparative outcomes and study design, is blocked on a testable
+  intervention from `R-003`.
+- Canon drafting is blocked until the material problem claims satisfy the
+  [confidence and decision rules](research/operating-system/DECISION_RULES.md).
 
-## In review
+## Key risks
 
-- [Draft PR #1: Phase 1 research operating system](https://github.com/OME-Foundation/ome-specification/pull/1)
-  proposes stable claim, evidence and research identifiers; evidence and
-  counter-evidence rules; confidence and decision rules; templates; and the
-  initial Phase 1 backlog.
-
-PR #1 does not become part of project policy until it is reviewed and merged.
-
-## In progress
-
-No research investigation is currently in progress. Review of PR #1 is the
-active work.
-
-## Blocked or waiting
-
-- Empirical Phase 1 research is waiting for review of the operating system so
-  that evidence is recorded consistently from the start.
-- The minimal integrated intervention and its comparative study design depend
-  on first demonstrating a material, bounded problem and coverage gap.
-- Canon drafting remains blocked by the evidence threshold, deliberately.
-
-## Current research questions
-
-1. When and with what consequences do organisations reconstruct reasoning that
-   was previously available but cannot be retrieved or applied?
-2. Do existing organisational-memory, knowledge-management, traceability,
-   decision-rationale and provenance practices leave a material cross-lifecycle
-   integration gap?
-3. Is the perceived gap actually a failure of adoption, incentives or practice
-   rather than a missing engineering integration?
-4. If a bounded gap exists, what is the smallest intervention that addresses it
-   without recreating established methods or imposing excessive capture cost?
-5. Which observable outcomes could test that intervention without collapsing
-   distinct properties into a premature index?
-
-## Accepted and open RFCs
-
-- **Accepted RFCs:** none.
-- **Open RFCs:** none.
-- **Planned but not drafted:** `RFC-0000 — The Problem OME Addresses`, blocked
-  until the material problem claims have adequate evidence.
-
-## Current risks
-
-- **Confirmation bias:** Phase 1 could search for evidence that justifies OME
-  rather than testing whether a material gap exists.
-- **Self-citation:** internal reviews could be mistaken for independent support.
-- **Premature canonisation:** research framing or operating rules could be
-  presented as settled OME doctrine.
-- **Terminology drift:** provisional labels could acquire authority through
-  repetition before their distinction is defended.
-- **State drift:** this summary could become stale or contradict authoritative
-  records if updates are not part of material changes.
-- **Boundary leakage:** public research work could accidentally include private
-  company, customer, security or implementation information.
-
-## Architectural and governance concerns
-
-- The claim/evidence/backlog model in PR #1 must remain usable enough that
-  researchers do not bypass it or complete fields mechanically.
-- Confidence language must communicate structured judgement without becoming a
-  disguised numerical score.
-- Project-state automation is premature until authoritative record types and
-  relationships are stable.
-- The repository must permit a new contributor or replacement agent to recover
-  context without project chat, while retaining links to review rationale where
-  useful.
-
-See the [architecture and governance decision index](ARCHITECTURE_DECISIONS.md)
-for the current decisions and their source records.
-
-## Decisions changed during the latest milestone
-
-- **Repository contents:** historical founding drafts were removed from public
-  Git history; the repository contains what survived review, not everything
-  considered.
-- **Novelty:** integration is the candidate contribution; constituent concepts
-  are inherited unless evidence demonstrates otherwise.
-- **Terminology:** “Translation Loss” is not committed terminology; the
-  phenomenon remains under investigation. “Decision Lineage” is formally
-  treated as decision provenance and traceability. “Memory Debt” is discarded
-  for now.
-- **Measurement:** Knowledge Half-Life and a scalar Organisational Memory Index
-  are not defensible current metrics. A multidimensional diagnostic profile is
-  a possible future research direction.
-- **Canon language:** proposed “laws” are principles or propositions unless
-  evidence warrants stronger language.
-- **Workflow:** substantive governance, evidence rules and eventual canon
-  changes use pull-request review by default.
+- **Confirmation bias:** searching to justify OME rather than attempting to
+  reject or narrow its claims.
+- **Self-validation:** treating internal synthesis as independent evidence.
+- **Premature canonisation:** allowing repeated terminology or workflow status
+  to imply truth.
+- **State drift:** permitting this summary to diverge from authoritative
+  records.
+- **Boundary leakage:** mixing public research with private company information.
 
 ## Next decisions
 
-1. Review PR #1 for bias, missing counter-evidence safeguards, usable record
-   structure and appropriate decision thresholds.
-2. Approve, revise or reject the proposed Phase 1 research operating system.
-3. If approved, begin the first two investigations in parallel only where their
-   scopes and evidence sources remain independent:
-   - characterise consequential organisational reconstruction;
-   - test the claimed cross-lifecycle coverage gap.
-4. Update this file when those decisions change the merged state.
+1. Assign and start `R-001` and `R-002` with explicit owners and review dates.
+2. Decide whether their searches can proceed independently without duplicating
+   evidence or biasing one another.
+3. Review new evidence records before changing claim confidence or disposition.
+4. Reassess dependent claims when evidence is superseded, withdrawn or
+   retracted.
 
-## Repository health
+## Update rule
 
-- **Default branch:** `main`.
-- **Published milestone:** `1f8febb` — adjacent-disciplines research checkpoint.
-- **Open draft PRs:** two (`#1` and `#2`).
-- **Accepted canon:** none.
-- **Known broken local links:** none at this review.
-- **Private/incubation artifacts tracked publicly:** none known.
-- **Automated state generation:** not implemented; deliberately deferred.
+Update this view when a merged change alters the phase, objective, active work,
+blockers, key risks or next decisions. Link authoritative records instead of
+copying their histories or detailed contents.
 
-## Update discipline
-
-Update `PROJECT_STATE.md` when a merged decision changes the phase, active work,
-blockers, research questions or next decisions. Do not duplicate detailed
-backlogs, evidence assessments or decision histories here; link to their
-authoritative records.
-
-Every update should:
-
-- state its review date;
-- distinguish merged state from proposals under review;
-- identify the source commit, record or pull request;
-- remove stale status rather than accumulating a sprint diary; and
-- preserve the public/private boundary.
-
-Automatic generation may be introduced only after the authoritative record
-types are stable. Until then, this page is deliberately reviewed by a human as
-part of each material project-state change.
+Every update requires explicit accountable review through a pull request. AI or
+human contributors may prepare and review it; approval and merge retain human
+accountability. Remove stale state rather than accumulating a sprint diary.
