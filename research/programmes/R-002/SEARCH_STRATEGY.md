@@ -423,7 +423,30 @@ transition establishing that both prerequisites are satisfied.
 
 ## CTO Independent Search-Strategy Review
 
-Status: pending.
+Status: complete.
+
+- **Search coverage:** approved. The ten mandatory families cover named
+  approaches, adjacent disciplines and deliberate compositions. F-09 prevents
+  the absence of a single branded framework from being mistaken for absence of
+  sufficient existing practice.
+- **Bias control:** approved. The search begins with approaches capable of
+  superseding C-003, searches failure, burden and adoption from the first
+  round, and separates specified capability, implementation, maintained use
+  and demonstrated outcomes.
+- **Provenance:** approved. Exact queries, filters, interfaces, exposed result
+  counts, selections and limitations are required without claiming
+  reproducibility where ranking or complete results are hidden. Search-log
+  corrections remain append-only.
+- **Stopping rules:** approved. All mandatory families, deliberate
+  compositions, implementation and limitation evidence, citation chaining,
+  diminishing novel coverage, explicit gaps and reviewer agreement are
+  required without claiming systematic-review exhaustiveness or saturation.
+- **Governance boundaries:** approved. No search, evidence registration,
+  coverage classification, claim change, Stage A execution or Stage B work has
+  entered the proposal. The construct map and later mechanical authority
+  transition remain prerequisites to execution.
+- **Independent decision:** approve PR #17.
+- **Required corrections:** none.
 
 ## Accountable decision
 
