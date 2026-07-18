@@ -658,10 +658,11 @@ approach, change C-003 or C-005, assign confidence or authorise Stage B.
 1. `https://api.crossref.org/works?query.title=enterprise%20architecture%20governance%20benefits%20operations%20learning&filter=type:journal-article&rows=5&select=DOI,title,author,published,URL,type`
 2. `https://api.crossref.org/works?query.title=site%20reliability%20engineering%20post-incident%20review%20organizational%20learning&filter=type:journal-article&rows=5&select=DOI,title,author,published,URL,type`
 
-The EA query independently returned two candidates also visible or adjacent in
-the web route. The SRE query was noisy: four of five results concerned book
-review, automated incident response or physical reliability rather than
-organisational learning from software operations.
+The EA query returned R2-CAND-013, which web query 2 also returned, and
+R2-CAND-014, which appears only in the recorded Crossref results. The SRE query
+was noisy: four of five results concerned book review, automated incident
+response or physical reliability rather than organisational learning from
+software operations.
 
 ## Round 003 retained candidates
 
