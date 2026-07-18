@@ -962,7 +962,26 @@ None recorded.
 
 ## CTO Independent Search-Round Review — Round 003
 
-Status: pending.
+Status: complete.
+
+- **Execution scope:** approved. Round 003 records dedicated F-02 and F-08
+  discovery, an independent Crossref route and renewed OpenAlex citation
+  chaining without entering evidence appraisal or claim assessment.
+- **Crossref provenance:** approved after clarification. R2-CAND-013 is
+  explicitly linked to web query 2 and Crossref query 1; R2-CAND-014 is
+  explicitly identified as appearing only in the recorded Crossref results.
+- **Citation chaining:** approved. Complete and partial OpenAlex retrieval is
+  distinguished without treating one graph snapshot as comprehensive citation
+  coverage.
+- **Candidate provenance:** approved. Retained, deferred and excluded records
+  remain triage records rather than Evidence Register entries.
+- **Stopping-rule fidelity:** approved. All ten families remain incomplete
+  against the approved Stage A stopping rules.
+- **Research boundary:** approved. No evidence registration or appraisal,
+  N-01–N-06 mapping, coverage level, evidential direction, confidence, claim
+  assessment or Stage B authority has entered the round.
+- **Independent decision:** approve PR #22.
+- **Required corrections:** none remaining.
 
 ## Accountable decision — Round 003
 
