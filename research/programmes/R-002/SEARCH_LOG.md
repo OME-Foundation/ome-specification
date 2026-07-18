@@ -157,9 +157,16 @@ quality or its value for its intended purpose.
 | --- | --- | --- | --- |
 | R2-EXC-001 | CDIO Standards 2.1 | https://www.cdio.org/content/cdio-standard-21 | The result uses a Conceive–Design–Implement–Operate lifecycle but governs engineering education and curriculum outcomes, not the organisational engineering-memory practice under investigation. Retain its vocabulary only as a search lead. |
 | R2-EXC-002 | IEEE Technology Navigator: System Integration | https://technav.ieee.org/topic/system-integration/ | Aggregated topic page rather than an authoritative standard text or primary study. The referenced ISO/IEC/IEEE standards remain future direct-search leads. |
-| R2-EXC-003 | Wikipedia pages for MBSE, system integration, Arcadia, ISO 15926 and MBASE | https://www.wikipedia.org/ | Discovery summaries are not eligible evidence and were not needed where direct authoritative or primary searches can be run. |
-| R2-EXC-004 | Recent DevOps/MLOps trade-press articles | https://www.techradar.com/ and https://www.itpro.com/ | Vendor and trade commentary outside the selected R-002 unit and without independently inspectable evidence. |
-| R2-EXC-005 | Recent arXiv results on health-AI adoption and DevOps-pipeline digital twins | https://arxiv.org/ | Query-term matches did not address the selected cross-lifecycle unit closely enough for this round; no inference was drawn from exclusion. |
+| R2-EXC-003 | *ISO/IEC 12207* | https://en.wikipedia.org/wiki/ISO/IEC_12207 | Wikipedia discovery summary is not eligible evidence; search the issuing standard directly. |
+| R2-EXC-004 | *Model-based systems engineering* | https://en.wikipedia.org/wiki/Model-based_systems_engineering | Wikipedia discovery summary is not eligible evidence; direct authoritative and primary sources are searchable. |
+| R2-EXC-005 | *System integration* | https://en.wikipedia.org/wiki/System_integration | Wikipedia discovery summary is not eligible evidence; direct standards remain future search leads. |
+| R2-EXC-006 | *Arcadia (engineering)* | https://en.wikipedia.org/wiki/Arcadia_(engineering) | Wikipedia discovery summary is not eligible evidence; search the method's authoritative documentation directly. |
+| R2-EXC-007 | *ISO 15926* | https://en.wikipedia.org/wiki/ISO_15926 | Wikipedia discovery summary is not eligible evidence; search the issuing standard directly. |
+| R2-EXC-008 | *MBASE* | https://en.wikipedia.org/wiki/MBASE | Wikipedia discovery summary is not eligible evidence; direct primary or authoritative sources are searchable. |
+| R2-EXC-009 | *Breaking silos: unifying DevOps and MLOps into a unified software supply chain* | https://www.techradar.com/pro/breaking-silos-unifying-devops-and-mlops-into-a-unified-software-supply-chain | Trade commentary outside the selected R-002 unit and without independently inspectable evidence. |
+| R2-EXC-010 | *Breaking boundaries: Empowering channel partners to unite DevOps and MLOps for a stronger software supply chain* | https://www.itpro.com/software/development/breaking-boundaries-empowering-channel-partners-to-unite-devops-and-mlops-for-a-stronger-software-supply-chain | Trade commentary outside the selected R-002 unit and without independently inspectable evidence. |
+| R2-EXC-011 | *The partial adoption trap: Coordination failure, trust, and cultural lock-in in health AI adoption* | https://arxiv.org/abs/2605.17388 | Query-term match did not address the selected cross-lifecycle unit closely enough for this round; no inference was drawn from exclusion. |
+| R2-EXC-012 | *A Model-Driven Digital Twin for the Systematic Improvement of DevOps Pipelines* | https://arxiv.org/abs/2604.02077 | Query-term match concerned a DevOps-pipeline model rather than the selected organisational cross-lifecycle unit; no inference was drawn from exclusion. |
 
 ## Access limitations
 
@@ -199,10 +206,13 @@ required for eligible cornerstone sources under the approved stopping rules.
 
 ## Stopping-rule position
 
-No stopping rule is satisfied by this round alone. Eight families still require
-dedicated or additional searching, no cornerstone source has undergone citation
-chaining, no two-round diminishing-return test exists and the Evidence Reviewer
-has not reviewed search completeness.
+All ten families remain incomplete against the Stage A stopping rules. Six have
+not yet received a dedicated search; F-01, F-03, F-09 and F-10 have only
+initial coverage and still require an independent discovery route and the
+required searches for sufficient practice, implemented use, limitations and
+competing explanations. No cornerstone source has undergone citation chaining,
+no two-round diminishing-return test exists and the Evidence Reviewer has not
+reviewed search completeness.
 
 ## Round boundary
 
