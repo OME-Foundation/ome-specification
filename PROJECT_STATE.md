@@ -45,9 +45,8 @@ Authoritative sources:
 
 ## Active work
 
-The R-001 programme design is
-[in review through PR #3](https://github.com/OME-Foundation/ome-specification/pull/3);
-evidence collection has not started. The first ready investigations remain:
+The R-001 programme design is approved; evidence collection has not started.
+The first ready investigations remain:
 
 - `R-001` — characterise consequential organisational reconstruction;
 - `R-002` — test the claimed cross-lifecycle coverage gap.
