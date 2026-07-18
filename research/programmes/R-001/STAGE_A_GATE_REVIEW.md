@@ -1,6 +1,7 @@
-# R-001 Proposed Stage A Gate Review
+# R-001 Stage A Gate Review
 
-Status: proposed; independent CTO review complete; accountable approval pending.
+Status: approved; construct assessment permitted while Stage A remains
+incomplete.
 
 Review date: 2026-07-18
 
@@ -28,10 +29,10 @@ The available outcomes are:
 3. **Gate opens without material reservation** - the evidence is adequate and
    no unresolved gap could materially affect assessment readiness.
 
-**Proposed outcome:** **Permit a C-002 construct assessment to proceed while
+**Approved outcome:** **Permit a C-002 construct assessment to proceed while
 Stage A remains incomplete.**
 
-This proposal does not predetermine whether C-002 should be retained, narrowed,
+This decision does not predetermine whether C-002 should be retained, narrowed,
 revised, rejected or deferred. It authorises preparation of a separate,
 reviewable construct assessment only after this gate decision is approved. It
 does not authorise Stage B work.
@@ -135,7 +136,7 @@ eventual disposition under the programme's decision rules.
 
 ## 4. Reopening conditions
 
-This proposed gate decision must be reopened if later appraisal or new evidence:
+This gate decision must be reopened if later appraisal or new evidence:
 
 - shows that E-006, E-007 or E-008 directly measures all three C-002 components;
 - shows that a current proxy was misclassified and is a validated direct measure
@@ -177,7 +178,7 @@ That assessment must:
   steering toward retention; and
 - receive independent CTO review and accountable approval.
 
-This proposed gate decision does **not** permit Stage B protocol drafting,
+This gate decision does **not** permit Stage B protocol drafting,
 additional evidence lifecycle promotion, claim confidence change, canon work,
 terminology decisions, governance expansion or field research.
 
@@ -192,11 +193,11 @@ terminology decisions, governance expansion or field research.
 
 All four criteria are sufficiently developed to permit the narrower construct
 assessment, but this review neither freezes a search strategy nor authorises the
-protocol's transition into Stage B. The Research Lead therefore proposes that
-the gate **permit a C-002 construct assessment to proceed while Stage A remains
-incomplete**. The reservation is material: E-006 through E-008 remain
-incomplete, no source establishes the entire sequence, and no inference about
-validity or novelty is authorised.
+protocol's transition into Stage B. The approved gate therefore **permits a
+C-002 construct assessment to proceed while Stage A remains incomplete**. The
+reservation is material: E-006 through E-008 remain incomplete, no source
+establishes the entire sequence, and no inference about validity or novelty is
+authorised.
 
 ## CTO Independent Gate Review
 
@@ -224,4 +225,11 @@ Status: complete.
 
 ## Accountable decision
 
-Status: pending founder approval.
+Status: approved by the founder on 2026-07-18 through the merge decision for
+[PR #11](https://github.com/OME-Foundation/ome-specification/pull/11).
+
+The accountable decision adopts the independently reviewed outcome without
+altering its reservations or permitted scope. It authorises preparation of a
+separate proposed C-002 construct assessment while Stage A remains incomplete.
+It does not authorise Stage B or change C-002 confidence, lifecycle or
+disposition.

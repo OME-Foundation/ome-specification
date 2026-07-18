@@ -45,11 +45,15 @@ Authoritative sources:
 
 ## Active work
 
-The R-001 programme design is approved; evidence collection has not started.
-The first ready investigations remain:
+`R-001` remains in Stage A. Nine Stage A evidence records have completed
+independent review; E-006 through E-008 remain registered evidence gaps because
+full-text appraisal is incomplete. The approved
+[Stage A gate review](research/programmes/R-001/STAGE_A_GATE_REVIEW.md) permits
+a separate proposed C-002 construct assessment while Stage A remains
+incomplete. It does not authorise Stage B.
 
-- `R-001` — characterise consequential organisational reconstruction;
-- `R-002` — test the claimed cross-lifecycle coverage gap.
+`R-002`, testing the claimed cross-lifecycle coverage gap, remains ready but has
+not started.
 
 See the [Research Backlog](research/operating-system/BACKLOG.md) for scope,
 methods, dependencies and completion evidence.
@@ -76,12 +80,13 @@ methods, dependencies and completion evidence.
 
 ## Next decisions
 
-1. Assign the required R-001 roles before evidence collection begins.
-2. Decide whether `R-001` and `R-002` can proceed independently without
-   duplicating evidence or biasing one another.
-3. Review new evidence records before changing claim confidence or disposition.
-4. Reassess dependent claims when evidence is superseded, withdrawn or
-   retracted.
+1. Prepare and independently review a proposed C-002 construct assessment
+   without changing claim confidence, lifecycle or disposition in advance.
+2. Preserve E-006 through E-008 as explicit gaps and reopen the gate decision if
+   later appraisal meets a recorded reopening condition.
+3. Decide when to begin `R-002` without duplicating or biasing R-001.
+4. Do not design or begin Stage B until a later reviewed decision expressly
+   authorises it.
 
 ## Update rule
 
