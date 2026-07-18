@@ -563,8 +563,32 @@ None recorded.
 
 ## CTO Independent Search-Round Review — Round 002
 
-Status: pending.
+Status: complete.
+
+- **Execution scope:** approved. Round 002 appends search execution,
+  source-selection provenance, access limitations, family coverage and
+  stopping-rule state without entering evidence appraisal or claim assessment.
+- **Family targeting:** approved after clarification. `Targeted` records that a
+  round intentionally searched a family; it does not imply that the family's
+  Stage A stopping conditions are satisfied.
+- **Candidate provenance:** approved. Retained, deferred and excluded records
+  remain individually identified and separate from Evidence Register records.
+- **Citation chaining:** approved. Failed OpenAlex and publication-record
+  attempts are preserved without being represented as completed chains.
+- **Stopping-rule fidelity:** approved. All ten families remain incomplete,
+  with F-02 and F-08 lacking dedicated searches and the other eight at initial
+  coverage only.
+- **Research boundary:** approved. No evidence registration or appraisal,
+  N-01–N-06 mapping, coverage level, evidential direction, confidence, claim
+  assessment or Stage B authority has entered the round.
+- **Independent decision:** approve PR #21.
+- **Required corrections:** none remaining.
 
 ## Accountable decision — Round 002
 
-Status: pending founder approval after independent review.
+Status: approved by the founder on 2026-07-18 through the merge decision for
+[PR #21](https://github.com/OME-Foundation/ome-specification/pull/21).
+
+The accountable decision accepts Search Round 002 as an execution and
+provenance record. It does not register or appraise evidence, classify an
+approach, change C-003 or C-005, assign confidence or authorise Stage B.
