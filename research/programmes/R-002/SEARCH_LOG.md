@@ -1,6 +1,6 @@
 # R-002 Stage A search log
 
-Status: Stage A in progress; Search Rounds 001 through 003 recorded. Candidate
+Status: Stage A in progress; Search Rounds 001 through 004 recorded. Candidate
 selection only—no evidence registration, appraisal, coverage classification or
 claim assessment.
 
@@ -991,3 +991,255 @@ Status: approved by the founder on 2026-07-18 through the merge decision for
 The accountable decision accepts Search Round 003 as an execution and
 provenance record. It does not register or appraise evidence, classify an
 approach, change C-003 or C-005, assign confidence or authorise Stage B.
+
+## Search Round 004
+
+### Round record
+
+- **Round ID:** R2-A-004.
+- **Execution date:** 2026-07-18.
+- **Research Lead:** repository execution agent (Codex).
+- **Purpose:** add independent discovery, complete the outstanding
+  R2-CAND-002 OpenAlex forward chain, and test whether another search round
+  produces a new material approach family or comparison dimension.
+- **Mandatory families targeted:** F-02, F-03, F-04, F-05, F-08, F-09 and
+  F-10.
+- **Meaning of targeted:** this round intentionally executed discovery for
+  these families. Targeting does not indicate that a family's Stage A stopping
+  conditions have been satisfied.
+- **Public/private boundary:** public-source discovery only; no ContextBridge,
+  customer, commercial or private product information used.
+
+## Web-search invocation — Round 004
+
+- **Interface:** OpenAI web-search tool exposed to the Codex desktop research
+  agent as `web.run`, using its `search_query` operation.
+- **Invocation shape:** four queries submitted in one invocation with
+  `response_length: long`.
+- **Filters:** no recency, domain or language filter supplied.
+- **Locale and date range:** none supplied.
+- **Sort order, result limit and per-query result count:** not exposed.
+- **Underlying provider and ranking configuration:** not exposed.
+- **Complete ranked result sets:** not exposed or captured; returned output was
+  truncated.
+- **Execution identifier:** no durable tool-run identifier was exposed.
+
+### Exact web queries
+
+1. `enterprise architecture implementation empirical longitudinal outcomes limitations governance case study`
+2. `DevOps SRE post-incident review organizational learning empirical outcomes limitations adoption`
+3. `digital thread MBSE PLM lifecycle integration implementation evidence barriers interoperability empirical`
+4. `requirements traceability decision rationale provenance operations feedback lifecycle integration systematic review`
+
+| Query | Primary purpose | Strategy families |
+| --- | --- | --- |
+| 1 | Seek implemented EA, outcomes, limitations and governance. | F-02, F-10 |
+| 2 | Seek operational learning, outcomes and adoption limitations. | F-08, F-10 |
+| 3 | Seek implemented digital-thread compositions and interoperability barriers. | F-01, F-03, F-09, F-10 |
+| 4 | Seek lifecycle traceability, rationale and provenance syntheses. | F-04, F-05, F-09 |
+
+## Semantic Scholar independent route
+
+- **Interface:** public Semantic Scholar Academic Graph API.
+- **Client:** `curl.exe`, with JSON projected in PowerShell.
+- **Ordering:** API default relevance; no explicit sort supplied.
+- **Limit:** ten records per query.
+- **Selected fields:** paper ID, title, year, authors, external identifiers,
+  Semantic Scholar URL, citation count and open-access-PDF metadata.
+- **Authentication:** no API key supplied.
+
+### Exact Semantic Scholar requests
+
+1. `https://api.semanticscholar.org/graph/v1/paper/search?query=enterprise%20architecture%20implementation%20governance%20organizational%20benefits%20empirical&limit=10&fields=paperId,title,year,authors,externalIds,url,citationCount,openAccessPdf`
+2. `https://api.semanticscholar.org/graph/v1/paper/search?query=DevOps%20SRE%20post%20incident%20organizational%20learning%20empirical&limit=10&fields=paperId,title,year,authors,externalIds,url,citationCount,openAccessPdf`
+3. `https://api.semanticscholar.org/graph/v1/paper/search?query=digital%20thread%20MBSE%20PLM%20lifecycle%20integration%20interoperability%20barriers&limit=10&fields=paperId,title,year,authors,externalIds,url,citationCount,openAccessPdf`
+4. `https://api.semanticscholar.org/graph/v1/paper/search?query=requirements%20traceability%20decision%20rationale%20provenance%20operations%20feedback&limit=10&fields=paperId,title,year,authors,externalIds,url,citationCount,openAccessPdf`
+
+Request 1 returned ten projected records from an exposed total of 3,811.
+Requests 2 through 4 returned HTTP 429 `Too Many Requests`; no result records
+were exposed. A separate header-and-body check of request 2 confirmed the 429
+response and the public API's request to wait or obtain an API key. The failed
+requests were not represented as completed searches.
+
+## Exact-title Crossref metadata checks
+
+Crossref was used only to obtain durable metadata for candidates already found
+through the web or Semantic Scholar routes. Five one-row requests used the
+public REST API, default relevance ordering and fields DOI, title, author,
+published, URL and type:
+
+1. `https://api.crossref.org/works?query.title=Dynamic%20Enterprise%20Architecture%20Capabilities%20and%20Organizational%20Benefits%3A%20An%20empirical%20mediation%20study&rows=1&select=DOI,title,author,published,URL,type`
+2. `https://api.crossref.org/works?query.title=The%20Effect%20of%20Enterprise%20Architecture%20Deployment%20Practices%20on%20Organizational%20Benefits%3A%20A%20Dynamic%20Capability%20Perspective&rows=1&select=DOI,title,author,published,URL,type`
+3. `https://api.crossref.org/works?query.title=Enterprise%20Architecture%20and%20Organizational%20Benefits%3A%20A%20Case%20Study&rows=1&select=DOI,title,author,published,URL,type`
+4. `https://api.crossref.org/works?query.title=A%20systematic%20literature%20review%20to%20explore%20traceability%20and%20lifecycle%20relationship&rows=1&select=DOI,title,author,published,URL,type`
+5. `https://api.crossref.org/works?query.title=Defining%20requirements%20for%20integrating%20information%20between%20design%2C%20manufacturing%2C%20and%20inspection&rows=1&select=DOI,title,author,published,URL,type`
+
+Requests 2 through 5 returned title-matching metadata. Request 1 instead
+returned R2-CAND-039's differently titled record, so it did not verify the
+Semantic Scholar result and no DOI was assigned from that response.
+
+## Round 004 retained candidates
+
+Retention remains triage only. Titles, abstracts, route agreement and citation
+metadata do not establish source quality, lifecycle coverage, evidential
+direction or relevance to C-003.
+
+| ID | Candidate | Durable identifier or exact route | Discovery and triage reason |
+| --- | --- | --- | --- |
+| R2-CAND-032 | *Defining requirements for integrating information between design, manufacturing, and inspection* | https://doi.org/10.1080/00207543.2021.1920057 | Web query 3; NIST-associated experiment across design, manufacturing and inspection reports inability to fully link all required information. |
+| R2-CAND-033 | *Testing the Digital Thread in Support of Model-Based Manufacturing and Inspection* | https://pmc.ncbi.nlm.nih.gov/articles/PMC4904719/ | Web query 3; implementation and interoperability lead spanning design, manufacturing and inspection. |
+| R2-CAND-034 | *A systematic literature review to explore traceability and lifecycle relationship* | https://doi.org/10.1080/00207543.2020.1771455 | Web query 4; lifecycle-traceability synthesis lead. |
+| R2-CAND-035 | *Formalizing the Digital Thread: A Standards-Based MBSE Integration Framework* | https://doi.org/10.1016/j.procs.2026.02.096 | Web query 3; recent standards-based integration concept with a bounded use case and stated tool/data incompatibility limits. |
+| R2-CAND-036 | *A Study of Adoption and Effects of DevOps Practices* | https://arxiv.org/abs/2211.09390 | Web query 2; empirical adoption-and-outcomes lead requiring publication and method verification. |
+| R2-CAND-037 | *Challenges and solutions when adopting DevSecOps: A systematic review* | https://arxiv.org/abs/2103.08266 | Web query 2; adoption and burden counterposition based on a reported review of 54 studies. |
+| R2-CAND-038 | *The Effect of Enterprise Architecture Deployment Practices on Organizational Benefits: A Dynamic Capability Perspective* | https://doi.org/10.3390/su12218902 | Semantic Scholar query 1; Crossref title check supplied the DOI; empirical EA deployment-practice lead. |
+| R2-CAND-039 | *Enterprise Architecture and Organizational Benefits: A Case Study* | https://doi.org/10.3390/su12198237 | Semantic Scholar query 1; Crossref title check supplied the DOI; bounded EA benefit case. |
+| R2-CAND-040 | *Dynamic Enterprise Architecture Capabilities and Organizational Benefits: An empirical mediation study* | https://www.semanticscholar.org/paper/37fdd45c2f717ac466e357b0b9901210ea7ab49c | Semantic Scholar query 1; retained under the exact graph identifier because Crossref request 1 did not return matching metadata. |
+| R2-CAND-041 | *Survey of model-based systems engineering (MBSE): State of practice, perception and aligning academic instructions with industry needs* | https://doi.org/10.1177/09544100251354958 | R2-CAND-002 forward page 2; current-practice and adoption lead. |
+| R2-CAND-042 | *Scalable, Flexible Implementation of MBSE and DevOps in VSEs: Design Considerations and a Case Study* | https://doi.org/10.1002/iis2.13069 | R2-CAND-002 forward page 3; deliberate MBSE/DevOps composition and implementation lead. |
+
+## Round 004 deferred and excluded results
+
+| ID | Result | Exact URL | Disposition reason |
+| --- | --- | --- | --- |
+| R2-DEF-017 | *Digital thread in engineering: Concept, state of art, and enabling framework* | https://www.sciencedirect.com/science/article/abs/pii/S147403462500151X | Review and framework lead, but durable DOI and review method were not exposed in the recorded route. |
+| R2-DEF-018 | *Incorporating MBSE Across a PLM managed Digital Thread — Three Real Life Use Cases* | https://www.jstage.jst.go.jp/article/isciesci/66/8/66_309/_article/-char/en | Concrete composition cases, but the visible author affiliation is a PLM vendor and independent corroboration is required. |
+| R2-DEF-019 | *Technological challenges and enablers for successful PLM implementation within Engineering to Order industries* | https://strathprints.strath.ac.uk/96721/ | Recent implementation lead whose publication and method require inspection. |
+| R2-DEF-020 | *Examining the social aspects of Enterprise Architecture Implementation: A Morphogenetic Approach* | https://arxiv.org/abs/1606.02499 | Social/adoption case lead; primary publication identity and method require verification. |
+| R2-EXC-030 | *Seamless integration of CAD in AI based System of Systems Lifecycle Management of Digital Threads* | https://doi.org/10.71015/632vj197 | Recent technical concept; no implemented organisational-practice or outcome basis exposed during triage. |
+| R2-EXC-031 | *IDDMBSE: Integrating Data-Driven and Model-Based Systems Engineering for Trusted Autonomous Cyber-Physical Systems* | https://arxiv.org/abs/2606.06727 | System-specific technical integration rather than evidence of maintained organisational lifecycle practice. |
+| R2-EXC-032 | *Traceability* | https://en.wikipedia.org/wiki/Traceability | Wikipedia discovery summary; primary traceability sources are available. |
+| R2-EXC-033 | *Requirements traceability* | https://en.wikipedia.org/wiki/Requirements_traceability | Wikipedia discovery summary; primary and review sources are available. |
+| R2-EXC-034 | *Digital thread* | https://en.wikipedia.org/wiki/Digital_thread | Wikipedia discovery summary; authoritative and primary sources are available. |
+| R2-EXC-035 | *DevOps Research and Assessment* | https://en.wikipedia.org/wiki/DevOps_Research_and_Assessment | Wikipedia discovery summary; direct research sources are searchable. |
+
+The web interface also returned individually identified Reddit and trade-press
+results. They were not selected for the candidate set because stronger primary,
+publisher or review routes were present. Because the interface output was
+truncated, no generic grouped exclusion is used to imply a complete result set.
+
+## OpenAlex citation-chain continuation
+
+The remaining R2-CAND-002 forward pages were retrieved through the public
+OpenAlex API using `curl.exe`. Exact requests were:
+
+- `https://api.openalex.org/works?filter=cites:W3183735209&sort=cited_by_count:desc&per-page=10&page=2&select=id,doi,title,publication_year,type,cited_by_count`
+- `https://api.openalex.org/works?filter=cites:W3183735209&sort=cited_by_count:desc&per-page=10&page=3&select=id,doi,title,publication_year,type,cited_by_count`
+- `https://api.openalex.org/works?filter=cites:W3183735209&sort=cited_by_count:desc&per-page=10&page=4&select=id,doi,title,publication_year,type,cited_by_count`
+- `https://api.openalex.org/works?filter=cites:W3183735209&sort=cited_by_count:desc&per-page=10&page=5&select=id,doi,title,publication_year,type,cited_by_count`
+
+Pages 2 through 4 returned ten records each and page 5 returned four. Combined
+with Round 003 page 1, all 44 citing records exposed in this graph snapshot were
+retrieved. Results were ordered by OpenAlex `cited_by_count:desc`; that is
+discovery metadata, not a source-quality or relevance ranking.
+
+### Citation-chain status after Round 004
+
+- **R2-CHAIN-001:** forward and backward retrieval complete for the current
+  OpenAlex graph snapshot.
+- **R2-CHAIN-002:** forward and backward retrieval complete for the current
+  OpenAlex graph snapshot: 44 citing and 26 referenced records retrieved.
+
+Completion describes retrieval from one mutable citation graph, not complete
+scholarly citation coverage. Most retrieved records were not retained because
+their titles concerned system-specific MBSE applications rather than the R-002
+unit of analysis. R2-CAND-041 and R2-CAND-042 preserve the two newly selected
+leads; non-selection is not evidence appraisal.
+
+## Round 004 access and reproducibility limitations
+
+- Web result sets, counts, ranking and provider remain unavailable; returned
+  output was truncated.
+- Three of four Semantic Scholar requests were rate-limited before exposing
+  results. The single successful route cannot represent the other families.
+- Crossref exact-title matching returned a false-positive top result for one
+  request; the mismatch remains explicit.
+- OpenAlex is a mutable scholarly graph, and citation membership and counts may
+  change after the recorded date.
+- No full text was appraised and no candidate was registered as evidence.
+- Language, paywall and database-index coverage remain incomplete.
+
+## Family coverage after Round 004
+
+| Family | Cumulative state | Note |
+| --- | --- | --- |
+| F-01 — Named cross-lifecycle approaches | Initial coverage only | Additional digital-thread implementation and limitation leads; evidence modes incomplete. |
+| F-02 — Enterprise architecture and governance | Initial coverage through three routes | Web, Crossref and one successful Semantic Scholar route; source appraisal and evidence modes incomplete. |
+| F-03 — Systems engineering, MBSE and lifecycle management | Initial coverage only | Two OpenAlex seed chains complete for the current graph snapshot; broader routes and evidence modes incomplete. |
+| F-04 — Traceability and impact analysis | Initial coverage only | Lifecycle SLR lead added; independent database route was rate-limited. |
+| F-05 — Decisions, rationale and provenance | Initial coverage only | Combined web query produced no retained new decision/provenance lead. |
+| F-06 — Organisational memory and knowledge management | Initial coverage only | No dedicated route in this round. |
+| F-07 — Semantic and graph-based integration | Initial coverage only | No dedicated route in this round. |
+| F-08 — DevOps, SRE and operational learning | Initial coverage through two completed routes plus one failed route | Additional web discovery completed; Semantic Scholar request was rate-limited. |
+| F-09 — Deliberate compositions | Initial coverage only | MBSE/DevOps and MBSE/digital-thread composition leads added; implementation evidence incomplete. |
+| F-10 — Adoption, burden and harmful integration | Initial coverage only | EA, DevOps, DevSecOps and interoperability limitation leads added; evidence modes incomplete. |
+
+## Round 004 diminishing-returns and stopping position
+
+All ten families remain incomplete. Round 004 produced additional candidates
+and completed both current OpenAlex seed chains, but it did not identify a new
+material approach family or comparison dimension beyond those already defined
+in the approved strategy and construct map. This is the first consecutive
+round meeting that narrow diminishing-novelty condition; the approved stopping
+rule requires two consecutive rounds and independent reviewer agreement.
+
+The round does not establish saturation. F-04 and F-05 lack a completed new
+independent route, F-06 and F-07 received no dedicated Round 004 search, three
+Semantic Scholar searches failed, required evidence modes remain incomplete,
+and the Evidence Reviewer has not reviewed search completeness.
+
+## Round 004 boundary
+
+Search Round 004 adds discovery and citation-chain provenance only. It does
+not:
+
+- register or appraise evidence;
+- map a candidate to N-01 through N-06;
+- assign a coverage level or evidential direction;
+- treat route agreement or citation count as source quality;
+- change C-003 or C-005;
+- assign confidence or disposition;
+- satisfy the Stage A stopping rules;
+- authorise Stage B; or
+- introduce OME terminology, canon or product material.
+
+## Round 004 corrections
+
+None recorded.
+
+## CTO Independent Search-Round Review — Round 004
+
+Status: complete.
+
+- **Execution scope:** approved. Round 004 records four exact web searches, a
+  distinct Semantic Scholar route, exact Crossref metadata checks and
+  completion of the outstanding OpenAlex chain without entering evidence
+  appraisal or claim assessment.
+- **Route failures and mismatches:** approved. Three Semantic Scholar HTTP 429
+  responses and the Crossref false-positive title match remain explicit rather
+  than being represented as completed or verified discovery.
+- **Citation chaining:** approved. Both current OpenAlex seed chains are
+  complete for the recorded graph snapshot without implying universal citation
+  completeness.
+- **Candidate provenance:** approved. Eleven retained candidates remain triage
+  records rather than Evidence Register entries.
+- **Diminishing-returns fidelity:** approved. Round 004 is only the first round
+  meeting the narrow no-new-family-or-dimension condition; it does not establish
+  saturation or satisfy the two-round stopping rule.
+- **Stopping-rule fidelity:** approved. All ten families remain incomplete.
+- **Research boundary:** approved. No evidence registration or appraisal,
+  N-01–N-06 mapping, coverage level, evidential direction, confidence, claim
+  assessment, Stage A stopping declaration or Stage B authority has entered
+  the round.
+- **Independent decision:** approve PR #23.
+- **Required corrections:** none.
+
+## Accountable decision — Round 004
+
+Status: approved by the founder on 2026-07-18 through the merge decision for
+[PR #23](https://github.com/OME-Foundation/ome-specification/pull/23).
+
+The accountable decision accepts Search Round 004 as an execution and
+provenance record. It does not register or appraise evidence, classify an
+approach, change C-003 or C-005, assign confidence, declare Stage A complete or
+authorise Stage B.
