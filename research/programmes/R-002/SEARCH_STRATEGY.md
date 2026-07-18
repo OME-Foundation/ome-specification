@@ -1,15 +1,16 @@
 # R-002 search strategy
 
-Status: proposed; no search has been executed and no evidence has been
-registered.
+Status: approved search strategy; Stage A execution is authorised only when
+the mechanical authority transition in PR #19 is merged. No search has been
+executed and no evidence has been registered.
 
 This strategy defines how R-002 will find existing approaches that may already
 cover the claimed cross-lifecycle integration gap. It implements the approved
 [R-002 execution protocol](../R-002.md) without assuming that a gap exists.
 
-Approval of this document will not start Stage A. Search execution remains
-unauthorised until this strategy and the separately reviewed construct map are
-approved and the resulting authority is mechanically recorded.
+Approval of this document did not start Stage A. Search execution remains
+unauthorised until the approved strategy and construct map are mechanically
+recorded as execution prerequisites through the merge of PR #19.
 
 ## Search objective
 
@@ -407,18 +408,20 @@ PR #17 proposes this strategy only. Independent review must determine whether:
 - the construct map remains a separate prerequisite; and
 - no search, evidence, assessment or conclusion has entered the proposal.
 
-Founder approval and merge do not by themselves authorise search execution.
-Execution requires the approved construct map and a separately recorded state
-transition establishing that both prerequisites are satisfied.
+Founder approval and merge did not by themselves authorise search execution.
+The merge of PR #19 records that this strategy and the approved construct map
+satisfy the execution prerequisites and authorises Stage A.
 
 ## Current authority
 
 - R-002 is the primary active research programme.
-- Search-strategy preparation is authorised.
-- This document remains a proposal until independently reviewed and approved.
+- The search strategy and construct map are independently reviewed,
+  founder-approved and merged.
+- Stage A execution is authorised only when PR #19 is merged.
 - No R-002 search has been executed.
 - No R-002 evidence has been registered.
-- Stage A execution and Stage B remain unauthorised.
+- Until PR #19 is merged, Stage A execution remains unauthorised.
+- Stage B remains unauthorised.
 - R-001 remains frozen at its approved stopping condition.
 
 ## CTO Independent Search-Strategy Review
@@ -450,4 +453,10 @@ Status: complete.
 
 ## Accountable decision
 
-Status: pending founder approval after independent review.
+Status: approved by the founder on 2026-07-18 through the merge decision for
+[PR #17](https://github.com/OME-Foundation/ome-specification/pull/17).
+
+The accountable decision adopts the independently reviewed search strategy
+without changing its scope. Approval did not authorise execution. The merge of
+PR #19 records the completed prerequisites and authorises Stage A under this
+strategy and the approved construct map.
