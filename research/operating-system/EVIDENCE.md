@@ -15,9 +15,9 @@ alone is not an evidence assessment.
 | E-004 | Martin de Holan and Phillips (2004), “Remembrance of Things Past?” | Exploratory multiple-case study | Reviewed | C-002 contextual | Develops four modes of organisational forgetting from seven Cuban hotel cases; observes reinforcement and degradation, not reconstruction of reasoning. |
 | E-005 | Easterby-Smith and Lyles (2011), “In Praise of Organizational Forgetting” | Critical conceptual review | Reviewed | C-002 contextual | Argues that forgetting may be beneficial under some conditions and therefore supplies a required boundary and counterposition; it does not empirically test reconstruction. |
 | E-006 | Kleiner, Nickelsburg and Pilarski (2012), “Organizational and Individual Learning and Forgetting” | Aircraft-production model comparison | Registered | C-002 contextual | Finds production conditions can explain cost movements attributed to forgetting; neither reasoning retrieval nor reconstruction is measured. |
-| E-007 | Eckardt, Skaggs and Youndt (2014), “Turnover and Knowledge Loss” | Comparative empirical study | Registered | C-002 contextual | Examines differentiated turnover/knowledge-loss effects across service and manufacturing firms; turnover is a mechanism proxy, not direct reconstruction evidence. |
-| E-008 | Hong (2025), “When Does Employee Turnover Matter?” | Longitudinal panel analysis | Registered | C-002 contextual | Finds organisational structures buffer turnover-associated IT project delays; supports contingency and an adoption/structure alternative. |
-| E-009 | Lewis (2004), “Knowledge and Performance in Knowledge-Worker Teams” | Longitudinal team study | Registered | C-002 contextual | Links transactive-memory development with team performance and viability; does not directly observe lost reasoning or reconstruction. |
+| E-007 | Eckardt, Skaggs and Youndt (2014), “Turnover and Knowledge Loss” | Cross-sectional multi-firm survey | Registered | C-002 contextual | Finds heterogeneous turnover–performance relationships and organisational-capital moderation; knowledge loss is a theorised mechanism, not an observed reconstruction outcome. |
+| E-008 | Hong (2025), “When Does Employee Turnover Matter?” | Longitudinal panel analysis | Registered | C-002 contextual | Finds authority and standardisation buffer turnover-associated IT-project delay; delay and structural proxies do not establish unavailable reasoning or reconstruction. |
+| E-009 | Lewis (2004), “Knowledge and Performance in Knowledge-Worker Teams” | Longitudinal team field study | Reviewed | C-002 contextual | Links transactive-memory development with performance and viability; studies current expertise location and integration, not lost prior reasoning or reconstruction. |
 | E-010 | van Heesch et al. (2012), “The Supportive Effect of Patterns in Architecture Decision Recovery” | Controlled experiment | Registered | C-002 contextual | Directly studies recovery of prior architectural decisions and rationale, but measures recovery quality and quantity rather than consequential organisational cost. |
 | E-011 | Roeller, Lago and van Vliet (2006), “Recovering Architectural Assumptions” | Method paper with worked applications | Registered | C-002 contextual | Describes undocumented assumptions becoming hidden and later rediscovered; it does not estimate prevalence, effort or consequence. |
 | E-012 | Werner et al. (2020), “The Lack of Shared Understanding of Non-Functional Requirements” | Mixed-method multiple-case study | Registered | C-002 contextual | Traces requirements-related rework to gaps in shared understanding, while distinguishing avoidable gaps from learning-cycle rework; prior reasoning availability and retrieval failure are not established. |
@@ -192,21 +192,28 @@ continue contributing to confidence.
   Manager and Worker Turnover in Service and Manufacturing Firms,” *Journal of
   Management Studies* 51, no. 7 (2014): 1025–1057.
   https://doi.org/10.1111/joms.12096
-- **Source provenance:** publisher record and abstract.
-- **Review status:** registered 2026-07-18; full-text and independent review
-  pending.
-- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Source provenance:** publisher and RePEc records and abstracts;
+  [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-007-E-009.md).
+- **Review status:** partial Research Lead appraisal and provisional independent
+  Evidence Review recorded 2026-07-18; full-text appraisal and completed
+  independent review pending; lifecycle remains `Registered`.
+- **Registered by:** Research Lead (Codex); provisional independent review by
+  CTO acting as Evidence Reviewer.
 - **Population or domain:** production managers and workers in service and
   manufacturing firms.
-- **Method:** comparative empirical study of turnover, knowledge loss and
-  performance relationships.
+- **Method:** cross-sectional survey of 150 firms comparing production-manager
+  and production-worker turnover–performance relationships and organisational-
+  capital moderation across service and manufacturing settings.
 - **Relevant finding:** effects differ by role and operating context, with
   organisational capital moderating some turnover-performance relationships.
-- **Limitations:** turnover and performance do not directly establish prior
-  reasoning availability or reconstruction; method detail awaits full text.
+- **Limitations:** knowledge loss is theorised rather than directly observed in
+  accessible material; turnover and performance do not establish unavailable
+  reasoning or reconstruction; full-text method appraisal remains incomplete.
 - **Claims:** contextual for C-002 and its boundary conditions.
-- **Lifecycle history:** 2026-07-18 — Registered from Stage A search; full-text
-  and independent review pending.
+- **Lifecycle history:** 2026-07-18 — Registered from Stage A search. Partial
+  Research Lead appraisal and provisional independent Evidence Review recorded;
+  full-text appraisal and completed independent review remain pending, so the
+  lifecycle remains `Registered`.
 
 ### E-008
 
@@ -214,10 +221,13 @@ continue contributing to confidence.
   Analyzing the Role of Organizational Memory in the Federal IT Workforce,”
   *Journal of Public Administration Research and Theory* 35, no. 4 (2025):
   434–451. https://doi.org/10.1093/jopart/muaf019
-- **Source provenance:** publisher article/PDF record and abstract.
-- **Review status:** registered 2026-07-18; full-text and independent review
-  pending.
-- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Source provenance:** Oxford Academic publisher record and abstract;
+  [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-007-E-009.md).
+- **Review status:** partial Research Lead appraisal and provisional independent
+  Evidence Review recorded 2026-07-18; full-text appraisal and completed
+  independent review pending; lifecycle remains `Registered`.
+- **Registered by:** Research Lead (Codex); provisional independent review by
+  CTO acting as Evidence Reviewer.
 - **Population or domain:** IT projects in 94 United States federal agencies,
   fiscal years 2015–2021.
 - **Method:** fractional panel probit analysis of turnover, organisational
@@ -225,12 +235,15 @@ continue contributing to confidence.
 - **Relevant finding:** centralised authority and task standardisation reduce
   project delays associated with IT workforce turnover, especially voluntary
   and managerial turnover.
-- **Limitations:** delay is not reconstruction; causal interpretation and
-  construct validity require full review.
+- **Limitations:** delay is not reconstruction; memory is represented through
+  structural proxies; causal identification and construct validity require
+  full-text review.
 - **Claims:** contextual for C-002; supports structural buffering and contingency
   as alternatives to a universal memory-loss effect.
-- **Lifecycle history:** 2026-07-18 — Registered from Stage A search; full-text
-  and independent review pending.
+- **Lifecycle history:** 2026-07-18 — Registered from Stage A search. Partial
+  Research Lead appraisal and provisional independent Evidence Review recorded;
+  full-text appraisal and completed independent review remain pending, so the
+  lifecycle remains `Registered`.
 
 ### E-009
 
@@ -238,21 +251,27 @@ continue contributing to confidence.
   Teams: A Longitudinal Study of Transactive Memory Systems,” *Management
   Science* 50, no. 11 (2004): 1519–1533.
   https://doi.org/10.1287/mnsc.1040.0257
-- **Source provenance:** publisher record and abstract.
-- **Review status:** registered 2026-07-18; full-text and independent review
-  pending.
-- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Source provenance:** publisher record and author-uploaded publisher full
+  text; [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-007-E-009.md).
+- **Review status:** Research Lead full-text appraisal and independent Evidence
+  Review completed 2026-07-18; lifecycle is `Reviewed`.
+- **Registered by:** Research Lead (Codex); independently reviewed by CTO acting
+  as Evidence Reviewer.
 - **Population or domain:** 64 MBA consulting teams comprising 261 members.
-- **Method:** longitudinal study of transactive-memory emergence, communication,
-  team performance and viability.
+- **Method:** three-wave longitudinal field study across a 13-week project,
+  using team surveys, client ratings, hierarchical moderated regression and
+  two-stage least-squares regression.
 - **Relevant finding:** distributed expertise, member familiarity and some forms
   of communication relate to transactive-memory development; established
   systems relate to performance and viability.
-- **Limitations:** student consulting teams; associations do not directly
-  observe inaccessible prior reasoning or reconstruction work.
+- **Limitations:** temporary MBA teams, nonrandom team assignment and substantial
+  self-report measurement; observes current expertise coordination rather than
+  inaccessible prior reasoning or reconstruction work.
 - **Claims:** contextual for C-002 and expertise-location mechanisms.
-- **Lifecycle history:** 2026-07-18 — Registered from Stage A search; full-text
-  and independent review pending.
+- **Lifecycle history:** 2026-07-18 — Registered from Stage A search; Research
+  Lead full-text appraisal completed; promoted to `Reviewed` after independent
+  Evidence Review confirmed registration accuracy, contextual direction and
+  incomplete coverage of every C-002 component.
 
 ### E-010
 
