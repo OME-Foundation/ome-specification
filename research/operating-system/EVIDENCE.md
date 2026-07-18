@@ -17,7 +17,7 @@ alone is not an evidence assessment.
 | E-006 | Kleiner, Nickelsburg and Pilarski (2012), “Organizational and Individual Learning and Forgetting” | Aircraft-production model comparison | Registered | C-002 contextual | Finds production conditions can explain cost movements attributed to forgetting; neither reasoning retrieval nor reconstruction is measured. |
 | E-007 | Eckardt, Skaggs and Youndt (2014), “Turnover and Knowledge Loss” | Cross-sectional multi-firm survey | Registered | C-002 contextual | Finds heterogeneous turnover–performance relationships and organisational-capital moderation; knowledge loss is a theorised mechanism, not an observed reconstruction outcome. |
 | E-008 | Hong (2025), “When Does Employee Turnover Matter?” | Longitudinal panel analysis | Registered | C-002 contextual | Finds authority and standardisation buffer turnover-associated IT-project delay; delay and structural proxies do not establish unavailable reasoning or reconstruction. |
-| E-009 | Lewis (2004), “Knowledge and Performance in Knowledge-Worker Teams” | Longitudinal team field study | Registered | C-002 contextual | Links transactive-memory development with performance and viability; studies current expertise location and integration, not lost prior reasoning or reconstruction. |
+| E-009 | Lewis (2004), “Knowledge and Performance in Knowledge-Worker Teams” | Longitudinal team field study | Reviewed | C-002 contextual | Links transactive-memory development with performance and viability; studies current expertise location and integration, not lost prior reasoning or reconstruction. |
 | E-010 | van Heesch et al. (2012), “The Supportive Effect of Patterns in Architecture Decision Recovery” | Controlled experiment | Registered | C-002 contextual | Directly studies recovery of prior architectural decisions and rationale, but measures recovery quality and quantity rather than consequential organisational cost. |
 | E-011 | Roeller, Lago and van Vliet (2006), “Recovering Architectural Assumptions” | Method paper with worked applications | Registered | C-002 contextual | Describes undocumented assumptions becoming hidden and later rediscovered; it does not estimate prevalence, effort or consequence. |
 | E-012 | Werner et al. (2020), “The Lack of Shared Understanding of Non-Functional Requirements” | Mixed-method multiple-case study | Registered | C-002 contextual | Traces requirements-related rework to gaps in shared understanding, while distinguishing avoidable gaps from learning-cycle rework; prior reasoning availability and retrieval failure are not established. |
@@ -194,10 +194,11 @@ continue contributing to confidence.
   https://doi.org/10.1111/joms.12096
 - **Source provenance:** publisher and RePEc records and abstracts;
   [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-007-E-009.md).
-- **Review status:** partial Research Lead appraisal recorded 2026-07-18;
-  full-text acquisition and independent review pending; lifecycle remains
-  `Registered`.
-- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Review status:** partial Research Lead appraisal and provisional independent
+  Evidence Review recorded 2026-07-18; full-text appraisal and completed
+  independent review pending; lifecycle remains `Registered`.
+- **Registered by:** Research Lead (Codex); provisional independent review by
+  CTO acting as Evidence Reviewer.
 - **Population or domain:** production managers and workers in service and
   manufacturing firms.
 - **Method:** cross-sectional survey of 150 firms comparing production-manager
@@ -210,8 +211,9 @@ continue contributing to confidence.
   reasoning or reconstruction; full-text method appraisal remains incomplete.
 - **Claims:** contextual for C-002 and its boundary conditions.
 - **Lifecycle history:** 2026-07-18 — Registered from Stage A search. Partial
-  Research Lead appraisal recorded 2026-07-18; full-text acquisition and
-  independent review pending.
+  Research Lead appraisal and provisional independent Evidence Review recorded;
+  full-text appraisal and completed independent review remain pending, so the
+  lifecycle remains `Registered`.
 
 ### E-008
 
@@ -221,10 +223,11 @@ continue contributing to confidence.
   434–451. https://doi.org/10.1093/jopart/muaf019
 - **Source provenance:** Oxford Academic publisher record and abstract;
   [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-007-E-009.md).
-- **Review status:** partial Research Lead appraisal recorded 2026-07-18;
-  full-text acquisition and independent review pending; lifecycle remains
-  `Registered`.
-- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Review status:** partial Research Lead appraisal and provisional independent
+  Evidence Review recorded 2026-07-18; full-text appraisal and completed
+  independent review pending; lifecycle remains `Registered`.
+- **Registered by:** Research Lead (Codex); provisional independent review by
+  CTO acting as Evidence Reviewer.
 - **Population or domain:** IT projects in 94 United States federal agencies,
   fiscal years 2015–2021.
 - **Method:** fractional panel probit analysis of turnover, organisational
@@ -238,8 +241,9 @@ continue contributing to confidence.
 - **Claims:** contextual for C-002; supports structural buffering and contingency
   as alternatives to a universal memory-loss effect.
 - **Lifecycle history:** 2026-07-18 — Registered from Stage A search. Partial
-  Research Lead appraisal recorded 2026-07-18; full-text acquisition and
-  independent review pending.
+  Research Lead appraisal and provisional independent Evidence Review recorded;
+  full-text appraisal and completed independent review remain pending, so the
+  lifecycle remains `Registered`.
 
 ### E-009
 
@@ -249,9 +253,10 @@ continue contributing to confidence.
   https://doi.org/10.1287/mnsc.1040.0257
 - **Source provenance:** publisher record and author-uploaded publisher full
   text; [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-007-E-009.md).
-- **Review status:** Research Lead full-text appraisal completed 2026-07-18;
-  independent review pending; lifecycle remains `Registered`.
-- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Review status:** Research Lead full-text appraisal and independent Evidence
+  Review completed 2026-07-18; lifecycle is `Reviewed`.
+- **Registered by:** Research Lead (Codex); independently reviewed by CTO acting
+  as Evidence Reviewer.
 - **Population or domain:** 64 MBA consulting teams comprising 261 members.
 - **Method:** three-wave longitudinal field study across a 13-week project,
   using team surveys, client ratings, hierarchical moderated regression and
@@ -263,8 +268,10 @@ continue contributing to confidence.
   self-report measurement; observes current expertise coordination rather than
   inaccessible prior reasoning or reconstruction work.
 - **Claims:** contextual for C-002 and expertise-location mechanisms.
-- **Lifecycle history:** 2026-07-18 — Registered from Stage A search. Research
-  Lead full-text appraisal completed 2026-07-18; independent review pending.
+- **Lifecycle history:** 2026-07-18 — Registered from Stage A search; Research
+  Lead full-text appraisal completed; promoted to `Reviewed` after independent
+  Evidence Review confirmed registration accuracy, contextual direction and
+  incomplete coverage of every C-002 component.
 
 ### E-010
 
