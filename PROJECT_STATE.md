@@ -45,12 +45,13 @@ Authoritative sources:
 
 ## Active work
 
-`R-001` remains in Stage A. Nine Stage A evidence records have completed
+`R-001` remains in Stage A. The approved
+[C-002 construct assessment](research/programmes/R-001/C-002_CONSTRUCT_ASSESSMENT.md)
+records disposition `Defer` at `Very low` confidence while retaining
+classification `Hypothesis`. Nine Stage A evidence records have completed
 independent review; E-006 through E-008 remain registered evidence gaps because
-full-text appraisal is incomplete. The approved
-[Stage A gate review](research/programmes/R-001/STAGE_A_GATE_REVIEW.md) permits
-a separate proposed C-002 construct assessment while Stage A remains
-incomplete. It does not authorise Stage B.
+full-text appraisal is incomplete. Stage A remains incomplete, and the
+assessment does not authorise Stage B.
 
 `R-002`, testing the claimed cross-lifecycle coverage gap, remains ready but has
 not started.
@@ -80,13 +81,13 @@ methods, dependencies and completion evidence.
 
 ## Next decisions
 
-1. Prepare and independently review a proposed C-002 construct assessment
-   without changing claim confidence, lifecycle or disposition in advance.
-2. Preserve E-006 through E-008 as explicit gaps and reopen the gate decision if
-   later appraisal meets a recorded reopening condition.
+1. Preserve E-006 through E-008 as explicit gaps and reopen the C-002 assessment
+   if later appraisal meets a recorded reopening condition.
+2. Decide whether any further R-001 proposal should address the evidence gaps;
+   do not design or begin Stage B without express reviewed authorisation.
 3. Decide when to begin `R-002` without duplicating or biasing R-001.
-4. Do not design or begin Stage B until a later reviewed decision expressly
-   authorises it.
+4. Keep C-002 out of canon and dependent premises while its disposition remains
+   `Defer` at `Very low` confidence.
 
 ## Update rule
 

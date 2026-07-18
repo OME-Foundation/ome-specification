@@ -1,6 +1,6 @@
-# Proposed C-002 Construct Assessment
+# C-002 Construct Assessment
 
-Status: proposed; independent CTO review complete; accountable approval pending.
+Status: approved; C-002 assessed as `Defer` with `Very low` confidence.
 
 Assessment date: 2026-07-18
 
@@ -20,17 +20,17 @@ This assessment applies the repository's
 the authority and limits of the approved
 [Stage A gate review](STAGE_A_GATE_REVIEW.md).
 
-It does not introduce evidence, change evidence lifecycle, alter C-002, claim
-novelty, admit terminology, authorise Stage B, design further research or create
-canon. All recommendations remain proposed until independently reviewed and
-approved.
+It does not introduce evidence, change evidence lifecycle, claim novelty, admit
+terminology, authorise Stage B, design further research or create canon. The
+assessment changes claim state only through the separately reviewed mechanical
+transition that records its approval.
 
-## Proposed assessment
+## Approved assessment
 
 - **Disposition:** `Defer`
 - **Confidence:** `Very low`
 - **Classification:** remain `Hypothesis`
-- **Lifecycle:** no change proposed in this artifact
+- **Lifecycle:** `Assessed`
 - **Working construct:** sufficiently distinguishable and operationalisable to
   remain a research target, but not empirically supported on the current record
 
@@ -226,23 +226,21 @@ A later assessment could move from `Defer` if independently appraised evidence:
 Full appraisal of E-006 through E-008 could also require reassessment, but their
 completion alone would not determine a disposition.
 
-## Proposed repository consequence
+## Recorded repository consequence
 
-If this assessment is independently approved, a separate mechanical state
-transition may record:
+The separately reviewed mechanical state transition records:
 
 - C-002 as `Assessed` with disposition `Defer`;
 - confidence as `Very low`;
 - classification remaining `Hypothesis`; and
 - the explicit evidence gaps and reopening conditions.
 
-No such state change is made by this proposal. Approval would not authorise
-Stage B, admit terminology, create canon or imply that C-002 has empirical
-support.
+This state change does not authorise Stage B, admit terminology, create canon or
+imply that C-002 has empirical support.
 
 ## What would convince us we are wrong?
 
-The proposed deferral would be wrong if the existing record has been materially
+The approved deferral would be wrong if the existing record has been materially
 misread - for example, if a reviewed or incomplete source already establishes
 all three components with a defensible consequence measure - or if the three
 components cannot in fact be distinguished from an established construct or
@@ -280,4 +278,10 @@ Status: complete.
 
 ## Accountable decision
 
-Status: pending founder approval.
+Status: approved by the founder on 2026-07-18 through the merge decision for
+[PR #13](https://github.com/OME-Foundation/ome-specification/pull/13).
+
+The accountable decision adopts the independently reviewed assessment without
+altering its reservations: disposition `Defer`, confidence `Very low`, and
+classification `Hypothesis`. E-006 through E-008 remain explicit evidence gaps;
+Stage A remains incomplete; and Stage B remains unauthorised.
