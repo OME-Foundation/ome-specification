@@ -256,4 +256,9 @@ Status: complete.
 
 ## Accountable decision
 
-Status: pending founder approval through PR #20.
+Status: approved by the founder on 2026-07-18 through the merge decision for
+[PR #20](https://github.com/OME-Foundation/ome-specification/pull/20).
+
+The accountable decision accepts Search Round 001 as an execution and
+provenance record. It does not register or appraise evidence, classify an
+approach, change C-003 or C-005, assign confidence or authorise Stage B.
