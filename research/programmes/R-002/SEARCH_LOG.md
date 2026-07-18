@@ -232,3 +232,28 @@ Round 001 records discovery and source-selection provenance only. It does not:
 ## Corrections
 
 None recorded.
+
+## CTO Independent Search-Round Review
+
+Status: complete.
+
+- **Execution scope:** approved. The round is limited to the immutable search
+  log, exact queries, execution context, candidate selection, exclusions,
+  access limitations, family coverage and stopping-rule position.
+- **Excluded-result provenance:** approved after correction. Each previously
+  aggregated Wikipedia, trade-press and arXiv result now has its own local
+  identifier, exact title and exact returned URL.
+- **Stopping-rule fidelity:** approved after correction. All ten families remain
+  incomplete; six lack a dedicated search and F-01, F-03, F-09 and F-10 have
+  initial coverage only.
+- **Reproducibility limits:** approved. Hidden provider, ranking, result counts,
+  complete result sets and execution identifier remain explicitly disclosed.
+- **Research boundary:** approved. No evidence registration or promotion,
+  appraisal, N-01–N-06 mapping, coverage classification, evidential direction,
+  confidence, claim assessment or Stage B work has entered the round.
+- **Independent decision:** approve PR #20.
+- **Required corrections:** none remaining.
+
+## Accountable decision
+
+Status: pending founder approval through PR #20.
