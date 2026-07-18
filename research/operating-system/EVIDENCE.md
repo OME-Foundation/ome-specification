@@ -12,9 +12,9 @@ alone is not an evidence assessment.
 | E-001 | Walsh and Ungson (1991), “Organizational Memory” | Peer-reviewed conceptual review | Registered | C-001 supporting; C-002 contextual | Seminal synthesis with a clear model; not direct evidence of the frequency or cost asserted by C-002. |
 | E-002 | Adjacent-disciplines review (2026) | Structured internal literature review | Registered | C-003 contextual; C-005 contextual | Uses primary and authoritative sources and records limitations; selective rather than systematic and not empirical validation. |
 | E-003 | Synthesis and gap analysis (2026) | Internal interpretive synthesis | Registered | C-003 contextual; C-005 contextual | Makes inheritance and uncertainty explicit; its gap conclusion remains an interpretation produced by this project. |
-| E-004 | Martin de Holan and Phillips (2004), “Remembrance of Things Past?” | Exploratory multiple-case study | Registered | C-002 contextual | Develops mechanisms and types of organisational forgetting from international-alliance cases; does not directly measure reconstruction work. |
+| E-004 | Martin de Holan and Phillips (2004), “Remembrance of Things Past?” | Exploratory multiple-case study | Registered | C-002 contextual | Develops four modes of organisational forgetting from seven Cuban hotel cases; observes reinforcement and degradation, not reconstruction of reasoning. |
 | E-005 | Easterby-Smith and Lyles (2011), “In Praise of Organizational Forgetting” | Critical conceptual review | Registered | C-002 contextual | Establishes beneficial forgetting as a required boundary and counterposition; not direct empirical conflict with reconstruction. |
-| E-006 | Kleiner, Nickelsburg and Pilarski (2012), “Organizational and Individual Learning and Forgetting” | Inside-firm empirical analysis | Registered | C-002 contextual | Reports that large forgetting effects can be overstated and simpler explanations fit at least as well; warns against using performance decay as a proxy for reasoning reconstruction. |
+| E-006 | Kleiner, Nickelsburg and Pilarski (2012), “Organizational and Individual Learning and Forgetting” | Aircraft-production model comparison | Registered | C-002 contextual | Finds production conditions can explain cost movements attributed to forgetting; neither reasoning retrieval nor reconstruction is measured. |
 | E-007 | Eckardt, Skaggs and Youndt (2014), “Turnover and Knowledge Loss” | Comparative empirical study | Registered | C-002 contextual | Examines differentiated turnover/knowledge-loss effects across service and manufacturing firms; turnover is a mechanism proxy, not direct reconstruction evidence. |
 | E-008 | Hong (2025), “When Does Employee Turnover Matter?” | Longitudinal panel analysis | Registered | C-002 contextual | Finds organisational structures buffer turnover-associated IT project delays; supports contingency and an adoption/structure alternative. |
 | E-009 | Lewis (2004), “Knowledge and Performance in Knowledge-Worker Teams” | Longitudinal team study | Registered | C-002 contextual | Links transactive-memory development with team performance and viability; does not directly observe lost reasoning or reconstruction. |
@@ -103,67 +103,78 @@ continue contributing to confidence.
 - **Full citation:** Pablo Martin de Holan and Nelson Phillips, “Remembrance of
   Things Past? The Dynamics of Organizational Forgetting,” *Management Science*
   50, no. 11 (2004): 1603–1613. https://doi.org/10.1287/mnsc.1040.0273
-- **Source provenance:** publisher record and abstract.
-- **Review status:** registered 2026-07-18; full-text and independent review
-  pending.
+- **Source provenance:** publisher record and author-uploaded publisher full
+  text; [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-004-E-006.md).
+- **Review status:** Research Lead full-text appraisal completed 2026-07-18;
+  independent review pending; lifecycle remains `Registered`.
 - **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
-- **Population or domain:** multiple cases of learning in international
-  strategic alliances.
-- **Method:** exploratory multiple-case study used to develop a theory and
-  typology of organisational forgetting.
+- **Population or domain:** seven Cuban hotels studied from 1995–1999: five
+  alliance hotels and two Cuban-owned baseline cases.
+- **Method:** exploratory multiple-case study using 78 interviews, 16 formal
+  visits, documents and observation to develop a theory and typology.
 - **Relevant finding:** organisations forget in different ways and for different
   reasons; forgetting is part of organisational knowledge dynamics.
-- **Limitations:** abstract-level registration; exploratory theory development;
-  does not directly measure reconstruction effort or consequences required by
-  C-002.
+- **Limitations:** theoretically selected hospitality cases in a distinctive
+  national context; interpretive theory development; does not isolate reasoning
+  retrieval or measure reconstruction effort.
 - **Claims:** contextual for C-002.
-- **Lifecycle history:** 2026-07-18 — Registered from Stage A search; full-text
-  and independent review pending.
+- **Lifecycle history:** 2026-07-18 — Registered from Stage A search. Research
+  Lead full-text appraisal completed 2026-07-18; independent review pending.
 
 ### E-005
 
 - **Full citation:** Mark Easterby-Smith and Marjorie A. Lyles, “In Praise of
   Organizational Forgetting,” *Journal of Management Inquiry* 20, no. 3 (2011):
   311–316. https://doi.org/10.1177/1056492611408508
-- **Source provenance:** publisher record and abstract.
-- **Review status:** registered 2026-07-18; full-text and independent review
-  pending.
+- **Source provenance:** publisher record and repository copy of the version of
+  record; [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-004-E-006.md).
+- **Review status:** Research Lead full-text appraisal completed 2026-07-18;
+  independent review pending; lifecycle remains `Registered`.
 - **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
 - **Population or domain:** organisational-learning and forgetting literature.
 - **Method:** conceptual review across cognitive, behavioural and social
   perspectives.
 - **Relevant finding:** forgetting can be beneficial in some circumstances and
   differs by perspective.
-- **Limitations:** conceptual rather than direct empirical evidence; cannot by
-  itself estimate benefits or disprove harmful reconstruction.
+- **Limitations:** argumentative rather than systematic review; illustrative
+  examples are not new empirical evidence; no reconstruction outcome is
+  defined or measured.
 - **Claims:** contextual for C-002 and a required boundary condition.
-- **Lifecycle history:** 2026-07-18 — Registered from disconfirming-first search;
-  full-text and independent review pending.
+- **Lifecycle history:** 2026-07-18 — Registered from disconfirming-first search.
+  Research Lead full-text appraisal completed 2026-07-18; independent review
+  pending.
 
 ### E-006
 
 - **Full citation:** Morris M. Kleiner, Jerry Nickelsburg and Adam M. Pilarski,
   “Organizational and Individual Learning and Forgetting,” *ILR Review* 65,
   no. 1 (2012): 68–81. https://doi.org/10.1177/001979391206500104
-- **Source provenance:** publisher record and abstract.
-- **Review status:** registered 2026-07-18; full-text and independent review
-  pending.
+- **Source provenance:** publisher metadata, JSTOR preview, indexed repository
+  text and authoritative Federal Reserve research summary;
+  [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-004-E-006.md).
+- **Review status:** partial Research Lead appraisal recorded 2026-07-18;
+  full-text acquisition and independent review pending; lifecycle remains
+  `Registered`.
 - **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
-- **Population or domain:** production processes studied using inside-the-firm
-  data.
-- **Method:** empirical analysis comparing forgetting interpretations with
-  alternative explanations.
+- **Population or domain:** MD-80 and L-1011 aircraft production; available
+  indexed text identifies 55 monthly MD-80 observations for 1984–1987 in the
+  simpler regression specification.
+- **Method:** comparison of learning/forgetting interpretations with production
+  models incorporating rate changes, parts shortages, strikes and grounded-
+  aircraft demands.
 - **Relevant finding:** forgetting by workers or production lines may be
   overstated; omitted variables and simpler explanations can produce apparent
   large forgetting rates.
-- **Limitations:** production-performance context is indirect for unavailable
-  reasoning and reconstruction work; appraisal awaits full text.
+- **Limitations:** proprietary aircraft-production context; cost and
+  productivity do not measure reasoning retrieval or reconstruction; full-text
+  acquisition remains incomplete.
 - **Claims:** contextual for C-002. The study establishes an alternative
   explanation and warns against an invalid proxy, but does not currently test
   unavailable reasoning or reconstruction work. Direction may be revised after
   full review.
 - **Lifecycle history:** 2026-07-18 — Registered as contextual
-  alternative-explanation evidence; full-text and independent review pending.
+  alternative-explanation evidence. Partial Research Lead appraisal recorded
+  2026-07-18; full-text acquisition and independent review pending.
 
 ### E-007
 
