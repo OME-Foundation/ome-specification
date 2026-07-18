@@ -9,7 +9,7 @@ claims are true. Priority reflects dependency and consequence, not enthusiasm.
 
 | ID | Investigation | Claims | Status | Priority | Expected decision |
 | --- | --- | --- | --- | --- | --- |
-| R-001 | Characterise consequential organisational reconstruction | C-002 | In progress | High | Assess C-002 under the decision rules and identify observable mechanisms. |
+| R-001 | Characterise consequential organisational reconstruction | C-002 | Frozen | High | Assess C-002 under the decision rules and identify observable mechanisms. |
 | R-002 | Test the claimed cross-lifecycle coverage gap | C-003, C-005 | In progress | High | Determine whether the gap is substantive, adoption-related or already addressed. |
 | R-003 | Specify the minimal integrated intervention | C-004 | Blocked | High | Produce a testable intervention only after R-001 and R-002 establish a target gap. |
 | R-004 | Define comparative outcomes and study design | C-004 | Blocked | High | Establish measures and comparison conditions without constructing a premature index. |
@@ -114,5 +114,7 @@ claims are true. Priority reflects dependency and consequence, not enthusiasm.
 - `Blocked`: a named dependency prevents responsible progress.
 - `In review`: outputs and evidence records are ready for critical review.
 - `Complete`: the stated research decision was made and outputs are linked.
+- `Frozen`: work has reached an approved stopping condition and may resume only
+  through its recorded reopening conditions.
 - `Cancelled`: stopped with a documented reason; motivating claims remain
   separately assessed.
