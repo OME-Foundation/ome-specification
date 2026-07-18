@@ -12,8 +12,8 @@ alone is not an evidence assessment.
 | E-001 | Walsh and Ungson (1991), “Organizational Memory” | Peer-reviewed conceptual review | Registered | C-001 supporting; C-002 contextual | Seminal synthesis with a clear model; not direct evidence of the frequency or cost asserted by C-002. |
 | E-002 | Adjacent-disciplines review (2026) | Structured internal literature review | Registered | C-003 contextual; C-005 contextual | Uses primary and authoritative sources and records limitations; selective rather than systematic and not empirical validation. |
 | E-003 | Synthesis and gap analysis (2026) | Internal interpretive synthesis | Registered | C-003 contextual; C-005 contextual | Makes inheritance and uncertainty explicit; its gap conclusion remains an interpretation produced by this project. |
-| E-004 | Martin de Holan and Phillips (2004), “Remembrance of Things Past?” | Exploratory multiple-case study | Registered | C-002 contextual | Develops four modes of organisational forgetting from seven Cuban hotel cases; observes reinforcement and degradation, not reconstruction of reasoning. |
-| E-005 | Easterby-Smith and Lyles (2011), “In Praise of Organizational Forgetting” | Critical conceptual review | Registered | C-002 contextual | Establishes beneficial forgetting as a required boundary and counterposition; not direct empirical conflict with reconstruction. |
+| E-004 | Martin de Holan and Phillips (2004), “Remembrance of Things Past?” | Exploratory multiple-case study | Reviewed | C-002 contextual | Develops four modes of organisational forgetting from seven Cuban hotel cases; observes reinforcement and degradation, not reconstruction of reasoning. |
+| E-005 | Easterby-Smith and Lyles (2011), “In Praise of Organizational Forgetting” | Critical conceptual review | Reviewed | C-002 contextual | Argues that forgetting may be beneficial under some conditions and therefore supplies a required boundary and counterposition; it does not empirically test reconstruction. |
 | E-006 | Kleiner, Nickelsburg and Pilarski (2012), “Organizational and Individual Learning and Forgetting” | Aircraft-production model comparison | Registered | C-002 contextual | Finds production conditions can explain cost movements attributed to forgetting; neither reasoning retrieval nor reconstruction is measured. |
 | E-007 | Eckardt, Skaggs and Youndt (2014), “Turnover and Knowledge Loss” | Comparative empirical study | Registered | C-002 contextual | Examines differentiated turnover/knowledge-loss effects across service and manufacturing firms; turnover is a mechanism proxy, not direct reconstruction evidence. |
 | E-008 | Hong (2025), “When Does Employee Turnover Matter?” | Longitudinal panel analysis | Registered | C-002 contextual | Finds organisational structures buffer turnover-associated IT project delays; supports contingency and an adoption/structure alternative. |
@@ -105,9 +105,10 @@ continue contributing to confidence.
   50, no. 11 (2004): 1603–1613. https://doi.org/10.1287/mnsc.1040.0273
 - **Source provenance:** publisher record and author-uploaded publisher full
   text; [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-004-E-006.md).
-- **Review status:** Research Lead full-text appraisal completed 2026-07-18;
-  independent review pending; lifecycle remains `Registered`.
-- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Review status:** Research Lead full-text appraisal and independent Evidence
+  Review completed 2026-07-18; lifecycle is `Reviewed`.
+- **Registered by:** Research Lead (Codex); independently reviewed by CTO acting
+  as Evidence Reviewer.
 - **Population or domain:** seven Cuban hotels studied from 1995–1999: five
   alliance hotels and two Cuban-owned baseline cases.
 - **Method:** exploratory multiple-case study using 78 interviews, 16 formal
@@ -118,8 +119,10 @@ continue contributing to confidence.
   national context; interpretive theory development; does not isolate reasoning
   retrieval or measure reconstruction effort.
 - **Claims:** contextual for C-002.
-- **Lifecycle history:** 2026-07-18 — Registered from Stage A search. Research
-  Lead full-text appraisal completed 2026-07-18; independent review pending.
+- **Lifecycle history:** 2026-07-18 — Registered from Stage A search; Research
+  Lead full-text appraisal completed; promoted to `Reviewed` after independent
+  Evidence Review confirmed registration accuracy, contextual direction and
+  C-002-relevant limitations.
 
 ### E-005
 
@@ -128,21 +131,24 @@ continue contributing to confidence.
   311–316. https://doi.org/10.1177/1056492611408508
 - **Source provenance:** publisher record and repository copy of the version of
   record; [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-004-E-006.md).
-- **Review status:** Research Lead full-text appraisal completed 2026-07-18;
-  independent review pending; lifecycle remains `Registered`.
-- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Review status:** Research Lead full-text appraisal and independent Evidence
+  Review completed 2026-07-18; lifecycle is `Reviewed`.
+- **Registered by:** Research Lead (Codex); independently reviewed by CTO acting
+  as Evidence Reviewer.
 - **Population or domain:** organisational-learning and forgetting literature.
 - **Method:** conceptual review across cognitive, behavioural and social
   perspectives.
-- **Relevant finding:** forgetting can be beneficial in some circumstances and
-  differs by perspective.
+- **Relevant finding:** the authors argue that forgetting may be beneficial
+  under some conditions; the paper supplies a boundary and counterposition
+  rather than empirical evidence of beneficial forgetting.
 - **Limitations:** argumentative rather than systematic review; illustrative
   examples are not new empirical evidence; no reconstruction outcome is
   defined or measured.
 - **Claims:** contextual for C-002 and a required boundary condition.
-- **Lifecycle history:** 2026-07-18 — Registered from disconfirming-first search.
-  Research Lead full-text appraisal completed 2026-07-18; independent review
-  pending.
+- **Lifecycle history:** 2026-07-18 — Registered from disconfirming-first search;
+  Research Lead full-text appraisal completed; promoted to `Reviewed` after the
+  independent Evidence Review confirmed contextual direction and required the
+  beneficial-forgetting claim to remain explicitly argumentative.
 
 ### E-006
 
@@ -155,7 +161,8 @@ continue contributing to confidence.
 - **Review status:** partial Research Lead appraisal recorded 2026-07-18;
   full-text acquisition and independent review pending; lifecycle remains
   `Registered`.
-- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Registered by:** Research Lead (Codex); provisional independent review by
+  CTO acting as Evidence Reviewer.
 - **Population or domain:** MD-80 and L-1011 aircraft production; available
   indexed text identifies 55 monthly MD-80 observations for 1984–1987 in the
   simpler regression specification.
@@ -173,8 +180,10 @@ continue contributing to confidence.
   unavailable reasoning or reconstruction work. Direction may be revised after
   full review.
 - **Lifecycle history:** 2026-07-18 — Registered as contextual
-  alternative-explanation evidence. Partial Research Lead appraisal recorded
-  2026-07-18; full-text acquisition and independent review pending.
+  alternative-explanation evidence. Partial Research Lead appraisal and
+  provisional independent Evidence Review recorded; full-text acquisition and
+  completed independent review remain pending, so lifecycle remains
+  `Registered`.
 
 ### E-007
 
