@@ -26,6 +26,11 @@ revising organisational reasoning across a delivery lifecycle.
 OME is presently an engineering synthesis and research programme investigating
 that question. It is not claimed as a proven new discipline.
 
+## Project orientation
+
+Read [PROJECT_STATE.md](PROJECT_STATE.md) for the current phase, completed work,
+active review, blockers, research questions and next decisions.
+
 ## Current research
 
 - [Adjacent-disciplines review](research/adjacent-disciplines/README.md)
