@@ -18,9 +18,9 @@ alone is not an evidence assessment.
 | E-007 | Eckardt, Skaggs and Youndt (2014), “Turnover and Knowledge Loss” | Cross-sectional multi-firm survey | Registered | C-002 contextual | Finds heterogeneous turnover–performance relationships and organisational-capital moderation; knowledge loss is a theorised mechanism, not an observed reconstruction outcome. |
 | E-008 | Hong (2025), “When Does Employee Turnover Matter?” | Longitudinal panel analysis | Registered | C-002 contextual | Finds authority and standardisation buffer turnover-associated IT-project delay; delay and structural proxies do not establish unavailable reasoning or reconstruction. |
 | E-009 | Lewis (2004), “Knowledge and Performance in Knowledge-Worker Teams” | Longitudinal team field study | Reviewed | C-002 contextual | Links transactive-memory development with performance and viability; studies current expertise location and integration, not lost prior reasoning or reconstruction. |
-| E-010 | van Heesch et al. (2012), “The Supportive Effect of Patterns in Architecture Decision Recovery” | Controlled experiment | Registered | C-002 contextual | Directly studies recovery of prior architectural decisions and rationale, but measures recovery quality and quantity rather than consequential organisational cost. |
-| E-011 | Roeller, Lago and van Vliet (2006), “Recovering Architectural Assumptions” | Method paper with worked applications | Registered | C-002 contextual | Describes undocumented assumptions becoming hidden and later rediscovered; it does not estimate prevalence, effort or consequence. |
-| E-012 | Werner et al. (2020), “The Lack of Shared Understanding of Non-Functional Requirements” | Mixed-method multiple-case study | Registered | C-002 contextual | Traces requirements-related rework to gaps in shared understanding, while distinguishing avoidable gaps from learning-cycle rework; prior reasoning availability and retrieval failure are not established. |
+| E-010 | van Heesch et al. (2012), “The Supportive Effect of Patterns in Architecture Decision Recovery” | Controlled experiment | Registered | C-002 contextual | Directly observes recovery and measures decision quality and quantity, but not organisational cost, delay, rework or operational consequence. |
+| E-011 | Roeller, Lago and van Vliet (2006), “Recovering Architectural Assumptions” | Method development with industrial case | Registered | C-002 contextual | Recovers implicit assumptions from one commercial product and uses them to assess change scenarios; recovery effort and consequence are not measured. |
+| E-012 | Werner et al. (2020), “The Lack of Shared Understanding of Non-Functional Requirements” | Mixed-method multiple-case study | Registered | C-002 contextual | Observes NFR-related rework and a beneficial-learning boundary, but does not establish prior reasoning availability followed by retrieval failure. |
 | E-013 | Szulanski (1996), “Exploring Internal Stickiness” | Multi-firm empirical study | Registered | C-002 contextual | Shows that knowledge may exist but remain difficult to transfer because of absorptive capacity, causal ambiguity and relationship factors; this is non-use or transfer difficulty, not demonstrated reconstruction. |
 | E-014 | Huang et al. (2018), “Organizational Forgetting, Absorptive Capacity, and Innovation Performance” | Cross-sectional firm survey | Registered | C-002 contextual | Reports a conditional positive association between organisational forgetting and innovation performance, establishing a beneficial-forgetting boundary rather than reconstruction. |
 | E-015 | Shore, Bernstein and Lazer (2015), “Facts and Figuring” | Laboratory network experiment | Registered | C-002 contextual | Shows that coordination reducing duplicated work can also reduce independent solution exploration; apparent redundancy or rediscovery may therefore have informational value. |
@@ -279,25 +279,27 @@ continue contributing to confidence.
   “The Supportive Effect of Patterns in Architecture Decision Recovery—A
   Controlled Experiment,” *Science of Computer Programming* 77, no. 5 (2012):
   551–576. https://doi.org/10.1016/j.scico.2011.11.008
-- **Source provenance:** publisher article record and abstract selected during
-  Stage A search round A-003.
-- **Review status:** registered 2026-07-18; full-text and independent review
-  pending.
+- **Source provenance:** publisher record, University of Groningen repository
+  record and indexed publisher full text selected during Stage A search round
+  A-003; [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-010-E-012.md).
+- **Review status:** Research Lead full-text appraisal completed 2026-07-18;
+  independent review pending; lifecycle remains `Registered`.
 - **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
-- **Population or domain:** industry and academic participants recovering
-  software architecture decisions after the fact.
+- **Population or domain:** 33 industry and academic software-engineering
+  participants recovering decisions from JBoss architecture documentation.
 - **Method:** controlled experiment testing whether architecture-pattern focus
   changes the quality and quantity of recovered decisions.
 - **Relevant finding:** pattern focus significantly increased recovery quality;
   the authors report no conclusive quantity effect. The study treats original
   architects’ absence or incomplete recall as obstacles to recovery.
-- **Limitations:** the abstract describes recovery as expensive but the reported
-  outcomes do not measure organisational cost, delay or rework. The task is
-  bounded to software architecture and does not establish prevalence.
+- **Limitations:** one experimental recovery target; original organisational
+  availability and participant-level loss are not observed; quality and quantity
+  do not measure organisational cost, delay, rework or operational consequence.
 - **Claims:** contextual for C-002. It directly observes reconstruction of prior
   decisions but does not establish the consequential outcome component.
 - **Lifecycle history:** 2026-07-18 — Registered from Stage A rationale-recovery
-  search; full-text and independent review pending.
+  search. Research Lead full-text appraisal completed 2026-07-18; independent
+  review pending.
 
 ### E-011
 
@@ -305,23 +307,26 @@ continue contributing to confidence.
   “Recovering Architectural
   Assumptions,” *Journal of Systems and Software* 79, no. 4 (2006): 552–573.
   https://doi.org/10.1016/j.jss.2005.10.017
-- **Source provenance:** publisher article record and abstract selected during
-  Stage A search round A-003.
-- **Review status:** registered 2026-07-18; full-text and independent review
-  pending.
+- **Source provenance:** publisher record and author-repository publisher PDF
+  selected during Stage A search round A-003;
+  [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-010-E-012.md).
+- **Review status:** Research Lead full-text appraisal completed 2026-07-18;
+  independent review pending; lifecycle remains `Registered`.
 - **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
-- **Population or domain:** software architecture assumptions and their
-  relationship to requirements and design decisions.
-- **Method:** recovery-method proposal illustrated through applications.
+- **Population or domain:** architectural assumptions in SalesPlus, a commercial
+  Java/J2EE product supporting e-commerce channels.
+- **Method:** RAAM method development and single industrial case using
+  interviews, documents, development records, version control and source code.
 - **Relevant finding:** reasons and assumptions may remain implicit and their
   architectural relationships may become hidden; they can be rediscovered when
   evolution invalidates or contradicts them.
-- **Limitations:** method and motivating account rather than a comparative
-  prevalence or consequence study; “rediscovered” does not itself demonstrate
-  consequential reconstruction work.
+- **Limitations:** one tailored industrial case with no comparator; recovery
+  depends on surviving experts and artifacts; completeness is unknowable; change
+  costs are discussed, but recovery effort and consequence are not measured.
 - **Claims:** contextual for C-002 and the rationale-loss mechanism.
 - **Lifecycle history:** 2026-07-18 — Registered from Stage A rationale-loss
-  search; full-text and independent review pending.
+  search. Research Lead full-text appraisal completed 2026-07-18; independent
+  review pending.
 
 ### E-012
 
@@ -331,24 +336,27 @@ continue contributing to confidence.
   International Requirements Engineering Conference* (2020): 90–101.
   https://doi.org/10.1109/RE48521.2020.00021
 - **Source provenance:** IEEE conference paper, author preprint and associated
-  dataset record selected during Stage A search round A-004.
-- **Review status:** registered 2026-07-18; full-text and independent review
-  pending.
+  dataset record selected during Stage A search round A-004;
+  [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-010-E-012.md).
+- **Review status:** Research Lead full-text appraisal completed 2026-07-18;
+  independent review pending; lifecycle remains `Registered`.
 - **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
 - **Population or domain:** three small organisations scaling continuous
   software engineering; 41 non-functional-requirements-related rework tasks.
-- **Method:** mixed-method multiple-case study using qualitative and immersive
-  techniques and task tracing.
+- **Method:** collaborative mixed-method multiple-case study using task tracing,
+  organisational context, focus groups, qualitative analysis, triangulation and
+  member checking.
 - **Relevant finding:** 78% of the 41 identified rework tasks were attributed to
   avoidable gaps in shared understanding; the study also treats some lack of
   shared understanding and rework as essential to rapid feedback and learning.
-- **Limitations:** shared understanding is not equivalent to retrievable prior
-  reasoning. The record does not establish that the missing intent had
-  previously been available and later became inaccessible.
+- **Limitations:** shared understanding is inferred through retrospectively
+  classified rework; no effort magnitude is reported; prior reasoning may never
+  have been shared and later retrieval failure is not established.
 - **Claims:** contextual for C-002; supplies a rework outcome and a beneficial
   learning-cycle boundary, but not the full causal chain.
 - **Lifecycle history:** 2026-07-18 — Registered from Stage A requirements and
-  rework search; full-text and independent review pending.
+  rework search. Research Lead full-text appraisal completed 2026-07-18;
+  independent review pending.
 
 ### E-013
 
