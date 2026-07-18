@@ -1541,8 +1541,34 @@ None recorded.
 
 ## CTO Independent Search-Round Review — Round 005
 
-Status: pending.
+Status: complete.
+
+- **Execution scope:** approved. Round 005 records exact web, OpenAlex and
+  Crossref searches for F-04 through F-07 and a controlled Semantic Scholar
+  retry without entering evidence appraisal or claim assessment.
+- **Provenance:** approved. The Semantic Scholar HTTP 429 timestamp and request
+  identifier are preserved, and projected API results have individual
+  dispositions rather than grouped exclusions.
+- **Candidate treatment:** approved. Thirteen retained candidates and deferred
+  leads remain triage records rather than Evidence Register entries.
+- **Diminishing-novelty fidelity:** approved. Rounds 004 and 005 satisfy only
+  the narrow two-consecutive-round novelty condition; the round does not claim
+  saturation or Stage A completion.
+- **Remaining blockers:** approved as explicit. Semantic Scholar access,
+  evidence modes, citation chaining for newly retained cornerstone candidates,
+  language/paywall/database gaps and reviewer agreement remain unresolved.
+- **Research boundary:** approved. No evidence registration or appraisal,
+  N-01–N-06 mapping, coverage level, evidential direction, confidence, claim
+  assessment, Stage A completion or Stage B authority has entered the round.
+- **Independent decision:** approve PR #24.
+- **Required corrections:** none.
 
 ## Accountable decision — Round 005
 
-Status: pending founder approval after independent review.
+Status: approved by the founder on 2026-07-18 through the merge decision for
+[PR #24](https://github.com/OME-Foundation/ome-specification/pull/24).
+
+The accountable decision accepts Search Round 005 as an execution and
+provenance record. It does not register or appraise evidence, classify an
+approach, change C-003 or C-005, assign confidence, declare Stage A complete or
+authorise Stage B.
