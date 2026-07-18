@@ -9,7 +9,7 @@ claims are true. Priority reflects dependency and consequence, not enthusiasm.
 
 | ID | Investigation | Claims | Status | Priority | Expected decision |
 | --- | --- | --- | --- | --- | --- |
-| R-001 | Characterise consequential organisational reconstruction | C-002 | Ready | High | Retain, narrow or reject C-002 and identify observable mechanisms. |
+| R-001 | Characterise consequential organisational reconstruction | C-002 | In progress | High | Retain, narrow or reject C-002 and identify observable mechanisms. |
 | R-002 | Test the claimed cross-lifecycle coverage gap | C-003, C-005 | Ready | High | Determine whether the gap is substantive, adoption-related or already addressed. |
 | R-003 | Specify the minimal integrated intervention | C-004 | Blocked | High | Produce a testable intervention only after R-001 and R-002 establish a target gap. |
 | R-004 | Define comparative outcomes and study design | C-004 | Blocked | High | Establish measures and comparison conditions without constructing a premature index. |
@@ -18,8 +18,9 @@ claims are true. Priority reflects dependency and consequence, not enthusiasm.
 
 ### R-001 — Characterise consequential organisational reconstruction
 
-- **Owner:** Unassigned.
-- **Started:** Not started.
+- **Owner:** Research Lead — repository execution agent (Codex).
+- **Started:** 2026-07-18; Stage A construct mapping.
+- **Roles and independence:** recorded in the [Stage A protocol](../programmes/R-001/STAGE_A_PROTOCOL.md).
 - **Programme design:** [R-001 research programme](../programmes/R-001.md).
 - **Question:** when, how and with what consequences do organisations
   reconstruct reasoning that was previously available but cannot be retrieved
