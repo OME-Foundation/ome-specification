@@ -18,9 +18,9 @@ alone is not an evidence assessment.
 | E-007 | Eckardt, Skaggs and Youndt (2014), “Turnover and Knowledge Loss” | Cross-sectional multi-firm survey | Registered | C-002 contextual | Finds heterogeneous turnover–performance relationships and organisational-capital moderation; knowledge loss is a theorised mechanism, not an observed reconstruction outcome. |
 | E-008 | Hong (2025), “When Does Employee Turnover Matter?” | Longitudinal panel analysis | Registered | C-002 contextual | Finds authority and standardisation buffer turnover-associated IT-project delay; delay and structural proxies do not establish unavailable reasoning or reconstruction. |
 | E-009 | Lewis (2004), “Knowledge and Performance in Knowledge-Worker Teams” | Longitudinal team field study | Reviewed | C-002 contextual | Links transactive-memory development with performance and viability; studies current expertise location and integration, not lost prior reasoning or reconstruction. |
-| E-010 | van Heesch et al. (2012), “The Supportive Effect of Patterns in Architecture Decision Recovery” | Controlled experiment | Registered | C-002 contextual | Directly observes recovery and measures decision quality and quantity, but not organisational cost, delay, rework or operational consequence. |
-| E-011 | Roeller, Lago and van Vliet (2006), “Recovering Architectural Assumptions” | Method development with industrial case | Registered | C-002 contextual | Recovers implicit assumptions from one commercial product and uses them to assess change scenarios; recovery effort and consequence are not measured. |
-| E-012 | Werner et al. (2020), “The Lack of Shared Understanding of Non-Functional Requirements” | Mixed-method multiple-case study | Registered | C-002 contextual | Observes NFR-related rework and a beneficial-learning boundary, but does not establish prior reasoning availability followed by retrieval failure. |
+| E-010 | van Heesch et al. (2012), “The Supportive Effect of Patterns in Architecture Decision Recovery” | Controlled experiment | Reviewed | C-002 contextual | Directly observes recovery and measures decision quality and quantity, but not organisational cost, delay, rework or operational consequence. |
+| E-011 | Roeller, Lago and van Vliet (2006), “Recovering Architectural Assumptions” | Method development with industrial case | Reviewed | C-002 contextual | Recovers implicit assumptions from one commercial product and uses them to assess change scenarios; recovery effort and consequence are not measured. |
+| E-012 | Werner et al. (2020), “The Lack of Shared Understanding of Non-Functional Requirements” | Mixed-method multiple-case study | Reviewed | C-002 contextual | Observes NFR-related rework and a beneficial-learning boundary, but does not establish prior reasoning availability followed by retrieval failure. |
 | E-013 | Szulanski (1996), “Exploring Internal Stickiness” | Multi-firm empirical study | Registered | C-002 contextual | Shows that knowledge may exist but remain difficult to transfer because of absorptive capacity, causal ambiguity and relationship factors; this is non-use or transfer difficulty, not demonstrated reconstruction. |
 | E-014 | Huang et al. (2018), “Organizational Forgetting, Absorptive Capacity, and Innovation Performance” | Cross-sectional firm survey | Registered | C-002 contextual | Reports a conditional positive association between organisational forgetting and innovation performance, establishing a beneficial-forgetting boundary rather than reconstruction. |
 | E-015 | Shore, Bernstein and Lazer (2015), “Facts and Figuring” | Laboratory network experiment | Registered | C-002 contextual | Shows that coordination reducing duplicated work can also reduce independent solution exploration; apparent redundancy or rediscovery may therefore have informational value. |
@@ -282,9 +282,10 @@ continue contributing to confidence.
 - **Source provenance:** publisher record, University of Groningen repository
   record and indexed publisher full text selected during Stage A search round
   A-003; [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-010-E-012.md).
-- **Review status:** Research Lead full-text appraisal completed 2026-07-18;
-  independent review pending; lifecycle remains `Registered`.
-- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Review status:** Research Lead full-text appraisal and independent Evidence
+  Review completed 2026-07-18; lifecycle is `Reviewed`.
+- **Registered by:** Research Lead (Codex); independently reviewed by CTO acting
+  as Evidence Reviewer.
 - **Population or domain:** 33 industry and academic software-engineering
   participants recovering decisions from JBoss architecture documentation.
 - **Method:** controlled experiment testing whether architecture-pattern focus
@@ -298,8 +299,9 @@ continue contributing to confidence.
 - **Claims:** contextual for C-002. It directly observes reconstruction of prior
   decisions but does not establish the consequential outcome component.
 - **Lifecycle history:** 2026-07-18 — Registered from Stage A rationale-recovery
-  search. Research Lead full-text appraisal completed 2026-07-18; independent
-  review pending.
+  search; Research Lead full-text appraisal completed; promoted to `Reviewed`
+  after independent Evidence Review confirmed accurate registration, contextual
+  direction and the absence of a measured consequential outcome.
 
 ### E-011
 
@@ -310,9 +312,10 @@ continue contributing to confidence.
 - **Source provenance:** publisher record and author-repository publisher PDF
   selected during Stage A search round A-003;
   [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-010-E-012.md).
-- **Review status:** Research Lead full-text appraisal completed 2026-07-18;
-  independent review pending; lifecycle remains `Registered`.
-- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Review status:** Research Lead full-text appraisal and independent Evidence
+  Review completed 2026-07-18; lifecycle is `Reviewed`.
+- **Registered by:** Research Lead (Codex); independently reviewed by CTO acting
+  as Evidence Reviewer.
 - **Population or domain:** architectural assumptions in SalesPlus, a commercial
   Java/J2EE product supporting e-commerce channels.
 - **Method:** RAAM method development and single industrial case using
@@ -325,8 +328,9 @@ continue contributing to confidence.
   costs are discussed, but recovery effort and consequence are not measured.
 - **Claims:** contextual for C-002 and the rationale-loss mechanism.
 - **Lifecycle history:** 2026-07-18 — Registered from Stage A rationale-loss
-  search. Research Lead full-text appraisal completed 2026-07-18; independent
-  review pending.
+  search; Research Lead full-text appraisal completed; promoted to `Reviewed`
+  after independent Evidence Review confirmed accurate registration, contextual
+  direction and unmeasured recovery effort and impact.
 
 ### E-012
 
@@ -338,9 +342,10 @@ continue contributing to confidence.
 - **Source provenance:** IEEE conference paper, author preprint and associated
   dataset record selected during Stage A search round A-004;
   [Research Lead appraisal](../programmes/R-001/evidence-reviews/E-010-E-012.md).
-- **Review status:** Research Lead full-text appraisal completed 2026-07-18;
-  independent review pending; lifecycle remains `Registered`.
-- **Registered by:** Research Lead (Codex); Evidence Reviewer pending.
+- **Review status:** Research Lead full-text appraisal and independent Evidence
+  Review completed 2026-07-18; lifecycle is `Reviewed`.
+- **Registered by:** Research Lead (Codex); independently reviewed by CTO acting
+  as Evidence Reviewer.
 - **Population or domain:** three small organisations scaling continuous
   software engineering; 41 non-functional-requirements-related rework tasks.
 - **Method:** collaborative mixed-method multiple-case study using task tracing,
@@ -355,8 +360,9 @@ continue contributing to confidence.
 - **Claims:** contextual for C-002; supplies a rework outcome and a beneficial
   learning-cycle boundary, but not the full causal chain.
 - **Lifecycle history:** 2026-07-18 — Registered from Stage A requirements and
-  rework search. Research Lead full-text appraisal completed 2026-07-18;
-  independent review pending.
+  rework search; Research Lead full-text appraisal completed; promoted to
+  `Reviewed` after independent Evidence Review confirmed accurate registration,
+  contextual direction and the missing prior-availability/retrieval sequence.
 
 ### E-013
 
