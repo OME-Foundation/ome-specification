@@ -21,6 +21,8 @@ and becomes accepted only if that change is reviewed and merged.
 | Claim classification | Claims use six classes: Established, Synthesis, Hypothesis, Principle, Novel proposal and Open question. | Accepted | [`research/CLAIM_CLASSIFICATION.md`](research/CLAIM_CLASSIFICATION.md) |
 | OME positioning | OME is currently an engineering synthesis and research programme, not a proven new discipline. | Accepted | [`README.md`](README.md) and [synthesis](research/adjacent-disciplines/synthesis-and-gap-analysis.md) |
 | Phase 1 research records | Claims, evidence and research items use stable related identifiers and explicit decision rules. | Accepted | [Research operating system](research/operating-system/README.md) |
+| Research conduct | OME research actively seeks disconfirmation, preserves negative results, separates observation from interpretation and scopes every claim. | Accepted | [Research conduct guidelines](research/RESEARCH_GUIDELINES.md) |
+| Research roles | Material claim decisions separate research leadership, evidence review, architecture review and accountable approval, with overlaps disclosed. | Accepted | [Research programme roles](research/ROLES.md) |
 | Canon development | No RFC or OME specification is accepted; problem evidence precedes canon drafting. | Accepted | [`README.md`](README.md) and research basis in the [synthesis](research/adjacent-disciplines/synthesis-and-gap-analysis.md) |
 
 ## ADR status
