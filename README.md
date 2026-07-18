@@ -31,6 +31,9 @@ that question. It is not claimed as a proven new discipline.
 Read [PROJECT_STATE.md](PROJECT_STATE.md) for the current phase, completed work,
 active review, blockers, research questions and next decisions.
 
+Read [ARCHITECTURE_DECISIONS.md](ARCHITECTURE_DECISIONS.md) for the living index
+of accepted and proposed architecture and governance decisions.
+
 ## Current research
 
 - [Adjacent-disciplines review](research/adjacent-disciplines/README.md)

@@ -16,15 +16,22 @@ Product architecture, commercial strategy, customer information, security,
 implementation roadmaps and private delivery work belong in the private company
 repository, which should maintain its own project-state record.
 
-When records disagree, use this precedence:
+AI agents and individual contributors are deliberately replaceable. A new human
+or agent should become productive from the repositories and open review state
+without access to hidden assistant memory or prior private conversation.
 
-1. merged repository content and Git history;
-2. accepted decisions and reviewed research records;
-3. this project-state summary;
-4. project-chat discussion;
-5. human or AI memory.
+When sources disagree, use this precedence:
 
-Unmerged pull requests are proposals, not current repository policy.
+1. **Merged repository content and Git history (canonical):** research, accepted
+   decisions, governance, specifications and this project-state summary.
+2. **Open pull requests (proposed):** changes, review discussion and unresolved
+   objections; never current policy until merged.
+3. **Project chat (working context):** active discussion, brainstorming, debate
+   and uncommitted ideas.
+4. **Human or assistant memory (non-authoritative):** behavioural preferences
+   and orientation hints only.
+
+Nothing architectural or governance-critical should live exclusively in memory.
 
 ## Current position
 
@@ -38,6 +45,18 @@ Unmerged pull requests are proposals, not current repository policy.
   not a proven new discipline.
 - **Default quality rule:** no concept enters canon until its relationship to
   adjacent disciplines and its material evidence are reviewable.
+
+## Current work cycle
+
+The project is not currently operating a time-boxed sprint. The active review
+cycle contains two independent draft proposals:
+
+- [PR #1](https://github.com/OME-Foundation/ome-specification/pull/1): Phase 1
+  research operating system;
+- [PR #2](https://github.com/OME-Foundation/ome-specification/pull/2): public
+  project orientation and decision index.
+
+Neither proposal is accepted until reviewed and merged.
 
 ## Complete
 
@@ -93,6 +112,42 @@ active work.
 5. Which observable outcomes could test that intervention without collapsing
    distinct properties into a premature index?
 
+## Accepted and open RFCs
+
+- **Accepted RFCs:** none.
+- **Open RFCs:** none.
+- **Planned but not drafted:** `RFC-0000 — The Problem OME Addresses`, blocked
+  until the material problem claims have adequate evidence.
+
+## Current risks
+
+- **Confirmation bias:** Phase 1 could search for evidence that justifies OME
+  rather than testing whether a material gap exists.
+- **Self-citation:** internal reviews could be mistaken for independent support.
+- **Premature canonisation:** research framing or operating rules could be
+  presented as settled OME doctrine.
+- **Terminology drift:** provisional labels could acquire authority through
+  repetition before their distinction is defended.
+- **State drift:** this summary could become stale or contradict authoritative
+  records if updates are not part of material changes.
+- **Boundary leakage:** public research work could accidentally include private
+  company, customer, security or implementation information.
+
+## Architectural and governance concerns
+
+- The claim/evidence/backlog model in PR #1 must remain usable enough that
+  researchers do not bypass it or complete fields mechanically.
+- Confidence language must communicate structured judgement without becoming a
+  disguised numerical score.
+- Project-state automation is premature until authoritative record types and
+  relationships are stable.
+- The repository must permit a new contributor or replacement agent to recover
+  context without project chat, while retaining links to review rationale where
+  useful.
+
+See the [architecture and governance decision index](ARCHITECTURE_DECISIONS.md)
+for the current decisions and their source records.
+
 ## Decisions changed during the latest milestone
 
 - **Repository contents:** historical founding drafts were removed from public
@@ -122,6 +177,16 @@ active work.
    - characterise consequential organisational reconstruction;
    - test the claimed cross-lifecycle coverage gap.
 4. Update this file when those decisions change the merged state.
+
+## Repository health
+
+- **Default branch:** `main`.
+- **Published milestone:** `1f8febb` — adjacent-disciplines research checkpoint.
+- **Open draft PRs:** two (`#1` and `#2`).
+- **Accepted canon:** none.
+- **Known broken local links:** none at this review.
+- **Private/incubation artifacts tracked publicly:** none known.
+- **Automated state generation:** not implemented; deliberately deferred.
 
 ## Update discipline
 
