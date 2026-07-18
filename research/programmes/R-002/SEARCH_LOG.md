@@ -276,6 +276,9 @@ approach, change C-003 or C-005, assign confidence or authorise Stage B.
   semantic or graph-based lifecycle integration; begin required citation-
   chaining attempts for Round 001 MBSE candidates.
 - **Mandatory families targeted:** F-04, F-05, F-06 and F-07.
+- **Meaning of targeted:** this round intentionally executed discovery for
+  these families. Targeting does not indicate that any family's Stage A
+  stopping conditions have been satisfied.
 - **Secondary families touched:** F-01 and F-08 through digital-thread and
   operational-feedback vocabulary.
 - **Public/private boundary:** public-source discovery only; no ContextBridge,
