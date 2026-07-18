@@ -1209,8 +1209,37 @@ None recorded.
 
 ## CTO Independent Search-Round Review — Round 004
 
-Status: pending.
+Status: complete.
+
+- **Execution scope:** approved. Round 004 records four exact web searches, a
+  distinct Semantic Scholar route, exact Crossref metadata checks and
+  completion of the outstanding OpenAlex chain without entering evidence
+  appraisal or claim assessment.
+- **Route failures and mismatches:** approved. Three Semantic Scholar HTTP 429
+  responses and the Crossref false-positive title match remain explicit rather
+  than being represented as completed or verified discovery.
+- **Citation chaining:** approved. Both current OpenAlex seed chains are
+  complete for the recorded graph snapshot without implying universal citation
+  completeness.
+- **Candidate provenance:** approved. Eleven retained candidates remain triage
+  records rather than Evidence Register entries.
+- **Diminishing-returns fidelity:** approved. Round 004 is only the first round
+  meeting the narrow no-new-family-or-dimension condition; it does not establish
+  saturation or satisfy the two-round stopping rule.
+- **Stopping-rule fidelity:** approved. All ten families remain incomplete.
+- **Research boundary:** approved. No evidence registration or appraisal,
+  N-01–N-06 mapping, coverage level, evidential direction, confidence, claim
+  assessment, Stage A stopping declaration or Stage B authority has entered
+  the round.
+- **Independent decision:** approve PR #23.
+- **Required corrections:** none.
 
 ## Accountable decision — Round 004
 
-Status: pending founder approval after independent review.
+Status: approved by the founder on 2026-07-18 through the merge decision for
+[PR #23](https://github.com/OME-Foundation/ome-specification/pull/23).
+
+The accountable decision accepts Search Round 004 as an execution and
+provenance record. It does not register or appraise evidence, classify an
+approach, change C-003 or C-005, assign confidence, declare Stage A complete or
+authorise Stage B.
