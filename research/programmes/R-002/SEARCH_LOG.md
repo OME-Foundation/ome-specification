@@ -1,7 +1,8 @@
 # R-002 Stage A search log
 
-Status: Stage A started; Search Round 001 recorded. Candidate selection only—no
-evidence registration, appraisal, coverage classification or claim assessment.
+Status: Stage A in progress; Search Rounds 001 and 002 recorded. Candidate
+selection only—no evidence registration, appraisal, coverage classification or
+claim assessment.
 
 This is the immutable execution log required by the approved
 [search strategy](SEARCH_STRATEGY.md) and interpreted only through the approved
@@ -260,5 +261,334 @@ Status: approved by the founder on 2026-07-18 through the merge decision for
 [PR #20](https://github.com/OME-Foundation/ome-specification/pull/20).
 
 The accountable decision accepts Search Round 001 as an execution and
+provenance record. It does not register or appraise evidence, classify an
+approach, change C-003 or C-005, assign confidence or authorise Stage B.
+
+## Search Round 002
+
+### Round record
+
+- **Round ID:** R2-A-002.
+- **Execution date:** 2026-07-18.
+- **Research Lead:** repository execution agent (Codex).
+- **Purpose:** extend dedicated discovery into traceability, decision and
+  rationale provenance, organisational memory and knowledge management, and
+  semantic or graph-based lifecycle integration; begin required citation-
+  chaining attempts for Round 001 MBSE candidates.
+- **Mandatory families targeted:** F-04, F-05, F-06 and F-07.
+- **Meaning of targeted:** this round intentionally executed discovery for
+  these families. Targeting does not indicate that any family's Stage A
+  stopping conditions have been satisfied.
+- **Secondary families touched:** F-01 and F-08 through digital-thread and
+  operational-feedback vocabulary.
+- **Public/private boundary:** public-source discovery only; no ContextBridge,
+  customer, commercial or private product information used.
+
+### Search invocation
+
+- **Interface:** OpenAI web-search tool exposed to the Codex desktop research
+  agent as `web.run`, using its `search_query` operation.
+- **Invocation shape:** four queries submitted in one invocation with
+  `response_length: long`.
+- **Filters:** no recency, domain or language filter supplied.
+- **Locale:** no explicit locale supplied.
+- **Date range:** none supplied.
+- **Sort order:** not exposed.
+- **Result limit:** not exposed.
+- **Result counts:** not exposed by query.
+- **Underlying provider and ranking configuration:** not exposed.
+- **Complete ranked result sets:** not exposed or captured; the returned tool
+  output was truncated.
+- **Execution identifier:** no durable tool-run identifier was exposed.
+
+The exact inputs and selected durable links are recorded. The returned result
+set and ordering are not reproducible from this record.
+
+### Exact queries
+
+1. `requirements traceability operational feedback learning decision rationale empirical lifecycle primary study`
+2. `decision provenance architecture rationale implementation operation lessons learned primary study`
+3. `organizational memory knowledge management engineering lifecycle decisions operations learning empirical`
+4. `engineering knowledge graph semantic digital thread lifecycle traceability operational feedback case study`
+
+### Query intent
+
+| Query | Primary purpose | Strategy families |
+| --- | --- | --- |
+| 1 | Seek traceability that connects requirements or intent to operation and learning rather than development artifacts alone. | F-04, F-08 |
+| 2 | Seek decision, rationale and provenance mechanisms spanning design-time and run-time effects. | F-05 |
+| 3 | Seek organisational-memory and knowledge-management practice connected to engineering lifecycles and decisions. | F-06 |
+| 4 | Seek semantic knowledge-graph or digital-thread practice with operational feedback and an inspectable case. | F-07, F-01 |
+
+## Round 002 retained candidates
+
+Retention is triage only. No candidate has been appraised, mapped to N-01
+through N-06, assigned a coverage level or registered as evidence.
+
+### R2-CAND-005
+
+- **Title:** *Standards-Based Digital Thread as Authoritative Source of Truth*.
+- **Authors visible during triage:** Chris C. Gorringe, Eric Gould and Ion Neag.
+- **Publication lead:** IEEE Systems Council paper page.
+- **Stable URL:** https://ieeesystemscouncil.org/media/standards-based-digital-thread-authoritative-source-truth
+- **Discovery query:** 4.
+- **Candidate family:** F-01/F-04/F-07; standards-based digital-thread case.
+- **Selection reason:** the returned abstract describes integration of product,
+  test, diagnostic and sustainment engineering and traceability from
+  engineering databases into test results and diagnostic reasoning.
+- **Triage limit:** publication identity, case method, maintenance, governance
+  and organisational use require primary-source inspection.
+
+### R2-CAND-006
+
+- **Title:** *Improving the Organisational Memory by recording decision making,
+  rationale and team configuration*.
+- **Authors visible during triage:** Matías Alvarado, René Bañares-Alcántara and
+  Alfredo Trujillo.
+- **Publication lead:** *Journal of Petroleum Science and Engineering*, 2005.
+- **Durable identifier:** https://doi.org/10.1016/j.petrol.2004.11.009
+- **Discovery query:** 3.
+- **Candidate family:** F-05/F-06; organisational memory with decision rationale
+  and evolving workflow.
+- **Selection reason:** the returned primary record describes an organisational-
+  memory architecture representing workflow, participant profiles, decision
+  rationale and reuse for planning, decisions and process optimisation.
+- **Triage limit:** the result describes an architecture and intended
+  deployment; implementation, maintained use and outcomes are unverified.
+
+### R2-CAND-007
+
+- **Title:** *Decision Provenance: Harnessing data flow for accountable
+  systems*.
+- **Authors visible during triage:** Jatinder Singh, Jennifer Cobbe and Chris
+  Norval.
+- **Stable identifier:** https://arxiv.org/abs/1804.05741
+- **Discovery query:** 2.
+- **Candidate family:** F-05; decision-provenance definition and proposed
+  accountability mechanism.
+- **Selection reason:** the returned record defines provenance across design-
+  time and run-time decision pipelines and their flow-on effects.
+- **Triage limit:** the record appears conceptual; implementation and lifecycle
+  breadth require appraisal against the primary publication.
+
+### R2-CAND-008
+
+- **Title:** *A closed-loop design approach based on the combination of
+  knowledge graph and digital twin: a high-speed train bogie case study*.
+- **Publication lead:** *Advanced Engineering Informatics*, 2026.
+- **Durable identifier:** https://doi.org/10.1016/j.aei.2025.103912
+- **Discovery query:** 4.
+- **Candidate family:** F-07/F-09; knowledge-graph and digital-twin composition.
+- **Selection reason:** the primary abstract describes closed-loop lifecycle
+  feedback, semantic association and dynamic updating in a bounded engineering
+  case.
+- **Triage limit:** decision reasoning, governance, maintained use and outcomes
+  have not been inspected.
+
+### R2-CAND-009
+
+- **Title:** *An Extended Knowledge Management Framework During the Software
+  Development Life Cycle*.
+- **Authors visible during triage:** Ali A. Alawneh, Ezz Hattab and Walid
+  Al-Ahmad.
+- **Publication lead:** *International Journal of Information Technology and
+  Management Review*, 2008.
+- **Durable identifier:** https://doi.org/10.2991/itmr.2008.1.2.4
+- **Discovery query:** 3.
+- **Candidate family:** F-06; proposed composition of knowledge-management and
+  software-development lifecycles.
+- **Selection reason:** the returned publisher record describes a framework
+  integrating five knowledge types, five software-development phases and the
+  knowledge-management lifecycle.
+- **Triage limit:** the framework's relationship semantics, evidence basis,
+  operation and learning coverage require appraisal.
+
+### R2-CAND-010
+
+- **Title:** *Architecture Decision Records in Practice: An Action Research
+  Study*.
+- **Publication lead:** ECSA 2024, LNCS 14889.
+- **Durable identifier:** https://doi.org/10.1007/978-3-031-70797-1_22
+- **Discovery query:** 2.
+- **Candidate family:** F-05/F-10; implemented rationale practice, adoption and
+  burden lead.
+- **Selection reason:** the returned institutional record describes a three-
+  month action-research study of ADR adoption, documentation culture,
+  knowledge transfer, repository placement and distributed-system limits.
+- **Triage limit:** it may remain a bounded decision-record practice rather
+  than cross-lifecycle integration; full appraisal is required.
+
+### R2-CAND-011
+
+- **Title:** *Knowledge Management in Software Engineering: A Systematic Review
+  of Studied Concepts, Findings and Research Methods Used*.
+- **Stable identifier:** https://arxiv.org/abs/1811.12278
+- **Discovery query:** 3.
+- **Candidate family:** F-06; review and vocabulary source.
+- **Selection reason:** the returned record identifies empirical studies of
+  knowledge-management initiatives in software engineering and may locate
+  stronger primary candidates.
+- **Triage limit:** primary publication identity, review method and included
+  studies require verification before use or citation chaining.
+
+### R2-CAND-012
+
+- **Title:** *Linking knowledge management, organizational learning and
+  memory*.
+- **Publication lead:** *Journal of Innovation & Knowledge*, 2020.
+- **Durable identifier:** https://doi.org/10.1016/j.jik.2019.04.002
+- **Discovery query:** 3.
+- **Candidate family:** F-06; systematic conceptual synthesis.
+- **Selection reason:** the returned open primary record reports a literature
+  review linking knowledge management, organisational learning and memory.
+- **Triage limit:** the result may establish vocabulary and adjacency rather
+  than engineering lifecycle integration.
+
+## Round 002 deferred leads
+
+| ID | Lead | Exact URL | Reason deferred |
+| --- | --- | --- | --- |
+| R2-DEF-005 | *Using LLMs in Generating Design Rationale for Software Architecture Decisions* | https://doi.org/10.1145/3785010 | Recent direct rationale-generation study, but the query result does not establish cross-lifecycle use; revisit in F-05 appraisal discovery. |
+| R2-DEF-006 | *Implementation feedback of the IVOA Provenance data model* | https://arxiv.org/abs/2007.08615 | Implementation and burden lead for dataset provenance, but its astronomy-data scope is narrower than the selected organisational lifecycle unit. |
+| R2-DEF-007 | *Organizational Learning, Knowledge Management Practices and Firm's Performance: An Empirical Study of a Heavy Engineering Firm in India* | https://eric.ed.gov/?id=EJ1054354 | Empirical organisational-learning lead in engineering, but the returned record does not connect its measures to lifecycle relationships. |
+| R2-DEF-008 | *Mapping knowledge management and organizational learning in support of organizational memory* | https://www.sciencedirect.com/science/article/abs/pii/S0925527309001765 | Case-based organisational-memory lead; durable publication identity and exact relevance require inspection. |
+| R2-DEF-009 | *Building a Manufacturing Digital Thread using Graph and Generative AI on AWS* | https://aws.amazon.com/blogs/industries/building-a-manufacturing-digital-thread-using-graph-and-generative-ai-on-aws/ | Concrete graph implementation lead, but vendor-authored and not independent evidence of sufficiency or outcomes. |
+| R2-DEF-010 | *Enabling Connections in the Product Lifecycle* | https://vtechworks.lib.vt.edu/bitstream/handle/10919/85627/Hedberg_TD_D_2018.pdf | Potential primary digital-thread dissertation surfaced through query 4; metadata, scope and stable repository record require verification. |
+
+## Round 002 excluded results
+
+Each returned item is preserved individually. Exclusion is from this round's
+candidate set, not a source-quality judgement.
+
+| ID | Result | Exact URL | Exclusion reason |
+| --- | --- | --- | --- |
+| R2-EXC-013 | *Digital Thread Knowledge Graphs* | https://www.envisioning.com/research/quadrant/digital-thread-graph | Trend and market description without an inspectable primary implementation study. |
+| R2-EXC-014 | *Semantics-First Digital Thread: Linking Requirements, Models, and Tests for Traceable Engineering* | https://novedge.com/blogs/design-news/semantics-first-digital-thread-linking-requirements-models-and-tests-for-traceable-engineering | Commercial blog post making broad lifecycle claims without independent evidence. |
+| R2-EXC-015 | *Organizational memory* | https://en.wikipedia.org/wiki/Organizational_memory | Wikipedia discovery summary; direct primary and authoritative sources are searchable. |
+| R2-EXC-016 | *Digital thread* | https://en.wikipedia.org/wiki/Digital_thread | Wikipedia discovery summary; direct standards and primary research are searchable. |
+| R2-EXC-017 | *Corporate amnesia* | https://en.wikipedia.org/wiki/Corporate_amnesia | Wikipedia discovery summary and not a selected engineering-lifecycle unit. |
+| R2-EXC-018 | *Federated digital thread* | https://en.wikipedia.org/wiki/Federated_digital_thread | Wikipedia discovery summary; search primary standards and implementation reports directly. |
+| R2-EXC-019 | *Organizational learning* | https://en.wikipedia.org/wiki/Organizational_learning | Wikipedia discovery summary; primary organisational-learning sources are searchable. |
+| R2-EXC-020 | *Architectural decision* | https://en.wikipedia.org/wiki/Architectural_decision | Wikipedia discovery summary; direct architecture-decision research is searchable. |
+| R2-EXC-021 | *A New Model for the Organizational Knowledge Life Cycle* | https://arxiv.org/abs/0705.1084 | Abstract-level theoretical graph model did not provide a sufficiently close engineering lifecycle unit for this round; no inference was drawn. |
+
+## Round 002 access and reproducibility limitations
+
+- The search interface did not expose per-query result counts, ranking,
+  underlying provider, complete result sets or a durable execution identifier.
+- The returned search output was truncated, so this log cannot represent the
+  complete visible result set.
+- Publisher or full-text access was not tested for every candidate.
+- Several primary records were discoverable only through repositories or
+  institutional metadata during triage.
+- Search-engine result text supports candidate selection only, not appraisal.
+- No claim is made that retained candidates are the strongest versions of their
+  families.
+
+## Citation-chaining attempts
+
+Citation chaining was attempted but not completed.
+
+### R2-CHAIN-001 — R2-CAND-001
+
+- **Seed DOI:** https://doi.org/10.1002/j.2334-5837.2018.00514.x
+- **Forward/backward graph interface attempted:** OpenAlex Works API.
+- **Exact endpoints attempted:**
+  - `https://api.openalex.org/works/https://doi.org/10.1002/j.2334-5837.2018.00514.x`
+  - `https://api.openalex.org/works/doi:10.1002/j.2334-5837.2018.00514.x`
+- **Outcome:** the browsing interface rejected both URL forms as unsafe before
+  an OpenAlex response was retrieved.
+- **Fallback attempted:** the accessible ResearchGate publication record's
+  `Citations (11)` and `References (18)` links.
+- **Fallback outcome:** both link fetches failed with a cache miss; no citing or
+  referenced source was selected.
+- **Status:** incomplete; future independent citation route required.
+
+### R2-CHAIN-002 — R2-CAND-002
+
+- **Seed DOI:** https://doi.org/10.1002/sys.21592
+- **Forward/backward graph interface attempted:** OpenAlex Works API.
+- **Exact endpoints attempted:**
+  - `https://api.openalex.org/works/https://doi.org/10.1002/sys.21592`
+  - `https://api.openalex.org/works/doi:10.1002/sys.21592`
+- **Outcome:** the browsing interface rejected both URL forms as unsafe before
+  an OpenAlex response was retrieved.
+- **Status:** incomplete; future independent citation route required.
+
+No citation-chaining candidate was retained or excluded. Failed interface
+access is not counted as satisfying the stopping rule.
+
+## Family coverage after Round 002
+
+| Family | Cumulative state | Note |
+| --- | --- | --- |
+| F-01 — Named cross-lifecycle approaches | Initial coverage only | Digital-thread candidate added; independent discovery route and evidence modes remain incomplete. |
+| F-02 — Enterprise architecture and governance | Touched, not yet dedicated | Round 001 EA-to-MBSE lead remains; dedicated governance search required. |
+| F-03 — Systems engineering, MBSE and lifecycle management | Initial coverage only | Citation chaining attempted for two candidates but not completed. |
+| F-04 — Traceability and impact analysis | Initial coverage only | Dedicated query executed; no candidate is classified as full lifecycle coverage. |
+| F-05 — Decisions, rationale and provenance | Initial coverage only | Decision-provenance, organisational-memory rationale and ADR candidates retained. |
+| F-06 — Organisational memory and knowledge management | Initial coverage only | Framework and review candidates retained; no appraisal performed. |
+| F-07 — Semantic and graph-based integration | Initial coverage only | Digital-thread and closed-loop graph candidates retained; no appraisal performed. |
+| F-08 — DevOps, SRE and operational learning | Touched, not yet dedicated | Operational-feedback vocabulary used; dedicated search required. |
+| F-09 — Deliberate compositions | Initial coverage only | Knowledge-graph/digital-twin candidate added; no composition mapped. |
+| F-10 — Adoption, burden and harmful integration | Initial coverage only | ADR adoption and earlier MBSE adoption leads retained; evidence modes remain incomplete. |
+
+## Round 002 stopping-rule position
+
+All ten families remain incomplete against the Stage A stopping rules. F-02 and
+F-08 have not received dedicated searches. The other eight have initial
+coverage only and still require independent discovery routes and the required
+searches for sufficient practice, implemented use, limitations and competing
+explanations. Citation chaining was attempted but not completed, no two-round
+diminishing-return test is satisfied and the Evidence Reviewer has not reviewed
+search completeness.
+
+## Round 002 boundary
+
+Search Round 002 adds execution and source-selection provenance only. It does
+not:
+
+- register or appraise evidence;
+- map a candidate to N-01 through N-06;
+- assign a coverage level or evidential direction;
+- change C-003 or C-005;
+- assign confidence or disposition;
+- complete a citation chain or stopping rule;
+- authorise Stage B; or
+- introduce OME terminology, canon or product material.
+
+## Round 002 corrections
+
+None recorded.
+
+## CTO Independent Search-Round Review — Round 002
+
+Status: complete.
+
+- **Execution scope:** approved. Round 002 appends search execution,
+  source-selection provenance, access limitations, family coverage and
+  stopping-rule state without entering evidence appraisal or claim assessment.
+- **Family targeting:** approved after clarification. `Targeted` records that a
+  round intentionally searched a family; it does not imply that the family's
+  Stage A stopping conditions are satisfied.
+- **Candidate provenance:** approved. Retained, deferred and excluded records
+  remain individually identified and separate from Evidence Register records.
+- **Citation chaining:** approved. Failed OpenAlex and publication-record
+  attempts are preserved without being represented as completed chains.
+- **Stopping-rule fidelity:** approved. All ten families remain incomplete,
+  with F-02 and F-08 lacking dedicated searches and the other eight at initial
+  coverage only.
+- **Research boundary:** approved. No evidence registration or appraisal,
+  N-01–N-06 mapping, coverage level, evidential direction, confidence, claim
+  assessment or Stage B authority has entered the round.
+- **Independent decision:** approve PR #21.
+- **Required corrections:** none remaining.
+
+## Accountable decision — Round 002
+
+Status: approved by the founder on 2026-07-18 through the merge decision for
+[PR #21](https://github.com/OME-Foundation/ome-specification/pull/21).
+
+The accountable decision accepts Search Round 002 as an execution and
 provenance record. It does not register or appraise evidence, classify an
 approach, change C-003 or C-005, assign confidence or authorise Stage B.
