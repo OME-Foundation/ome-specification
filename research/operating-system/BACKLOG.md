@@ -20,6 +20,7 @@ claims are true. Priority reflects dependency and consequence, not enthusiasm.
 
 - **Owner:** Unassigned.
 - **Started:** Not started.
+- **Programme design:** [R-001 research programme](../programmes/R-001.md).
 - **Question:** when, how and with what consequences do organisations
   reconstruct reasoning that was previously available but cannot be retrieved
   or applied?
@@ -28,8 +29,8 @@ claims are true. Priority reflects dependency and consequence, not enthusiasm.
 - **Scope:** begin with knowledge-intensive delivery and change work; distinguish
   forgetting, inaccessible knowledge, invalid knowledge, staff turnover,
   deliberate rediscovery and ordinary discovery of something never known.
-- **Method:** targeted literature review followed by an explicit decision on
-  whether field interviews or observational studies are justified. Search for
+- **Method:** staged construct mapping and focused evidence review followed by
+  an explicit gate on whether field research is justified. Search for
   counterexamples and alternative causal explanations.
 - **Outputs:** construct definition, mechanism map, evidence records, boundary
   conditions and revised assessment of C-002.

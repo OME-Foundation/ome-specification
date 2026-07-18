@@ -45,7 +45,9 @@ Authoritative sources:
 
 ## Active work
 
-No research investigation is currently in progress. The first ready items are:
+The R-001 programme design is
+[in review through PR #3](https://github.com/OME-Foundation/ome-specification/pull/3);
+evidence collection has not started. The first ready investigations remain:
 
 - `R-001` — characterise consequential organisational reconstruction;
 - `R-002` — test the claimed cross-lifecycle coverage gap.
@@ -75,9 +77,9 @@ methods, dependencies and completion evidence.
 
 ## Next decisions
 
-1. Assign and start `R-001` and `R-002` with explicit owners and review dates.
-2. Decide whether their searches can proceed independently without duplicating
-   evidence or biasing one another.
+1. Assign the required R-001 roles before evidence collection begins.
+2. Decide whether `R-001` and `R-002` can proceed independently without
+   duplicating evidence or biasing one another.
 3. Review new evidence records before changing claim confidence or disposition.
 4. Reassess dependent claims when evidence is superseded, withdrawn or
    retracted.
