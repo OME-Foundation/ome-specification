@@ -1,6 +1,6 @@
 # R-002 Stage A Search Completeness Review
 
-Status: proposed; Stage A remains in progress.
+Status: approved; Stage A remains in progress.
 
 Review date: 2026-07-18
 
@@ -246,17 +246,36 @@ A gate or Stage B proposal.
 
 ## CTO Independent Search-Completeness Review
 
-Status: pending.
+Status: complete.
 
-The independent reviewer should decide:
-
-- whether each stopping-rule result is accurately represented;
-- whether the actionable/practical classification is justified;
-- whether any remaining gap could materially change construct boundaries;
-- whether the bounded completion work is proportionate;
-- whether continued Stage A execution is the correct outcome; and
-- whether any disagreement must be recorded explicitly.
+- **Stopping-rule fidelity:** approved. The review accurately distinguishes the
+  met diminishing-novelty and substantially met composition-search conditions
+  from incomplete route depth, evidence modes, cornerstone chaining and
+  reviewer agreement.
+- **Blocker classification:** approved. Semantic Scholar rate limiting may be
+  treated as a practical limit when alternative routes and later review support
+  that judgment; evidence-mode gaps, cornerstone chaining, composition
+  implementation depth and operations-feedback continuity remain actionable.
+- **Gap materiality:** approved. Remaining work could find sufficient maintained
+  practice, implementation failure or an established synthesis capable of
+  changing the construct boundary.
+- **Proportionality:** approved. The family-by-evidence-mode matrix,
+  predeclared cornerstone selection, bounded citation chaining, targeted
+  evidence-mode searches and F-05/F-08 search avoid another low-value broad
+  synonym round.
+- **Research boundary:** approved. The review performs no search, evidence
+  registration or appraisal, N-01–N-06 mapping, coverage classification, claim
+  assessment, Stage A completion or Stage B authorisation.
+- **Independent decision:** approve PR #25 and continue Stage A through bounded
+  completion work.
+- **Required corrections:** none.
 
 ## Accountable decision
 
-Status: pending founder approval after independent review.
+Status: approved by the founder on 2026-07-19 through the merge decision for
+[PR #25](https://github.com/OME-Foundation/ome-specification/pull/25).
+
+The accountable decision adopts the independently reviewed outcome to continue
+Stage A through bounded completion work under the authority and search strategy
+already in force. It does not register or appraise evidence, classify coverage,
+assess C-003 or C-005, end Stage A or authorise Stage B.
