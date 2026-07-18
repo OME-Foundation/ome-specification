@@ -9,8 +9,8 @@ claims are true. Priority reflects dependency and consequence, not enthusiasm.
 
 | ID | Investigation | Claims | Status | Priority | Expected decision |
 | --- | --- | --- | --- | --- | --- |
-| R-001 | Characterise consequential organisational reconstruction | C-002 | In progress | High | Assess C-002 under the decision rules and identify observable mechanisms. |
-| R-002 | Test the claimed cross-lifecycle coverage gap | C-003, C-005 | Ready | High | Determine whether the gap is substantive, adoption-related or already addressed. |
+| R-001 | Characterise consequential organisational reconstruction | C-002 | Frozen | High | Assess C-002 under the decision rules and identify observable mechanisms. |
+| R-002 | Test the claimed cross-lifecycle coverage gap | C-003, C-005 | In progress | High | Determine whether the gap is substantive, adoption-related or already addressed. |
 | R-003 | Specify the minimal integrated intervention | C-004 | Blocked | High | Produce a testable intervention only after R-001 and R-002 establish a target gap. |
 | R-004 | Define comparative outcomes and study design | C-004 | Blocked | High | Establish measures and comparison conditions without constructing a premature index. |
 
@@ -39,6 +39,8 @@ claims are true. Priority reflects dependency and consequence, not enthusiasm.
   `Very low` confidence; Stage A remains incomplete and Stage B is not
   authorised. See the
   [approved construct assessment](../programmes/R-001/C-002_CONSTRUCT_ASSESSMENT.md).
+- **Programme state:** frozen at the approved stopping condition; reopen only
+  through the recorded conditions and a separately reviewed proposal.
 - **Completion evidence:** registered sources cover supporting, conflicting and
   inconclusive findings; terms are mapped to established disciplines; remaining
   empirical gaps are explicit.
@@ -47,8 +49,9 @@ claims are true. Priority reflects dependency and consequence, not enthusiasm.
 
 ### R-002 — Test the claimed cross-lifecycle coverage gap
 
-- **Owner:** Unassigned.
-- **Started:** Not started.
+- **Owner:** Research Lead — repository execution agent (Codex).
+- **Started:** 2026-07-18; execution protocol approved; Stage A not started.
+- **Programme protocol:** [R-002 execution protocol](../programmes/R-002.md).
 - **Question:** do existing disciplines and integrated practices inadequately
   connect objectives, evidence, decisions, delivery artifacts, outcomes and
   learning, or is the perceived gap primarily adoption failure?
@@ -66,6 +69,9 @@ claims are true. Priority reflects dependency and consequence, not enthusiasm.
   strongest existing integrated approaches are evaluated on equal terms.
 - **Non-goals:** proving novelty from vocabulary; treating lack of discovery as
   proof of nonexistence.
+- **Current authority:** preparation of the search-strategy proposal only. No
+  search execution, evidence registration, assessment or Stage B work is
+  authorised.
 
 ### R-003 — Specify the minimal integrated intervention
 
@@ -108,5 +114,7 @@ claims are true. Priority reflects dependency and consequence, not enthusiasm.
 - `Blocked`: a named dependency prevents responsible progress.
 - `In review`: outputs and evidence records are ready for critical review.
 - `Complete`: the stated research decision was made and outputs are linked.
+- `Frozen`: work has reached an approved stopping condition and may resume only
+  through its recorded reopening conditions.
 - `Cancelled`: stopped with a documented reason; motivating claims remain
   separately assessed.
