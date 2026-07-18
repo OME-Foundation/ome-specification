@@ -1,6 +1,6 @@
 # R-002 Stage A search log
 
-Status: Stage A in progress; Search Rounds 001 through 004 recorded. Candidate
+Status: Stage A in progress; Search Rounds 001 through 005 recorded. Candidate
 selection only—no evidence registration, appraisal, coverage classification or
 claim assessment.
 
@@ -1243,3 +1243,306 @@ The accountable decision accepts Search Round 004 as an execution and
 provenance record. It does not register or appraise evidence, classify an
 approach, change C-003 or C-005, assign confidence, declare Stage A complete or
 authorise Stage B.
+
+## Search Round 005
+
+### Round record
+
+- **Round ID:** R2-A-005.
+- **Execution date:** 2026-07-18.
+- **Research Lead:** repository execution agent (Codex).
+- **Purpose:** retry the failed independent route, execute dedicated F-04
+  through F-07 discovery through multiple interfaces, test the second
+  consecutive diminishing-novelty condition, and identify remaining blockers
+  without proposing that Stage A end.
+- **Mandatory families targeted:** F-04, F-05, F-06 and F-07.
+- **Meaning of targeted:** this round intentionally executed discovery for
+  these families. Targeting does not indicate that a family's Stage A stopping
+  conditions have been satisfied.
+- **Public/private boundary:** public-source discovery only; no ContextBridge,
+  customer, commercial or private product information used.
+
+## Web-search invocation — Round 005
+
+- **Interface:** OpenAI web-search tool exposed to the Codex desktop research
+  agent as `web.run`, using its `search_query` operation.
+- **Invocation shape:** four queries submitted in one invocation with
+  `response_length: long`.
+- **Filters:** no recency, domain or language filter supplied.
+- **Locale and date range:** none supplied.
+- **Sort order, result limit and per-query result count:** not exposed.
+- **Underlying provider and ranking configuration:** not exposed.
+- **Complete ranked result sets:** not exposed or captured.
+- **Execution identifier:** no durable tool-run identifier was exposed.
+
+### Exact web queries
+
+1. `requirements traceability lifecycle implementation empirical barriers systematic review impact analysis`
+2. `architecture decision rationale provenance operations feedback lifecycle traceability empirical`
+3. `organizational memory knowledge management engineering lifecycle integration implementation empirical`
+4. `knowledge graph semantic integration engineering lifecycle maintained practice interoperability adoption`
+
+| Query | Primary purpose | Strategy families |
+| --- | --- | --- |
+| 1 | Seek lifecycle traceability implementation, impact and barriers. | F-04, F-10 |
+| 2 | Seek decision-rationale and provenance continuity into operations. | F-05 |
+| 3 | Seek implemented organisational memory or KM across engineering lifecycles. | F-06, F-10 |
+| 4 | Seek maintained semantic or graph integration, interoperability and adoption. | F-07, F-10 |
+
+## Semantic Scholar retry
+
+- **Interface:** public Semantic Scholar Academic Graph API.
+- **Client:** `curl.exe`, including HTTP headers and body.
+- **Authentication:** no API key supplied.
+- **Exact request:** `https://api.semanticscholar.org/graph/v1/paper/search?query=requirements%20traceability%20lifecycle%20implementation%20empirical%20barriers%20systematic%20review&limit=10&fields=paperId,title,year,authors,externalIds,url,citationCount,openAccessPdf`
+- **Result:** HTTP 429 `Too Many Requests`; no result records exposed.
+- **Response timestamp:** `Sat, 18 Jul 2026 22:40:38 GMT`.
+- **Recorded request identifier:** `0f832dc4-89df-4211-9804-21768047b769` was
+  exposed as the AWS request identifier.
+
+Because the first controlled retry remained rate-limited, the other three
+failed Round 004 requests were not repeatedly submitted. Semantic Scholar
+therefore remains an explicit access gap rather than a completed F-04 route.
+
+## OpenAlex independent search route
+
+- **Interface:** public OpenAlex works API.
+- **Client:** `curl.exe`, with JSON projected in PowerShell.
+- **Ordering:** `relevance_score:desc`.
+- **Limit:** ten records per query.
+- **Selected fields:** OpenAlex ID, DOI, title, publication year, type, cited-by
+  count and primary location.
+- **Complete result sets:** not captured; only the first ten projected results
+  from the exposed totals were retrieved.
+
+### Exact OpenAlex requests
+
+1. `https://api.openalex.org/works?search=requirements%20traceability%20lifecycle%20implementation%20barriers%20systematic%20review&sort=relevance_score:desc&per-page=10&select=id,doi,title,publication_year,type,cited_by_count,primary_location`
+2. `https://api.openalex.org/works?search=architecture%20decision%20rationale%20provenance%20operations%20feedback%20lifecycle&sort=relevance_score:desc&per-page=10&select=id,doi,title,publication_year,type,cited_by_count,primary_location`
+3. `https://api.openalex.org/works?search=organizational%20memory%20knowledge%20management%20software%20engineering%20lifecycle%20integration&sort=relevance_score:desc&per-page=10&select=id,doi,title,publication_year,type,cited_by_count,primary_location`
+4. `https://api.openalex.org/works?search=knowledge%20graph%20semantic%20integration%20engineering%20lifecycle%20interoperability%20adoption&sort=relevance_score:desc&per-page=10&select=id,doi,title,publication_year,type,cited_by_count,primary_location`
+
+Exposed total counts were 18,230, 1,228, 15,338 and 3,768 respectively. Those
+counts describe broad text matches, not eligible R-002 sources. The F-04 query
+was especially noisy, with nine of ten projected results concerning unrelated
+industry, environmental or machine-learning lifecycles.
+
+## Crossref independent metadata route
+
+- **Interface:** public Crossref REST API.
+- **Client:** `curl.exe`, with JSON projected in PowerShell.
+- **Ordering:** default query relevance; no explicit sort supplied.
+- **Filter:** `type:journal-article`.
+- **Rows:** ten per query.
+- **Selected fields:** DOI, title, author, published, URL and type.
+
+### Exact Crossref requests
+
+1. `https://api.crossref.org/works?query=requirements%20traceability%20implementation%20barriers%20lifecycle&filter=type:journal-article&rows=10&select=DOI,title,author,published,URL,type`
+2. `https://api.crossref.org/works?query=architectural%20decision%20rationale%20provenance%20traceability&filter=type:journal-article&rows=10&select=DOI,title,author,published,URL,type`
+3. `https://api.crossref.org/works?query=organizational%20memory%20knowledge%20management%20software%20engineering&filter=type:journal-article&rows=10&select=DOI,title,author,published,URL,type`
+4. `https://api.crossref.org/works?query=knowledge%20graph%20semantic%20integration%20engineering%20lifecycle&filter=type:journal-article&rows=10&select=DOI,title,author,published,URL,type`
+
+Exposed total counts were 552,669, 466,978, 8,138,632 and 5,301,567. The large
+counts and several domain-mismatched top results show that Crossref query
+relevance alone is not an eligibility or quality judgment.
+
+## Round 005 retained candidates
+
+Retention remains triage only. No title, abstract, identifier, route agreement
+or result ordering establishes source quality, lifecycle coverage, evidential
+direction or relevance to C-003.
+
+| ID | Candidate | Durable identifier or exact route | Discovery and triage reason |
+| --- | --- | --- | --- |
+| R2-CAND-043 | *Requirements Traceability: A Systematic Literature Review* | https://doi.org/10.1145/3672608.3707952 | Web query 1; recent review reports missing whole-SDLC tool coverage and limited industrial evaluation. |
+| R2-CAND-044 | *Requirements traceability technologies and technology transfer decision support: A systematic review* | https://doi.org/10.1016/j.jss.2018.09.001 | Web query 1; review of 114 papers and reported empirical evaluations. |
+| R2-CAND-045 | *The Barriers to Traceability and their Potential Solutions: Towards a Reference Framework* | https://eprints.dkit.ie/id/eprint/246/ | Web query 1; implementation-cost and complexity counterposition. |
+| R2-CAND-046 | *Explainability in Software Architectural Decisions: The ADR-E Framework and Empirical Evaluation* | https://doi.org/10.1109/ACCESS.2025.3648573 | Web query 2; industrial ADR extension and outcome claims requiring strict appraisal. |
+| R2-CAND-047 | *An Extended Knowledge Management Framework During the Software Development Life Cycle* | https://doi.org/10.2991/itmr.2008.1.2.4 | Web query 3; explicit KM/organisational-memory and SDLC composition. |
+| R2-CAND-048 | *Living Design Memory: Framework, Implementation, Lessons Learned* | https://doi.org/10.1207/s15327051hci1001_1 | Web query 3; deployed design-memory implementation and organisational-practice lessons. |
+| R2-CAND-049 | *The Impact of Traceability on Software Maintenance and Evolution: A Mapping Study* | https://arxiv.org/abs/2108.02133 | Web query 1; benefits, costs and challenges across 63 reported studies. |
+| R2-CAND-050 | *Why don't we trace? A study on the barriers to software traceability in practice* | https://doi.org/10.1007/s00766-023-00408-9 | Crossref query 1; direct practice-barrier study. |
+| R2-CAND-051 | *Traceability of Architectural Design Decisions and Software Artifacts: A Systematic Mapping Study* | https://doi.org/10.2478/fcds-2023-0018 | Crossref query 2; direct decision-to-artifact traceability synthesis. |
+| R2-CAND-052 | *10 years of software architecture knowledge management: Practice and future* | https://doi.org/10.1016/j.jss.2015.08.054 | OpenAlex query 3; established architecture-knowledge-management review and practice boundary. |
+| R2-CAND-053 | *Closed-Loop Lifecycle Management of Service and Product in the Internet of Things: Semantic Framework for Knowledge Integration* | https://doi.org/10.3390/s16071053 | Crossref query 4; explicit closed-loop lifecycle and semantic-integration proposal. |
+| R2-CAND-054 | *Crossing the chasm between ontology engineering and application development: A survey* | https://www.sciencedirect.com/science/article/am/pii/S1570826821000305 | Web query 4; adoption and maintained-use boundary for semantic approaches. |
+| R2-CAND-055 | *The rationale of PROV* | https://doi.org/10.1016/j.websem.2015.04.001 | OpenAlex query 2; authoritative provenance-model rationale and conceptual boundary. |
+
+## Round 005 deferred leads
+
+| ID | Lead | Exact URL | Reason deferred |
+| --- | --- | --- | --- |
+| R2-DEF-021 | *A Systematic Review of Traceability in Requirements Engineering of Socio-technical Systems: Industrial Practices and Needs* | https://dspace.ut.ee/items/343fbfe4-212e-4c19-87f9-acf97aa1c672 | Repository thesis/review lead; method, date and publication identity require inspection. |
+| R2-DEF-022 | *A stage model of organizational knowledge management: A latent content analysis* | https://pure.kaist.ac.kr/en/publications/a-stage-model-of-organizational-knowledge-management-a-latent-con/ | Empirical KM implementation-stage lead; scope and relation to engineering lifecycles require inspection. |
+| R2-DEF-023 | *From Genesis to Maturity: Managing Knowledge Graph* | https://backoffice.biblio.ugent.be/download/01JTN64J19HZ3E7R4MD4WNQ6FG/01JTN6785KSGF83SSFGMFE885J | Knowledge-graph lifecycle/adoption lead; publication identity and method require verification. |
+| R2-DEF-024 | *Towards a semantic Construction Digital Twin: Directions for future research* | https://doi.org/10.1016/j.autcon.2020.103179 | OpenAlex query 4; domain-specific semantic digital-twin lead rather than demonstrated cross-lifecycle organisational practice. |
+| R2-DEF-025 | *Product Lifecycle Management implementation for high value Engineering to Order programmes: An informational perspective* | https://doi.org/10.1016/j.jii.2021.100264 | OpenAlex query 2; PLM implementation lead retrieved by a broad query, requiring direct relevance inspection. |
+
+## Projected API results not retained
+
+Every non-retained projected API result is preserved by exact DOI or OpenAlex
+identifier below. Shared reasons are triage decisions, not source appraisal.
+
+### OpenAlex
+
+| Query | Exact identifier | Disposition reason |
+| --- | --- | --- |
+| F-04 | https://doi.org/10.1016/j.compind.2021.103558 | Deferred domain-adjacent digital-twin implementation review; not requirements traceability. |
+| F-04 | https://doi.org/10.3390/su14042439 | Excluded supply-chain blockchain traceability. |
+| F-04 | https://doi.org/10.1016/j.jenvman.2023.119230 | Excluded wastewater-management review. |
+| F-04 | https://doi.org/10.1016/j.erss.2021.102208 | Excluded industrial-decarbonisation review. |
+| F-04 | https://doi.org/10.1016/j.ese.2023.100330 | Excluded eco-city review. |
+| F-04 | https://doi.org/10.1145/3453444 | Deferred machine-learning lifecycle assurance; no traceability match established. |
+| F-04 | https://doi.org/10.1016/j.techfore.2019.05.021 | Excluded Industry 4.0 adoption review. |
+| F-04 | https://doi.org/10.3390/app11125725 | Excluded manufacturing-sustainability review. |
+| F-04 | https://doi.org/10.3390/su151410940 | Excluded wastewater review. |
+| F-04 | https://doi.org/10.1016/j.rser.2021.110759 | Excluded greenhouse-gas review. |
+| F-05 | https://doi.org/10.1145/3190508.3190538 | Excluded blockchain platform paper. |
+| F-05 | https://doi.org/10.1093/gigascience/giz095 | Deferred workflow-provenance practice; scientific workflows rather than organisational decision lineage. |
+| F-05 | https://doi.org/10.1016/j.infsof.2017.06.001 | Deferred semantic-aware big-data architecture. |
+| F-05 | https://doi.org/10.30657/pea.2021.27.10 | Excluded agri-food supply-chain paper. |
+| F-05 | https://doi.org/10.30574/wjarr.2023.18.3.0944 | Excluded generic secure-SDLC survey. |
+| F-05 | https://doi.org/10.1080/10447318.2022.2153320 | Excluded human-centred-AI challenges. |
+| F-05 | https://doi.org/10.30574/wjaets.2023.8.2.0101 | Excluded generic SDLC security review. |
+| F-05 | https://doi.org/10.1109/jiot.2022.3176400 | Excluded UAV edge/AI survey. |
+| F-06 | https://doi.org/10.1145/336512.336559 | Excluded software-security paper. |
+| F-06 | https://doi.org/10.1016/j.aei.2009.09.001 | Deferred AEC/facilities systems-integration review. |
+| F-06 | https://doi.org/10.1109/tkde.2015.2427795 | Excluded in-memory data-processing survey. |
+| F-06 | https://doi.org/10.1109/comst.2014.2330903 | Excluded software-defined-networking survey. |
+| F-06 | https://doi.org/10.1006/ijhc.1999.0281 | Deferred corporate KM methods and tools; lifecycle scope unestablished. |
+| F-06 | https://doi.org/10.1007/3-540-28554-7 | Excluded general model-driven-development book record. |
+| F-06 | https://doi.org/10.1145/3442188.3445918 | Deferred ML-dataset accountability practice. |
+| F-06 | https://doi.org/10.1109/comst.2015.2444095 | Excluded Internet-of-Things survey. |
+| F-06 | https://doi.org/10.1111/j.1467-6486.2012.01077.x | Deferred transactive-memory theory; already adjacent to R-001. |
+| F-07 | https://doi.org/10.1155/2017/9731806 | Excluded healthcare IoT interoperability. |
+| F-07 | https://doi.org/10.1109/comst.2015.2444095 | Excluded Internet-of-Things survey. |
+| F-07 | https://doi.org/10.4230/dagrep.8.9.29 | Deferred general knowledge-graph research agenda. |
+| F-07 | https://doi.org/10.3390/app11094276 | Deferred building-lifecycle cognitive digital twin. |
+| F-07 | https://doi.org/10.1145/3375838 | Deferred semantic-interoperability IoT survey. |
+| F-07 | https://doi.org/10.1109/access.2022.3202902 | Excluded healthcare reference architecture. |
+| F-07 | https://openalex.org/W233702296 | Deferred ontology-evaluation paper without DOI in the projection. |
+| F-07 | https://doi.org/10.1007/s42979-022-01429-x | Deferred general knowledge-engineering survey. |
+| F-07 | https://doi.org/10.3389/fmars.2019.00032 | Excluded ocean-data interoperability. |
+
+### Crossref
+
+The retained rows are R2-CAND-050, R2-CAND-051 and R2-CAND-053. The remaining
+projected records are preserved below.
+
+| Query | Exact DOI | Disposition reason |
+| --- | --- | --- |
+| F-04 | https://doi.org/10.1016/j.csi.2013.07.012 | Deferred medical-device traceability assessment model. |
+| F-04 | https://doi.org/10.17706/jsw.11.2.193-200 | Deferred requirements-to-implementation mapping tool. |
+| F-04 | https://doi.org/10.1504/ijplm.2007.016292 | Deferred PLM product-traceability metamodel. |
+| F-04 | https://doi.org/10.12785/ijcds/140123 | Deferred trace-link recovery tool study. |
+| F-04 | https://doi.org/10.30574/wjaets.2021.4.1.0080 | Deferred venue and review-quality verification. |
+| F-04 | https://doi.org/10.1007/s00766-013-0197-0 | Deferred requirements-to-code traceability method. |
+| F-04 | https://doi.org/10.1007/s00766-015-0235-1 | Deferred mobile-app semantic traceability. |
+| F-04 | https://doi.org/10.1007/bf02919970 | Deferred older requirements decomposition source. |
+| F-04 | https://doi.org/10.1504/ijplm.2014.065864 | Deferred product-information traceability case. |
+| F-05 | https://doi.org/10.52783/jisem.v11i2s.14643 | Excluded unverified recent AI-platform governance claim. |
+| F-05 | https://doi.org/10.3390/metrology5030052 | Excluded metrological provenance. |
+| F-05 | https://doi.org/10.37665/cogyvuz45256 | Excluded market preference/infrastructure provenance. |
+| F-05 | https://doi.org/10.62311/nesx/rphcrcscrbc3 | Excluded supply-chain blockchain provenance. |
+| F-05 | https://doi.org/10.17723/aarc.43.3.j5007v717253254l | Excluded archival provenance of architecture records. |
+| F-05 | https://doi.org/10.1109/mc.2019.2942111 | Excluded food-logistics provenance. |
+| F-05 | https://doi.org/10.1088/1742-6596/664/3/032028 | Excluded physics-analysis provenance. |
+| F-05 | https://doi.org/10.1088/1742-6596/513/3/032091 | Excluded physics-analysis provenance. |
+| F-05 | https://doi.org/10.3390/app10124150 | Excluded seafood provenance. |
+| F-06 | https://doi.org/10.1108/13673271211238733 | Deferred intergenerational knowledge-transfer study. |
+| F-06 | https://doi.org/10.4018/ijkm.2007100103 | Deferred Egyptian software-firm KM study. |
+| F-06 | https://doi.org/10.1108/13673270810913595 | Deferred competency/learning-memory study. |
+| F-06 | https://doi.org/10.18848/2327-7998/cgp/v12i01/50840 | Deferred higher-education organisational-memory case. |
+| F-06 | https://doi.org/10.1080/07421222.1999.11518258 | Deferred conceptual data/knowledge hierarchy source. |
+| F-06 | https://doi.org/10.1057/kmrp.2011.48 | Deferred conceptual immune-system perspective. |
+| F-06 | https://doi.org/10.2478/mspe-2022-0037 | Deferred enterprise-software customer-KM study. |
+| F-06 | https://doi.org/10.1016/s0950-7051(00)00053-8 | Deferred multi-perspective organisational-memory modelling. |
+| F-06 | https://doi.org/10.1108/09534819610156813 | Deferred foundational conceptual comparison. |
+| F-06 | https://doi.org/10.1108/intr.2000.17210aab.001 | Deferred bibliographic/editorial record verification. |
+| F-07 | https://doi.org/10.1016/s0169-023x(97)80001-d | Deferred conceptual-schema semantic integration. |
+| F-07 | https://doi.org/10.1016/j.datak.2026.102611 | Deferred dynamic-KG evaluation metrics. |
+| F-07 | https://doi.org/10.1016/s0169-023x(97)00024-4 | Deferred multilevel schema integration. |
+| F-07 | https://doi.org/10.1016/j.datak.2025.102451 | Excluded news-event KG. |
+| F-07 | https://doi.org/10.1142/s1793351x23600048 | Excluded autonomous-driving datasets. |
+| F-07 | https://doi.org/10.1155/2017/2858423 | Excluded healthcare KG. |
+| F-07 | https://doi.org/10.1016/j.datak.2024.102308 | Excluded entity-disambiguation method. |
+| F-07 | https://doi.org/10.1016/s0169-023x(00)00047-1 | Deferred heterogeneous-source semantic integration. |
+| F-07 | https://doi.org/10.1016/j.datak.2025.102509 | Excluded textual-similarity graph model. |
+
+## Round 005 access and reproducibility limitations
+
+- Web result sets, counts, ranking and provider remain unavailable.
+- Semantic Scholar remained rate-limited, so its failed F-04 route could not be
+  extended to F-05 through F-07.
+- OpenAlex and Crossref returned only the first ten relevance-ranked projected
+  records from very large, noisy result sets.
+- OpenAlex and Crossref are mutable metadata services; results may change after
+  the recorded date.
+- No full text was appraised and no candidate was registered as evidence.
+- Language, paywall and database-index coverage remain incomplete.
+
+## Family coverage after Round 005
+
+| Family | Cumulative state | Note |
+| --- | --- | --- |
+| F-01 — Named cross-lifecycle approaches | Initial coverage only | No dedicated Round 005 route; prior gaps remain. |
+| F-02 — Enterprise architecture and governance | Initial coverage through three routes | No dedicated Round 005 route; prior evidence-mode gaps remain. |
+| F-03 — Systems engineering, MBSE and lifecycle management | Initial coverage only | Current OpenAlex seed chains complete; broader evidence-mode gaps remain. |
+| F-04 — Traceability and impact analysis | Initial coverage through web, OpenAlex and Crossref | Reviews, practice barriers and lifecycle leads found; Semantic Scholar failed and evidence modes remain incomplete. |
+| F-05 — Decisions, rationale and provenance | Initial coverage through web, OpenAlex and Crossref | Decision/artifact mapping and PROV leads found; direct operations-feedback integration remains sparse. |
+| F-06 — Organisational memory and knowledge management | Initial coverage through web, OpenAlex and Crossref | SDLC KM and deployed design-memory leads found; lifecycle breadth and outcomes remain unappraised. |
+| F-07 — Semantic and graph-based integration | Initial coverage through web, OpenAlex and Crossref | Semantic lifecycle and adoption leads found; maintained organisational practice remains unappraised. |
+| F-08 — DevOps, SRE and operational learning | Initial coverage through two completed routes plus one failed route | No dedicated Round 005 route; prior gaps remain. |
+| F-09 — Deliberate compositions | Initial coverage only | F-05/F-06/F-07 compositions surfaced, but no new approach family or comparison dimension. |
+| F-10 — Adoption, burden and harmful integration | Initial coverage only | Additional traceability and ontology-adoption barriers found; evidence modes incomplete. |
+
+## Round 005 diminishing-returns and stopping position
+
+Round 005 found additional eligible candidates inside the existing approach
+families and comparison dimensions, but no new eligible approach family or
+material comparison dimension. Together with Round 004, this satisfies the
+search strategy's narrow requirement for two consecutive planned rounds with
+no such novelty.
+
+That condition alone does not close Stage A or establish saturation. All ten
+families remain incomplete against the full stopping rules. In particular:
+
+- Semantic Scholar access remains unresolved;
+- not every family has complete searches for sufficient practice, implemented
+  use, limitations and competing explanations;
+- newly retained cornerstone candidates have not undergone recorded backward
+  and forward citation searching;
+- language, paywall and database gaps remain explicit; and
+- the Evidence Reviewer has not agreed that further searching is unlikely to
+  alter the construct-boundary picture enough to permit assessment readiness.
+
+The permitted next action remains further discovery or a separately reviewed
+search-completeness evaluation. This round does not propose a Stage A gate,
+evidence registration, claim assessment or Stage B.
+
+## Round 005 boundary
+
+Search Round 005 adds discovery and selection provenance only. It does not:
+
+- register or appraise evidence;
+- map a candidate to N-01 through N-06;
+- assign a coverage level or evidential direction;
+- treat route agreement, result order or citation count as source quality;
+- change C-003 or C-005;
+- assign confidence or disposition;
+- declare Stage A complete;
+- authorise Stage B; or
+- introduce OME terminology, canon or product material.
+
+## Round 005 corrections
+
+None recorded.
+
+## CTO Independent Search-Round Review — Round 005
+
+Status: pending.
+
+## Accountable decision — Round 005
+
+Status: pending founder approval after independent review.
