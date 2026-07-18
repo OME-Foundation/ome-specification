@@ -433,7 +433,37 @@ evidence is registered.
 
 ## CTO Independent Construct-Map Review
 
-Status: pending.
+Status: complete.
+
+- **Construct boundary:** approved. The working definition is neutral and
+  non-circular, and the lifecycle labels remain functions rather than
+  prescribed artifacts, tools or phases.
+- **Necessary characteristics:** approved. N-01 through N-06 are individually
+  defensible and jointly coherent without embedding an outcome requirement.
+  Their joint presence establishes candidate conceptual coverage only.
+- **Evidence levels:** approved. Defined, implemented, maintained and outcome-
+  supported coverage remain distinct, preventing specifications or isolated
+  implementations from being treated as proof of routine use or effectiveness.
+- **Deliberate and federated compositions:** approved. Distributed practices
+  can qualify without a single repository, vendor, vocabulary, database or
+  authority, while explicit responsibilities, mappings, maintenance,
+  recoverable identity and evaluable burden remain required.
+- **Adjacent and excluded constructs:** approved. Established practices are
+  represented as potentially valuable partial coverage, while repositories,
+  diagrams, isolated links, dashboards, schemas, tool features and marketing
+  claims cannot substitute for maintained organisational integration.
+- **Comparison framework:** approved. The dimensions remain visible and non-
+  aggregated, with `unknown` distinct from `absent` and no score or index.
+- **Competing explanations and boundary cases:** approved. The alternatives can
+  narrow, supersede or overturn C-003, and the cases demonstrate that the map
+  can represent federated, manual, bounded and selectively retained practice.
+- **Governance boundary:** approved. The operational mapping rule limits
+  classification to the supported coverage level, preserves unknowns and
+  requires independent review. No search, evidence, classification, claim
+  decision, Stage A execution, Stage B work, canon or private product material
+  has entered the proposal.
+- **Independent decision:** approve PR #18.
+- **Required corrections:** none.
 
 ## Accountable decision
 
