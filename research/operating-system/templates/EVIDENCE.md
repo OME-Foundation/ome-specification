@@ -1,6 +1,7 @@
 # E-### — Evidence record title
 
 - **Source type:**
+- **Lifecycle:** Registered | Reviewed | Superseded | Withdrawn | Retracted
 - **Full citation or observation provenance:**
 - **URL or durable identifier:**
 - **Acquired:** YYYY-MM-DD
@@ -35,3 +36,9 @@ alternative explanations, reproducibility and disclosure constraints.
 
 Record corrections, retractions, duplicate data or dependencies on other
 evidence records.
+
+## Lifecycle history
+
+| Date | Previous status | New status | Reviewer | Reason | Replacement evidence |
+| --- | --- | --- | --- | --- | --- |
+| YYYY-MM-DD | — | Registered | | Initial registration | — |

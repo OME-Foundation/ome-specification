@@ -7,11 +7,30 @@ alone is not an evidence assessment.
 
 ## Register
 
-| ID | Source | Type | Claims and direction | Quality assessment |
-| --- | --- | --- | --- | --- |
-| E-001 | Walsh and Ungson (1991), “Organizational Memory” | Peer-reviewed conceptual review | C-001 supporting; C-002 contextual | Seminal synthesis with a clear model; not direct evidence of the frequency or cost asserted by C-002. |
-| E-002 | Adjacent-disciplines review (2026) | Structured internal literature review | C-003 contextual; C-005 contextual | Uses primary and authoritative sources and records limitations; selective rather than systematic and not empirical validation. |
-| E-003 | Synthesis and gap analysis (2026) | Internal interpretive synthesis | C-003 contextual; C-005 contextual | Makes inheritance and uncertainty explicit; its gap conclusion remains an interpretation produced by this project. |
+| ID | Source | Type | Lifecycle | Claims and direction | Quality assessment |
+| --- | --- | --- | --- | --- | --- |
+| E-001 | Walsh and Ungson (1991), “Organizational Memory” | Peer-reviewed conceptual review | Registered | C-001 supporting; C-002 contextual | Seminal synthesis with a clear model; not direct evidence of the frequency or cost asserted by C-002. |
+| E-002 | Adjacent-disciplines review (2026) | Structured internal literature review | Registered | C-003 contextual; C-005 contextual | Uses primary and authoritative sources and records limitations; selective rather than systematic and not empirical validation. |
+| E-003 | Synthesis and gap analysis (2026) | Internal interpretive synthesis | Registered | C-003 contextual; C-005 contextual | Makes inheritance and uncertainty explicit; its gap conclusion remains an interpretation produced by this project. |
+
+## Evidence lifecycle
+
+- `Registered`: recorded with the required provenance and claim relationships;
+  critical review is incomplete.
+- `Reviewed`: critically assessed for provenance, relevance, method,
+  limitations and claim-specific direction.
+- `Superseded`: replaced by a more complete or corrected evidence record; both
+  records link to one another.
+- `Withdrawn`: removed from active use by OME for a documented reason, without
+  implying that an external source was formally retracted.
+- `Retracted`: the originating publisher, author or responsible authority has
+  formally retracted or invalidated the underlying source.
+
+Evidence records are never deleted and identifiers are never reused. A lifecycle
+change preserves the prior status, date, reviewer, reason and replacement record
+where applicable. `Superseded`, `Withdrawn` and `Retracted` evidence remains
+visible to dependent claims and triggers their reassessment; it must not silently
+continue contributing to confidence.
 
 ## Evidence records
 
@@ -31,6 +50,8 @@ alone is not an evidence assessment.
 - **Limitations:** not a field estimate of reconstruction work, causal effect,
   intervention outcome or contemporary software-delivery context.
 - **Claims:** supports C-001; contextual for C-002.
+- **Lifecycle history:** 2026-07-18 — Registered; initial import; independent
+  review pending.
 
 ### E-002
 
@@ -46,6 +67,8 @@ alone is not an evidence assessment.
 - **Limitations:** not systematic, independently peer reviewed or empirical; a
   literature boundary analysis cannot demonstrate operational need.
 - **Claims:** contextual for C-003 and C-005.
+- **Lifecycle history:** 2026-07-18 — Registered; initial import; independent
+  review pending.
 
 ### E-003
 
@@ -60,6 +83,8 @@ alone is not an evidence assessment.
 - **Limitations:** absence from a selective review is not proof of absence from
   research or practice; integration value remains untested.
 - **Claims:** contextual for C-003 and C-005.
+- **Lifecycle history:** 2026-07-18 — Registered; initial import; independent
+  review pending.
 
 ## Minimum evidence fields
 
@@ -75,6 +100,11 @@ Every new record must include:
 - limitations, bias risks and plausible alternative explanations;
 - disclosure and reproducibility constraints; and
 - reviewer and review date.
+
+Every record also retains a lifecycle history. A status change must identify the
+reviewer, date, reason and any replacement evidence identifier. Claims related
+to evidence that becomes `Superseded`, `Withdrawn` or `Retracted` must be marked
+for reassessment.
 
 Authority, relevance and method are assessed separately. A prestigious source
 with the wrong population or outcome may be weak evidence for a particular

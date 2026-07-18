@@ -43,9 +43,9 @@ Identifiers are stable and never reused:
 | Evidence | `E-###` | `E-001` |
 | Research item | `R-###` | `R-001` |
 
-Removing a record means changing its status to `Withdrawn` and retaining its
-history. Renaming a concept does not change the identifier of the underlying
-claim.
+Records are never deleted. Their lifecycle status changes and their history is
+retained. Renaming a concept, correcting a source or superseding a record does
+not change or reuse its identifier.
 
 ## Relationships
 
@@ -53,6 +53,7 @@ Relationships are explicit and bidirectional:
 
 - every evidence record names each claim it bears on and its direction for that
   claim;
+- every evidence record has an independent lifecycle and change history;
 - every claim lists its evidence and relevant research items;
 - every research item identifies the claims or open questions it investigates;
 - completing a research item does not automatically change a claim; the
