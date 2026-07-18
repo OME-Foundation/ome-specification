@@ -1,7 +1,8 @@
 # R-002 construct map
 
-Status: proposed interpretation framework; not a finding, coverage assessment
-or OME terminology decision.
+Status: approved interpretation framework; not a finding, coverage assessment
+or OME terminology decision. Stage A execution is authorised only when the
+mechanical authority transition in PR #19 is merged.
 
 This map defines how R-002 will distinguish cross-lifecycle integration from
 adjacent or partial practices. It implements the approved
@@ -9,8 +10,9 @@ adjacent or partial practices. It implements the approved
 [search strategy](SEARCH_STRATEGY.md).
 
 No search has been executed, no evidence has been registered and no approach
-has been classified through this document. Approval and merge will not start
-Stage A. Execution requires a later mechanical authority transition.
+has been classified through this document. Approval and merge did not start
+Stage A. The merge of PR #19 records the completed prerequisites and authorises
+execution.
 
 ## Purpose
 
@@ -415,20 +417,20 @@ PR #18 proposes this map only. Independent review must determine whether:
 - non-goals preserve the public/private and stage boundaries; and
 - no evidence, classification, confidence or conclusion has entered the map.
 
-Founder approval and merge will not authorise search execution. After approval,
-a separate mechanical transition must record the accepted search strategy and
-construct map and explicitly authorise Stage A before any query is run or
-evidence is registered.
+Founder approval and merge did not authorise search execution. The merge of
+PR #19 records the accepted search strategy and construct map and explicitly
+authorises Stage A before any query is run or evidence is registered.
 
 ## Current authority
 
 - R-002 remains the primary active research programme.
-- The execution protocol and search strategy have been approved and merged.
-- Construct-map preparation is authorised.
-- This document remains proposed until independently reviewed and approved.
+- The execution protocol, search strategy and construct map are independently
+  reviewed, founder-approved and merged.
+- Stage A execution is authorised only when PR #19 is merged.
 - No R-002 search has been executed.
 - No R-002 evidence has been registered.
-- Stage A execution and Stage B remain unauthorised.
+- Until PR #19 is merged, Stage A execution remains unauthorised.
+- Stage B remains unauthorised.
 - R-001 remains frozen at its approved stopping condition.
 
 ## CTO Independent Construct-Map Review
@@ -467,4 +469,10 @@ Status: complete.
 
 ## Accountable decision
 
-Status: pending founder approval after independent review.
+Status: approved by the founder on 2026-07-18 through the merge decision for
+[PR #18](https://github.com/OME-Foundation/ome-specification/pull/18).
+
+The accountable decision adopts the independently reviewed construct map
+without changing its scope. Approval did not authorise execution. The merge of
+PR #19 records the completed prerequisites and authorises Stage A under this
+map and the approved search strategy.

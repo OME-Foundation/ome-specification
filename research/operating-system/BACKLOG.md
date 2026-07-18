@@ -50,7 +50,8 @@ claims are true. Priority reflects dependency and consequence, not enthusiasm.
 ### R-002 — Test the claimed cross-lifecycle coverage gap
 
 - **Owner:** Research Lead — repository execution agent (Codex).
-- **Started:** 2026-07-18; execution protocol approved; Stage A not started.
+- **Started:** 2026-07-18; execution protocol, search strategy and construct map
+  approved; Stage A not started.
 - **Programme protocol:** [R-002 execution protocol](../programmes/R-002.md).
 - **Question:** do existing disciplines and integrated practices inadequately
   connect objectives, evidence, decisions, delivery artifacts, outcomes and
@@ -69,9 +70,9 @@ claims are true. Priority reflects dependency and consequence, not enthusiasm.
   strongest existing integrated approaches are evaluated on equal terms.
 - **Non-goals:** proving novelty from vocabulary; treating lack of discovery as
   proof of nonexistence.
-- **Current authority:** preparation of the search-strategy proposal only. No
-  search execution, evidence registration, assessment or Stage B work is
-  authorised.
+- **Current authority:** Stage A execution is authorised only when PR #19 is
+  merged. That transition executes no search and registers no evidence.
+  Assessment and Stage B remain unauthorised.
 
 ### R-003 — Specify the minimal integrated intervention
 

@@ -54,9 +54,12 @@ full-text appraisal is incomplete. Stage A remains incomplete, and the
 assessment does not authorise Stage B.
 
 `R-002` is the primary active research programme. Its approved
-[execution protocol](research/programmes/R-002.md) authorises preparation of the
-search-strategy proposal only. Stage A has not started; searches, evidence
-registration, assessment and Stage B remain unauthorised.
+[execution protocol](research/programmes/R-002.md),
+[search strategy](research/programmes/R-002/SEARCH_STRATEGY.md) and
+[construct map](research/programmes/R-002/CONSTRUCT_MAP.md) establish the Stage
+A prerequisites. Stage A execution is authorised by the merge of PR #19; that
+transition runs no search and registers no evidence. Assessment and Stage B
+remain unauthorised.
 
 See the [Research Backlog](research/operating-system/BACKLOG.md) for scope,
 methods, dependencies and completion evidence.
@@ -83,11 +86,10 @@ methods, dependencies and completion evidence.
 
 ## Next decisions
 
-1. Prepare and independently review the R-002 search-strategy proposal without
-   executing searches or registering evidence.
-2. Prepare the construct-map proposal only through its separately reviewed
-   lifecycle; Stage A execution remains blocked until both artifacts are
-   approved.
+1. After the PR #19 authority transition is merged, begin R-002 Stage A under
+   the approved search strategy and construct map.
+2. Preserve exact search and selection provenance, register evidence
+   conservatively and do not assess C-003 during evidence collection.
 3. Preserve the R-001 freeze and E-006 through E-008 as explicit gaps unless a
    recorded reopening condition is met.
 4. Keep C-002 out of canon and dependent premises while its disposition remains
