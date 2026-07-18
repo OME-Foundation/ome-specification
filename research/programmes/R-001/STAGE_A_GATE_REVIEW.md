@@ -1,6 +1,6 @@
 # R-001 Proposed Stage A Gate Review
 
-Status: proposed; independent CTO review and accountable approval pending.
+Status: proposed; independent CTO review complete; accountable approval pending.
 
 Review date: 2026-07-18
 
@@ -22,13 +22,14 @@ The available outcomes are:
 
 1. **Gate remains closed** - evidence gaps materially prevent construct
    assessment.
-2. **Gate conditionally opens for C-002 assessment** - the evidence is adequate
-   to assess the construct, subject to explicit reservations and reopening
-   conditions.
+2. **Gate permits a construct assessment while Stage A remains incomplete** -
+   the evidence is adequate to assess the construct, subject to explicit
+   reservations and reopening conditions.
 3. **Gate opens without material reservation** - the evidence is adequate and
    no unresolved gap could materially affect assessment readiness.
 
-**Proposed outcome:** **Gate conditionally opens for C-002 assessment.**
+**Proposed outcome:** **Permit a C-002 construct assessment to proceed while
+Stage A remains incomplete.**
 
 This proposal does not predetermine whether C-002 should be retained, narrowed,
 revised, rejected or deferred. It authorises preparation of a separate,
@@ -192,23 +193,35 @@ terminology decisions, governance expansion or field research.
 All four criteria are sufficiently developed to permit the narrower construct
 assessment, but this review neither freezes a search strategy nor authorises the
 protocol's transition into Stage B. The Research Lead therefore proposes that
-the Stage A gate **conditionally open for C-002 assessment only**. Stage A does
-not become complete through this decision. The reservation is material: E-006
-through E-008 remain incomplete, no source establishes the entire sequence, and
-no inference about validity or novelty is authorised.
+the gate **permit a C-002 construct assessment to proceed while Stage A remains
+incomplete**. The reservation is material: E-006 through E-008 remain
+incomplete, no source establishes the entire sequence, and no inference about
+validity or novelty is authorised.
 
 ## CTO Independent Gate Review
 
-Status: pending.
+Status: complete.
 
-- **Coverage adequacy:** pending
-- **Gap materiality:** pending
-- **Confidence limits:** pending
-- **Reopening conditions:** pending
-- **Permitted next action:** pending
-- **Independent decision:** pending
-- **Required corrections:** pending
+- **Coverage adequacy:** adequate. The reviewed families are broad enough to
+  evaluate construct boundaries while remaining insufficient for causal,
+  prevalence or empirical-support claims.
+- **Gap materiality:** non-blocking with explicit reservations. E-006 through
+  E-008 remain material to confidence, but their incomplete appraisal does not
+  currently prevent readiness for construct assessment.
+- **Confidence limits:** appropriate. Distinguishability, empirical support,
+  prevalence, causality and novelty remain separate and unavailable conclusions
+  are explicit.
+- **Reopening conditions:** appropriate and objective, including construct
+  subsumption, failure of operationalisability, proxy misclassification,
+  omitted evidence families and material evidence-lifecycle changes.
+- **Permitted next action:** appropriate. Only preparation of a proposed C-002
+  construct assessment is authorised; Stage B, terminology, governance, canon
+  and confidence changes remain unauthorised.
+- **Independent decision:** approve.
+- **Required corrections:** none. A non-blocking wording refinement was
+  recommended and incorporated so the conclusion states that a construct
+  assessment may proceed while Stage A remains incomplete.
 
 ## Accountable decision
 
-Status: pending independent CTO review and founder approval.
+Status: pending founder approval.
