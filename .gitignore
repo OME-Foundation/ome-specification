@@ -1,0 +1,3 @@
+# Raw chat artifacts can contain product-specific wording or document metadata.
+# Keep them as local evidence; publish only reviewed, product-neutral Markdown.
+docs/source/chat-drafts/*.docx
